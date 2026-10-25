@@ -1,0 +1,19 @@
+{
+  "archived_date": "2026-10-25",
+  "copy_only_no_model_execution": true,
+  "snapshots": [
+    {
+      "source_relative_to_worktree": "multi-vehicle_kaggle_competition_starter_kit_files/runs/detect/baseline_starter_val966_20261024/results.csv",
+      "archive": "results.csv",
+      "bytes": 1410,
+      "sha256": "680ac5e01ec0db7146b6598248a83ef148741f7d3f3c366da053700d5df7a457"
+    },
+    {
+      "source_relative_to_worktree": "multi-vehicle_kaggle_competition_starter_kit_files/runs/detect/baseline_starter_val966_20261024/args.yaml",
+      "archive": "args.yaml",
+      "bytes": 1931,
+      "sha256": "8c4d385704b3e99035467b29215c2df536b872c7aa0fd52b871ce4ccb199f542"
+    }
+  ],
+  "original_run_files_changed": false
+}

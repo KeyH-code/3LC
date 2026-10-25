@@ -1,0 +1,12 @@
+{
+  "start": "2026-10-24T20:52:39.200020+08:00",
+  "command": [
+    "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+    "-B",
+    "-u",
+    "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\multi-vehicle_kaggle_competition_starter_kit_files\\train.py"
+  ],
+  "maximum_experiments": 1,
+  "entry_attempt_number": 2,
+  "timeout_seconds": 2700
+}

@@ -1,0 +1,32 @@
+{
+  "start": "2026-10-24T20:52:39.200020+08:00",
+  "command": [
+    "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+    "-B",
+    "-u",
+    "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\multi-vehicle_kaggle_competition_starter_kit_files\\train.py"
+  ],
+  "maximum_experiments": 1,
+  "entry_attempt_number": 2,
+  "timeout_seconds": 2700,
+  "pid": 40668,
+  "exit_code": 0,
+  "timed_out": false,
+  "stage": "exited",
+  "elapsed_seconds": 839.3590000000004,
+  "end": "2026-10-24T21:06:38.564000+08:00",
+  "observed_children": {
+    "39348": 1792846403.9913268,
+    "33012": 1792846408.4497168,
+    "33192": 1792846463.6949122,
+    "36468": 1792846468.4874065,
+    "31056": 1792846472.5785947,
+    "43036": 1792846476.6761346,
+    "23128": 1792847042.594812,
+    "27652": 1792847048.0673566,
+    "32152": 1792847051.9544213,
+    "6532": 1792847055.973111
+  },
+  "cleaned_lingering_children": [],
+  "reader_errors": []
+}

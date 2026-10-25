@@ -1,0 +1,5 @@
+{
+  "observation": "Processes absent; last heartbeat ~10 seconds; console empty; no run output; exit code unavailable; exact interruption cause unverified.",
+  "exit_code": null,
+  "same_configuration_relaunch": true
+}

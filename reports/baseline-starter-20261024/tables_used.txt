@@ -1,0 +1,2 @@
+train_url=E:/kaggle/3LC_Multi_Vehicle_detection_Challenge/.worktrees/score-search-20261019-150516/3lc/projects/score_search_20261019_150516/datasets/vehicle_fixed_split/tables/vehicle_fixed_split-train
+val_url=E:/kaggle/3LC_Multi_Vehicle_detection_Challenge/.worktrees/score-search-20261019-150516/3lc/projects/score_search_20261019_150516/datasets/vehicle_fixed_split/tables/vehicle_fixed_split-val966-baseline-20261024

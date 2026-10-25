@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-25T13:08:19.916781+08:00",
+  "passed": true,
+  "checks": {
+    "agents_exact_main_bytes": true,
+    "old_root_log_complete_prefix": true,
+    "online_config_preserved": true,
+    "entrypoints_unchanged": true,
+    "no_rule_or_online_config_in_candidates": true,
+    "utf8_json_yaml_python_parsing": true,
+    "no_sensitive_patterns": true,
+    "no_embedded_raster_images": true,
+    "no_merge_markers": true,
+    "new_text_whitespace_excluding_byte_exact_snapshots": true,
+    "three_original_snapshot_hashes_preserved": true,
+    "tracked_whitespace": true,
+    "original_feedback_hash_and_identity": true,
+    "feedback_counts": true,
+    "relative_val966_matches": true,
+    "ten_finite_epochs_and_final_metrics": true,
+    "snapshot_source_hashes": true,
+    "weights_hashes_match_without_loading": true,
+    "ignore_safeguards": true
+  },
+  "details": {
+    "byte_exact_snapshot_whitespace_exceptions": {
+      "reason": "Preserve original evidence bytes; not a clean whitespace claim for these source snapshots.",
+      "hashes": {
+        "reports/baseline-starter-20261024/config.before.yaml": "6e28ca5bf5462b63038bc40bf40b698d983f9f129eaaca0c78e47cf17d332c8e",
+        "reports/baseline-starter-20261024/config.starter.yaml": "64c922f63387c7e68cd1349e4ac6003c5eab24193fcaecf603bfc039fc3e9bd0",
+        "reports/baseline-starter-20261024/config.used.yaml": "0a4983c555d77616d3e733bad9e4f3a45ad1d36b34ff40a9a6479261e220e5ed"
+      },
+      "observed": [
+        {
+          "path": "reports/baseline-starter-20261024/config.before.yaml",
+          "exit_code": 3,
+          "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.before.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+        },
+        {
+          "path": "reports/baseline-starter-20261024/config.starter.yaml",
+          "exit_code": 3,
+          "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.starter.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+        },
+        {
+          "path": "reports/baseline-starter-20261024/config.used.yaml",
+          "exit_code": 3,
+          "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.used.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+        }
+      ]
+    },
+    "parse_errors": [],
+    "sensitive_pattern_hits": [],
+    "embedded_images": [],
+    "whitespace": [
+      {
+        "path": "reports/baseline-starter-20261024/config.before.yaml",
+        "exit_code": 3,
+        "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.before.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+      },
+      {
+        "path": "reports/baseline-starter-20261024/config.starter.yaml",
+        "exit_code": 3,
+        "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.starter.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+      },
+      {
+        "path": "reports/baseline-starter-20261024/config.used.yaml",
+        "exit_code": 3,
+        "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\baseline-starter-20261024\\config.used.yaml:2: trailing whitespace.\n+# UA-DETRAC competition starter \r\n"
+      }
+    ],
+    "conflict_markers": [],
+    "security_scan_limit": "Static patterns only; no credential value was read for comparison. Historical paths are metadata, not secrets.",
+    "files_checked": 73,
+    "bytes_checked": 13863937,
+    "no_model_or_browser_execution": true
+  },
+  "scope": "Existing archive artifacts only; no new training/inference/model validation/browser test; no main worktree writes."
+}

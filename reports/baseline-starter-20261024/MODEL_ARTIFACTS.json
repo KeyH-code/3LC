@@ -1,0 +1,45 @@
+{
+  "archived_date": "2026-10-25",
+  "weights": {
+    "best": {
+      "local_path": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\multi-vehicle_kaggle_competition_starter_kit_files\\runs\\detect\\baseline_starter_val966_20261024\\weights\\best.pt",
+      "relative_to_worktree": "multi-vehicle_kaggle_competition_starter_kit_files/runs/detect/baseline_starter_val966_20261024/weights/best.pt",
+      "bytes": 6245802,
+      "sha256": "3a90ef9c30824cefbe29a379814dac9cab64eeafc06c73243f24d32bf0dbe4b1",
+      "tracked_in_git": false
+    },
+    "last": {
+      "local_path": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\multi-vehicle_kaggle_competition_starter_kit_files\\runs\\detect\\baseline_starter_val966_20261024\\weights\\last.pt",
+      "relative_to_worktree": "multi-vehicle_kaggle_competition_starter_kit_files/runs/detect/baseline_starter_val966_20261024/weights/last.pt",
+      "bytes": 6245802,
+      "sha256": "0e7a20c6b2332e29af7905852ec671c70a4f3f76e5dbc16845a33deed84436e2",
+      "tracked_in_git": false
+    }
+  },
+  "final_val": {
+    "epoch": 10,
+    "Training Phase": 1,
+    "input_table_id": 0,
+    "label": 4,
+    "num_instances": 11487,
+    "num_images": 966,
+    "precision": 0.8921241164207458,
+    "recall": 0.6919714212417603,
+    "mAP": 0.7847740054130554,
+    "mAP50-95": 0.606803297996521
+  },
+  "final_train": {
+    "epoch": 10,
+    "Training Phase": 1,
+    "input_table_id": 0,
+    "label": 4,
+    "num_instances": 72273,
+    "num_images": 7852,
+    "precision": 0.893808901309967,
+    "recall": 0.8394543528556824,
+    "mAP": 0.9113369584083557,
+    "mAP50-95": 0.7274465560913086
+  },
+  "model_files_kept_locally": true,
+  "training_during_archival": false
+}

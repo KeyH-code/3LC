@@ -1,0 +1,85 @@
+{
+  "time": "2026-10-24T20:48:33.230717+08:00",
+  "status": "ready",
+  "data": {
+    "verified_files": 17668,
+    "manifest_sha256": "b764f57a968e3923f5217c11cf0c0b8ff3efcd15df4a84a6726883cfab929b9b",
+    "scope": "current worktree train/val copies only; no test or main-worktree data reads"
+  },
+  "train_images": 7852,
+  "train_boxes": 72273,
+  "val_images": 966,
+  "val_boxes": 11487,
+  "excluded_val_images": [
+    "val/images/MVI_40751_img00584_jpg.rf.d95818832c8fecdcf873d60681ab364e.jpg",
+    "val/images/MVI_40751_img00601_jpg.rf.5f45a77f3048eef641e951a0363b778d.jpg",
+    "val/images/MVI_40751_img00650_jpg.rf.fbd17823b375c5676dec2626e5382891.jpg",
+    "val/images/MVI_40751_img00811_jpg.rf.0731ce71b57c25a3a3b028f75b823a90.jpg",
+    "val/images/MVI_40751_img00821_jpg.rf.5a2d3581ec50fdbdb7ccbcbf2526f479.jpg",
+    "val/images/MVI_40752_img00364_jpg.rf.47b5b10af651bbb95991e49dc31c992d.jpg",
+    "val/images/MVI_40752_img00387_jpg.rf.df9ede958c2a9b19a8481b8d6e7bea53.jpg",
+    "val/images/MVI_40752_img00391_jpg.rf.a54c86446e00c72319cd9ce1812912f4.jpg",
+    "val/images/MVI_40752_img00456_jpg.rf.a7c36c4dc5d59f5173fa6ece863e41c7.jpg",
+    "val/images/MVI_40752_img00698_jpg.rf.7b8aefabff1ab660dc4075cc2f669c9c.jpg",
+    "val/images/MVI_40752_img00903_jpg.rf.03eda609c8c3a35f5a79a226660b4cda.jpg",
+    "val/images/MVI_40752_img00912_jpg.rf.d1b8784ec508dda12367426cc5e7024a.jpg",
+    "val/images/MVI_40752_img01109_jpg.rf.566cbec4e35efd505e5ad0ec8893bbce.jpg",
+    "val/images/MVI_40752_img01217_jpg.rf.5afc7f252217fa7ed46c233c701ede3a.jpg",
+    "val/images/MVI_40752_img01286_jpg.rf.8240075d16fceb53e709d1953d978763.jpg",
+    "val/images/MVI_40752_img01434_jpg.rf.cf39651eff877574dbc55982e24d7183.jpg"
+  ],
+  "val_list_sha256": "412109aeabf71f163a7eb7b3396b48a64be512c453ce83e8774bf9d95d17a048",
+  "train_url": "E:/kaggle/3LC_Multi_Vehicle_detection_Challenge/.worktrees/score-search-20261019-150516/3lc/projects/score_search_20261019_150516/datasets/vehicle_fixed_split/tables/vehicle_fixed_split-train",
+  "source_val982_url": "E:/kaggle/3LC_Multi_Vehicle_detection_Challenge/.worktrees/score-search-20261019-150516/3lc/projects/score_search_20261019_150516/datasets/vehicle_fixed_split/tables/vehicle_fixed_split-val",
+  "val_url": "E:/kaggle/3LC_Multi_Vehicle_detection_Challenge/.worktrees/score-search-20261019-150516/3lc/projects/score_search_20261019_150516/datasets/vehicle_fixed_split/tables/vehicle_fixed_split-val966-baseline-20261024",
+  "original_val_table_files_unchanged": {
+    "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\3lc\\projects\\score_search_20261019_150516\\datasets\\vehicle_fixed_split\\tables\\vehicle_fixed_split-val\\object.3lc.json": "75a2c21bb8a0acb7d529bf725c954cbc4e3ba260107fb49eef7ca674e0ec08ae",
+    "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\3lc\\projects\\score_search_20261019_150516\\datasets\\vehicle_fixed_split\\tables\\vehicle_fixed_split-val\\row_cache.parquet": "eb2f384c6555d6daba55f6c74a4900650eba5c1ec7460042f2e580aa89ef5f1e",
+    "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\3lc\\projects\\score_search_20261019_150516\\datasets\\vehicle_fixed_split\\tables\\vehicle_fixed_split-val\\yolo_179cb9c05e7f972659dc04df23c488db.json": "667ea49cfe029e1650427e75a979ba66616e2909602448138adf857494e97a89"
+  },
+  "config_sha256": "0a4983c555d77616d3e733bad9e4f3a45ad1d36b34ff40a9a6479261e220e5ed",
+  "train_entry_sha256": "c278a551f0c0803ac19d427109a6c8c1a5cd9f21409aacae6edb83dc91a88b4d",
+  "training_config": {
+    "model": "yolov8n",
+    "run_name": "baseline_starter_val966_20261024",
+    "run_description": "Starter original training settings; original train labels; fixed val966 reference",
+    "epochs": 10,
+    "batch_size": 16,
+    "image_size": 640,
+    "device": 0,
+    "workers": 2,
+    "lr0": 0.01,
+    "patience": 20,
+    "use_augmentation": true
+  },
+  "tlc_config": {
+    "project_name": "score_search_20261019_150516",
+    "dataset_name": "vehicle_fixed_split",
+    "train_table_name": "vehicle_fixed_split-train",
+    "val_table_name": "vehicle_fixed_split-val966-baseline-20261024",
+    "image_embeddings_dim": 3,
+    "image_embeddings_reducer": "umap"
+  },
+  "reproducibility_config": {
+    "seed": 42
+  },
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "3lc": "3.4.1",
+    "3lc-ultralytics": "0.5.1",
+    "ultralytics": "8.4.165",
+    "umap-learn": "0.5.12"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "auth_active": true,
+  "isolation": {
+    "yolo_online": false,
+    "sync": false,
+    "telemetry": "local"
+  },
+  "source_notes": "HEAD starter training settings; existing committed local compatibility adaptations retained; no entry changes.",
+  "credential_read_path": "C:\\Users\\胡成凯\\AppData\\Local\\3LC\\3LC\\3lc_api_key",
+  "permission": "User requested one training with starter original config; no automatic retry or additional experiment.",
+  "evaluation_assumption": "Treat fixed val966 as reference; not a new claim of verified label correctness.",
+  "watchdog_seconds": 2700
+}
