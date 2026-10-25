@@ -1,0 +1,52 @@
+# Local datasets, checkpoints, 3LC state and runtime (keep files locally)
+/data/
+/multi-vehicle_kaggle_competition_starter_kit_files/data/
+/multi-vehicle_kaggle_competition_starter_kit_files/runs/
+/multi-vehicle_kaggle_competition_starter_kit_files/tables_used.txt
+/multi-vehicle_kaggle_competition_starter_kit_files/submission.csv
+/3lc/
+/runtime/
+__pycache__/
+*.py[cod]
+*.pt
+
+# Generated review pages embed competition images; templates/manifests remain tracked
+/reports/data-audit/manual-review-20261024/review.html
+/reports/data-audit/random-label-review-20261024/review.html
+/reports/data-audit/evidence/
+/reports/data-audit/supplemental/evidence/
+/reports/data-audit/random-label-review-20261024/val_use_list_excluding_16.txt
+
+# Full local console/resource evidence; compact state snapshots remain eligible
+/reports/**/*.log
+/reports/**/resources.jsonl
+
+# Old score-search runtime evidence remains local; history is in logs/
+/reports/ss01/
+/reports/ss02/
+/reports/ss03/
+/reports/ss04/
+/reports/inspect-first3/
+/reports/inspect-final/
+/reports/preflight/
+/reports/preflight-02/
+/reports/register/
+/reports/batch_state.json
+/reports/attempts.json
+/reports/environment.json
+/reports/experiment_inspection.json
+/reports/verification.json
+/reports/SCORE_SEARCH_RESULT.md
+/reports/BEST_MODEL.json
+
+# Machine-bound, expired-budget or credential-coupled launch/verification helpers
+/tools/score_batch.py
+/tools/score_preflight.py
+/tools/score_inspect.py
+/tools/score_verify.py
+/tools/baseline_starter_20261024.py
+/tools/verify_baseline_starter_20261024.py
+
+# Original UTF-16 execution logs retained locally without transcoding
+/reports/data-audit/supplemental/supplemental_data_audit_execution.txt
+/reports/data-audit/supplemental/supplemental_data_audit_postprocess_execution.txt

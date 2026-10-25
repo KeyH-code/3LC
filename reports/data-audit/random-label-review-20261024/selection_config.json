@@ -1,0 +1,7 @@
+{
+  "seed": 3323167602,
+  "seed_source": "AI-generated random seed; user explicitly delegated audit seed choice",
+  "per_split_count": 48,
+  "method": "Python random.Random(seed); sample sorted eligible train paths then sorted eligible val paths; without replacement",
+  "created_at": "2026-10-24T19:57:49.848099+08:00"
+}

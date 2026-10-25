@@ -1,0 +1,71 @@
+{
+  "observed_date_local": "2026-10-24",
+  "method": "PI-Desktop browser; anonymous read-only browsing; rendered text; explicitly verified selected Private/Public tab; Private loaded all 97 rows; Public read first 49 rows",
+  "no_submission_or_account_action": true,
+  "sources": {
+    "leaderboard": "https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/leaderboard",
+    "evaluation": "https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview/evaluation",
+    "rules": "https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/rules"
+  },
+  "official_metric": {
+    "name": "mAP@0.5",
+    "implementation": "pycocotools COCOeval, bbox task, IoU threshold 0.5",
+    "aggregation": "Standard COCO mAP@0.5 over four vehicle classes; equal weighting via category AP",
+    "ground_truth": "hidden test set; boxes converted to absolute pixels using competition reference image dimensions",
+    "range": [0, 1],
+    "larger_is_better": true,
+    "public_test_share_approximate": 0.4,
+    "private_test_share_approximate": 0.6,
+    "not_identical_to_local_ultralytics_evaluation": "same AP50 concept does not establish identical implementation or identical data; do not equate local val score to leaderboard score"
+  },
+  "private": {
+    "status_quote": "This competition has completed. This leaderboard reflects the final standings.",
+    "rank_count": 97,
+    "scores_in_displayed_rank_order": [
+      0.94406, 0.94052, 0.93925, 0.93739, 0.93344, 0.93283, 0.93168, 0.92667, 0.92666, 0.92647,
+      0.92218, 0.92167, 0.92053, 0.92016, 0.90076, 0.89092, 0.89004, 0.88671, 0.86036, 0.85890,
+      0.85637, 0.85207, 0.84644, 0.84545, 0.84350, 0.84279, 0.83889, 0.83726, 0.83665, 0.83658,
+      0.83385, 0.83158, 0.82760, 0.82686, 0.82660, 0.82087, 0.82047, 0.81948, 0.81926, 0.81756,
+      0.81687, 0.81251, 0.81188, 0.80974, 0.80615, 0.80432, 0.80342, 0.80176, 0.80147, 0.79655,
+      0.78935, 0.78891, 0.78633, 0.78476, 0.78352, 0.78263, 0.78252, 0.77783, 0.77731, 0.77486,
+      0.77486, 0.77486, 0.77345, 0.77291, 0.77132, 0.77132, 0.77069, 0.75870, 0.75504, 0.74915,
+      0.74345, 0.73739, 0.73450, 0.72474, 0.71693, 0.70000, 0.69207, 0.68450, 0.68407, 0.62771,
+      0.57601, 0.53543, 0.53213, 0.52829, 0.52587, 0.51901, 0.51891, 0.51891, 0.51891, 0.51891,
+      0.51891, 0.51187, 0.50644, 0.21104, 0.17726, 0.00000, 0.00000
+    ]
+  },
+  "public_observed_rank_samples": [
+    {"rank": 1, "score": 0.95099},
+    {"rank": 2, "score": 0.93787},
+    {"rank": 10, "score": 0.93191},
+    {"rank": 15, "score": 0.90121},
+    {"rank": 25, "score": 0.84988},
+    {"rank": 49, "score": 0.79222}
+  ],
+  "source_quote": "Dataset: Based on the UA-DETRAC benchmark (Wen et al., 2020), adapted via Roboflow Universe and modified for this competition. The original UA-DETRAC dataset is intended for non-commercial research use.",
+  "source_limit": "official dataset-family statement only; original per-image video provenance not independently verified; no upstream files downloaded",
+  "constraints_quotes": [
+    "Architecture: YOLOv8n only. The official train.py is locked to YOLOv8n and trains from scratch (yolov8n.yaml, random initialization - no COCO or other pretrained checkpoints).",
+    "Input size: 640 px (default in config.yaml).",
+    "Prohibited techniques: Model ensembling, test-time augmentation (TTA), pseudo-labeling, knowledge distillation, or any method that effectively circumvents the single-model constraint."
+  ],
+  "annotation_rule_tension": {
+    "overview_quote": "Val: Validation metrics; Dashboard review and optional label fixes",
+    "foundational_rule_4b_quote": "Submissions may not use or incorporate information from hand labeling or human prediction of the validation dataset or test data records.",
+    "priority_quote": "These rules will supersede the competition-specific rules in the event of any conflict.",
+    "action": "audit only; no validation relabeling, submission or organizer contact; seek explicit clarification before using validation edits"
+  },
+  "target_selection": {
+    "selected_by": "learner",
+    "confirmed_date_local": "2026-10-24",
+    "user_statement": "选择C",
+    "option": "C",
+    "metric": "official mAP@0.5",
+    "operator": ">=",
+    "threshold": 0.90,
+    "status": "confirmed_target_not_achieved_result",
+    "local_val_is_not_official_score": true,
+    "additional_training_inference_submission_authorized": false,
+    "remaining_decisions": ["cleaning policy", "annotation standard", "local acceptance thresholds", "new training parameters and budget"]
+  }
+}

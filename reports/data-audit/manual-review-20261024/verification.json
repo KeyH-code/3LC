@@ -1,0 +1,100 @@
+{
+  "started": "2026-10-24T19:21:53.352856+08:00",
+  "checks": {
+    "deterministic_sample_243_of_4862": "passed",
+    "413_embedded_original_images_and_label_counts": "passed",
+    "all_17668_dataset_files_unchanged": "passed",
+    "self_contained_csp_ast_utf8_links": "passed"
+  },
+  "status": "passed",
+  "browser_checks": {
+    "date_local": "2026-10-24",
+    "method": "PI-Desktop Browser CDP; actual page render and DOM interactions",
+    "sample_id": "7db6819782a5c2e51bb2f0b416efd2b9e025622f374fe09dd89d63646052ac88",
+    "page_loads": [
+      {
+        "mode": "near",
+        "pages": 21,
+        "images_rendered": 486,
+        "errors": 0
+      },
+      {
+        "mode": "edge",
+        "pages": 2,
+        "images_rendered": 46,
+        "errors": 0
+      },
+      {
+        "mode": "empty",
+        "pages": 1,
+        "images_rendered": 2,
+        "errors": 0
+      }
+    ],
+    "checks_passed": [
+      "every image row has two side-by-side cells",
+      "all rendered images decode to 640x640",
+      "SVG rectangle counts equal each image original box_count",
+      "localStorage opinion save",
+      "reviewed and pending filters",
+      "ID search and zero-result state",
+      "JSON serialization roundtrip",
+      "opinion import merge",
+      "wrong-sample import rejected",
+      "original-box visibility toggle",
+      "temporary test decisions removed; original storage restored"
+    ],
+    "downloads_triggered": false,
+    "human_review_opinions_fabricated": false,
+    "remaining_browser_checks": [
+      "zoom dialog",
+      "new #near/#empty/#edge direct navigation",
+      "screenshots"
+    ],
+    "host_blocker": "Browser view did not become visible for the calling session. Switch to that session and retry.",
+    "revision_note": "Pagination and interaction checks were performed before the final two-line fragment-navigation hook; core rendering and embedded sample content are unchanged. Fragment hook has not yet been browser-tested."
+  },
+  "artifacts": [
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\browser_checks.json",
+      "bytes": 1453,
+      "sha256": "0d3132068b4dce35c01916b06aaaaa5bc5b1c1a2ceb9e8539394ed5fc76d1dc3"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\build_review.py",
+      "bytes": 7272,
+      "sha256": "c769db1576523a96cd5ca7351f6c7f13d3585d39c4810886448b66f3d86ca8e6"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\confirmed_move_pending.json",
+      "bytes": 7759,
+      "sha256": "137742323363b434f649885ed9e5be7811bd8505f4402a4c596f0baa7a26ce6c"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\README.md",
+      "bytes": 5339,
+      "sha256": "68bc03e02a51529a5e5e878a8ad8d0655246cb6cadc9a4b846cfd0c1b7828e76"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\review.html",
+      "bytes": 31065641,
+      "sha256": "69f4494389fdfc6fda846a1a0567695b74be6ffe7c4872fd6e622cbabbefd81d"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\review.template.html",
+      "bytes": 21527,
+      "sha256": "da271f9c117cf2fae367d60b25e5077180e512e5d42f2d0ef10d391f57e93c4b"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\review_manifest.json",
+      "bytes": 804134,
+      "sha256": "c0908788638adef9563aad18ef29e4d2698db49f1da19b7856c3f7c726e1343b"
+    },
+    {
+      "path": "reports\\data-audit\\manual-review-20261024\\verify_review.py",
+      "bytes": 7482,
+      "sha256": "b8696ab9aa71b8280d876eb48018a07f3c4152f059f270f28da9aceb63eda79e"
+    }
+  ],
+  "ended": "2026-10-24T19:21:58.062461+08:00"
+}

@@ -1,0 +1,31 @@
+{
+  "date_local": "2026-10-24",
+  "sample_id": "c34fe86f03c3eccb96c2a5cd27205916cb034a986bee0a9c11f9fe9d26bca4a7",
+  "method": "PI-Desktop Browser actual DOM and controls",
+  "pages_checked": 8,
+  "images_loaded": 96,
+  "load_errors": 0,
+  "box_counts_match_original_labels": true,
+  "two_columns": true,
+  "interactions_passed": [
+    "train and val statistics computed separately",
+    "missing counts and definite-review denominators",
+    "uncertain and unreviewed excluded from denominator",
+    "localStorage save",
+    "missing, completed and pending filters",
+    "row search and zero-result state",
+    "box visibility toggle",
+    "zoom dialog open, image load, close",
+    "JSON serialization roundtrip for all 96 records",
+    "opinion import merge",
+    "wrong sample batch rejected",
+    "inconsistent missing count rejected",
+    "temporary test opinions removed and original storage restored"
+  ],
+  "downloads_triggered": false,
+  "initial_decode_wait_issue": "All images had loaded to 640x640 but Image.decode promises stalled in this browser; replaced readiness with complete/load/error checks and retested all pages successfully.",
+  "final_css_change": "After screenshot exposed 780px minimum table width overflowing a 668px logical viewport, minimum width lowered to 600px and form columns made shrinkable. Sample and JavaScript interactions unchanged.",
+  "remaining_check": "Final narrow-panel layout/screenshot after the CSS-only adjustment could not be retested because host browser view was no longer visible.",
+  "host_message": "Browser view did not become visible for the calling session. Switch to that session and retry.",
+  "final_css_layout_claimed_passed": false
+}

@@ -1,0 +1,140 @@
+{
+  "status": "not_executed",
+  "request": "move all 16 val records identical to train into train; keep original train records",
+  "reason_pending": "official split / validation-label-use rule conflict; clarify non-competition scope before move",
+  "train_before": 7852,
+  "val_before": 982,
+  "train_if_keep_both_records": 7868,
+  "val_if_move": 966,
+  "labels_merged_or_selected": false,
+  "records": [
+    {
+      "train_image": "train/images/MVI_40751_img00584_jpg.rf.f236753cee927d4714e9914f764a6689.jpg",
+      "val_image": "val/images/MVI_40751_img00584_jpg.rf.d95818832c8fecdcf873d60681ab364e.jpg",
+      "train_label": "train/labels/MVI_40751_img00584_jpg.rf.f236753cee927d4714e9914f764a6689.txt",
+      "val_label": "val/labels/MVI_40751_img00584_jpg.rf.d95818832c8fecdcf873d60681ab364e.txt",
+      "train_boxes": 6,
+      "val_boxes": 5
+    },
+    {
+      "train_image": "train/images/MVI_40751_img00601_jpg.rf.42323e39ee41ec1fbf2b5d8e34f18607.jpg",
+      "val_image": "val/images/MVI_40751_img00601_jpg.rf.5f45a77f3048eef641e951a0363b778d.jpg",
+      "train_label": "train/labels/MVI_40751_img00601_jpg.rf.42323e39ee41ec1fbf2b5d8e34f18607.txt",
+      "val_label": "val/labels/MVI_40751_img00601_jpg.rf.5f45a77f3048eef641e951a0363b778d.txt",
+      "train_boxes": 7,
+      "val_boxes": 6
+    },
+    {
+      "train_image": "train/images/MVI_40751_img00650_jpg.rf.8fd574d00c05c8376c68233ea8cc1e1e.jpg",
+      "val_image": "val/images/MVI_40751_img00650_jpg.rf.fbd17823b375c5676dec2626e5382891.jpg",
+      "train_label": "train/labels/MVI_40751_img00650_jpg.rf.8fd574d00c05c8376c68233ea8cc1e1e.txt",
+      "val_label": "val/labels/MVI_40751_img00650_jpg.rf.fbd17823b375c5676dec2626e5382891.txt",
+      "train_boxes": 6,
+      "val_boxes": 5
+    },
+    {
+      "train_image": "train/images/MVI_40751_img00811_jpg.rf.5c2808e8181c99a4827bb73006aabf2c.jpg",
+      "val_image": "val/images/MVI_40751_img00811_jpg.rf.0731ce71b57c25a3a3b028f75b823a90.jpg",
+      "train_label": "train/labels/MVI_40751_img00811_jpg.rf.5c2808e8181c99a4827bb73006aabf2c.txt",
+      "val_label": "val/labels/MVI_40751_img00811_jpg.rf.0731ce71b57c25a3a3b028f75b823a90.txt",
+      "train_boxes": 6,
+      "val_boxes": 5
+    },
+    {
+      "train_image": "train/images/MVI_40751_img00821_jpg.rf.ecbfdb0cd3a996d8e9b4ad26562240ad.jpg",
+      "val_image": "val/images/MVI_40751_img00821_jpg.rf.5a2d3581ec50fdbdb7ccbcbf2526f479.jpg",
+      "train_label": "train/labels/MVI_40751_img00821_jpg.rf.ecbfdb0cd3a996d8e9b4ad26562240ad.txt",
+      "val_label": "val/labels/MVI_40751_img00821_jpg.rf.5a2d3581ec50fdbdb7ccbcbf2526f479.txt",
+      "train_boxes": 6,
+      "val_boxes": 5
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00364_jpg.rf.19508a6d3cc69d09dac5aa832ca5b802.jpg",
+      "val_image": "val/images/MVI_40752_img00364_jpg.rf.47b5b10af651bbb95991e49dc31c992d.jpg",
+      "train_label": "train/labels/MVI_40752_img00364_jpg.rf.19508a6d3cc69d09dac5aa832ca5b802.txt",
+      "val_label": "val/labels/MVI_40752_img00364_jpg.rf.47b5b10af651bbb95991e49dc31c992d.txt",
+      "train_boxes": 9,
+      "val_boxes": 10
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00387_jpg.rf.9867061bfbb9a8a8017d6c68df5b57d4.jpg",
+      "val_image": "val/images/MVI_40752_img00387_jpg.rf.df9ede958c2a9b19a8481b8d6e7bea53.jpg",
+      "train_label": "train/labels/MVI_40752_img00387_jpg.rf.9867061bfbb9a8a8017d6c68df5b57d4.txt",
+      "val_label": "val/labels/MVI_40752_img00387_jpg.rf.df9ede958c2a9b19a8481b8d6e7bea53.txt",
+      "train_boxes": 11,
+      "val_boxes": 12
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00391_jpg.rf.e0ccab5b4ac4dfa32068a3793c57e3ab.jpg",
+      "val_image": "val/images/MVI_40752_img00391_jpg.rf.a54c86446e00c72319cd9ce1812912f4.jpg",
+      "train_label": "train/labels/MVI_40752_img00391_jpg.rf.e0ccab5b4ac4dfa32068a3793c57e3ab.txt",
+      "val_label": "val/labels/MVI_40752_img00391_jpg.rf.a54c86446e00c72319cd9ce1812912f4.txt",
+      "train_boxes": 10,
+      "val_boxes": 11
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00456_jpg.rf.27e2d271e22445e666c6ade898cadde2.jpg",
+      "val_image": "val/images/MVI_40752_img00456_jpg.rf.a7c36c4dc5d59f5173fa6ece863e41c7.jpg",
+      "train_label": "train/labels/MVI_40752_img00456_jpg.rf.27e2d271e22445e666c6ade898cadde2.txt",
+      "val_label": "val/labels/MVI_40752_img00456_jpg.rf.a7c36c4dc5d59f5173fa6ece863e41c7.txt",
+      "train_boxes": 10,
+      "val_boxes": 10
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00698_jpg.rf.03515b303803084ac0223dac7c64f788.jpg",
+      "val_image": "val/images/MVI_40752_img00698_jpg.rf.7b8aefabff1ab660dc4075cc2f669c9c.jpg",
+      "train_label": "train/labels/MVI_40752_img00698_jpg.rf.03515b303803084ac0223dac7c64f788.txt",
+      "val_label": "val/labels/MVI_40752_img00698_jpg.rf.7b8aefabff1ab660dc4075cc2f669c9c.txt",
+      "train_boxes": 6,
+      "val_boxes": 8
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00903_jpg.rf.643b9e93cd9cb99673eaff691c1c6287.jpg",
+      "val_image": "val/images/MVI_40752_img00903_jpg.rf.03eda609c8c3a35f5a79a226660b4cda.jpg",
+      "train_label": "train/labels/MVI_40752_img00903_jpg.rf.643b9e93cd9cb99673eaff691c1c6287.txt",
+      "val_label": "val/labels/MVI_40752_img00903_jpg.rf.03eda609c8c3a35f5a79a226660b4cda.txt",
+      "train_boxes": 7,
+      "val_boxes": 7
+    },
+    {
+      "train_image": "train/images/MVI_40752_img00912_jpg.rf.92e9e14759dc1eb7220747d32e9099ff.jpg",
+      "val_image": "val/images/MVI_40752_img00912_jpg.rf.d1b8784ec508dda12367426cc5e7024a.jpg",
+      "train_label": "train/labels/MVI_40752_img00912_jpg.rf.92e9e14759dc1eb7220747d32e9099ff.txt",
+      "val_label": "val/labels/MVI_40752_img00912_jpg.rf.d1b8784ec508dda12367426cc5e7024a.txt",
+      "train_boxes": 7,
+      "val_boxes": 7
+    },
+    {
+      "train_image": "train/images/MVI_40752_img01109_jpg.rf.c5582d5f5f556f1540b1aae5c44e6683.jpg",
+      "val_image": "val/images/MVI_40752_img01109_jpg.rf.566cbec4e35efd505e5ad0ec8893bbce.jpg",
+      "train_label": "train/labels/MVI_40752_img01109_jpg.rf.c5582d5f5f556f1540b1aae5c44e6683.txt",
+      "val_label": "val/labels/MVI_40752_img01109_jpg.rf.566cbec4e35efd505e5ad0ec8893bbce.txt",
+      "train_boxes": 8,
+      "val_boxes": 8
+    },
+    {
+      "train_image": "train/images/MVI_40752_img01217_jpg.rf.df9fe2dca3c07bc4341e7483da294571.jpg",
+      "val_image": "val/images/MVI_40752_img01217_jpg.rf.5afc7f252217fa7ed46c233c701ede3a.jpg",
+      "train_label": "train/labels/MVI_40752_img01217_jpg.rf.df9fe2dca3c07bc4341e7483da294571.txt",
+      "val_label": "val/labels/MVI_40752_img01217_jpg.rf.5afc7f252217fa7ed46c233c701ede3a.txt",
+      "train_boxes": 7,
+      "val_boxes": 9
+    },
+    {
+      "train_image": "train/images/MVI_40752_img01286_jpg.rf.484a98a53057fc841f513237cc4c9bf8.jpg",
+      "val_image": "val/images/MVI_40752_img01286_jpg.rf.8240075d16fceb53e709d1953d978763.jpg",
+      "train_label": "train/labels/MVI_40752_img01286_jpg.rf.484a98a53057fc841f513237cc4c9bf8.txt",
+      "val_label": "val/labels/MVI_40752_img01286_jpg.rf.8240075d16fceb53e709d1953d978763.txt",
+      "train_boxes": 8,
+      "val_boxes": 10
+    },
+    {
+      "train_image": "train/images/MVI_40752_img01434_jpg.rf.810d34756130819013db8865be6d1e30.jpg",
+      "val_image": "val/images/MVI_40752_img01434_jpg.rf.cf39651eff877574dbc55982e24d7183.jpg",
+      "train_label": "train/labels/MVI_40752_img01434_jpg.rf.810d34756130819013db8865be6d1e30.txt",
+      "val_label": "val/labels/MVI_40752_img01434_jpg.rf.cf39651eff877574dbc55982e24d7183.txt",
+      "train_boxes": 8,
+      "val_boxes": 10
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "started": "2026-10-20T09:35:29.916796+08:00",
+  "status": "passed",
+  "python": "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+  "scope": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516",
+  "runs": [
+    {
+      "command": [
+        "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+        "-B",
+        "-W",
+        "error",
+        "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\data-audit\\cleaning_audit.py"
+      ],
+      "started": "2026-10-20T09:35:29.916796+08:00",
+      "ended": "2026-10-20T09:35:42.599031+08:00",
+      "exit_code": 0,
+      "stderr_bytes_utf8": 0
+    },
+    {
+      "command": [
+        "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+        "-B",
+        "-W",
+        "error",
+        "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\data-audit\\cleaning_audit_labels.py"
+      ],
+      "started": "2026-10-20T09:35:42.599031+08:00",
+      "ended": "2026-10-20T09:35:42.691207+08:00",
+      "exit_code": 0,
+      "stderr_bytes_utf8": 0
+    },
+    {
+      "command": [
+        "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+        "-B",
+        "-W",
+        "error",
+        "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516\\reports\\data-audit\\cleaning_audit_report.py"
+      ],
+      "started": "2026-10-20T09:35:42.691207+08:00",
+      "ended": "2026-10-20T09:35:42.830603+08:00",
+      "exit_code": 0,
+      "stderr_bytes_utf8": 0
+    }
+  ],
+  "checks": {
+    "manifest_and_report_assertions": "passed",
+    "verified_files": 17668,
+    "python_ast": "passed",
+    "utf8_conflict_whitespace_local_links": "passed",
+    "seven_archived_evidence_images_decode": "passed"
+  },
+  "artifacts": [
+    {
+      "path": "reports\\data-audit\\evidence\\duplicate_groups_01_08.jpg",
+      "bytes": 428217,
+      "sha256": "0d50f56c3e77f2fcc5d68040e4bd0fa2727e760dc89555bd78e9beb16f7130d4",
+      "size": [
+        1169,
+        2711
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\duplicate_groups_09_16.jpg",
+      "bytes": 420218,
+      "sha256": "7993efa119941369ce09308f128bf1b98a64c37d468e4e04001299f977459d21",
+      "size": [
+        1169,
+        2711
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\empty00696_neighbors.jpg",
+      "bytes": 107548,
+      "sha256": "1dbe770af5192dfd95a2f63f1b2b368dcb27ae0f597b0af0b57e479f0b7b480f",
+      "size": [
+        1169,
+        1372
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\empty02570_neighbors.jpg",
+      "bytes": 106158,
+      "sha256": "0ebf6d32ea03ccda8147db77df6dc04fd487e8bc94b53747eb9a3d44e375f7cb",
+      "size": [
+        1169,
+        1372
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\empty_labels_overview.jpg",
+      "bytes": 120658,
+      "sha256": "2c2a4263207ab0022a783e943ef4b28c4208619f5a7a1846c902e9d68aa0e690",
+      "size": [
+        1169,
+        1372
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\pair01_train_val.jpg",
+      "bytes": 120798,
+      "sha256": "a8f6c057611579360987a44cb5acdafe8bef3c27308316afdce5c1831f8c7bb2",
+      "size": [
+        1169,
+        1372
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\evidence\\pair06_train_val.jpg",
+      "bytes": 123012,
+      "sha256": "710f5a8add02cfdae9e2aa57fa19d2c293001b4d5b210928fd7bad6fa4d6f22a",
+      "size": [
+        1169,
+        1372
+      ]
+    },
+    {
+      "path": "reports\\data-audit\\cleaning_audit.py",
+      "bytes": 9797,
+      "sha256": "25baa2fa329498451156ae6ba76e008f5b3ee880e20e09938ec6f9da17a879cc"
+    },
+    {
+      "path": "reports\\data-audit\\cleaning_audit_labels.py",
+      "bytes": 4016,
+      "sha256": "c59f398e33bef970c5fe1893dea4ece7d3878bbf0aa3737cc9ed15b47d771393"
+    },
+    {
+      "path": "reports\\data-audit\\cleaning_audit_report.py",
+      "bytes": 11038,
+      "sha256": "061b847df879c7662441df7d72752769e7f1e2236b78bd7cb3c74e883dd81425"
+    },
+    {
+      "path": "reports\\data-audit\\verify_audit.py",
+      "bytes": 6859,
+      "sha256": "ea4f7a6adc89a2fa00f776b09004fb66b3e4c522d4d3647bb6073a2e4a481633"
+    },
+    {
+      "path": "reports\\data-audit\\SUMMARY.md",
+      "bytes": 8859,
+      "sha256": "f4a8ebb7fb73f6eb1215fe5c26ead2538a0c4aed9641a6d9766b193a42d257c9"
+    },
+    {
+      "path": "reports\\data-audit\\CLEANING_AUDIT.md",
+      "bytes": 29828,
+      "sha256": "7d2e42393af510c65fc480f85f57be6a11284ebacb5fe4f95d553ee0fb11b195"
+    },
+    {
+      "path": "reports\\data-audit\\index.html",
+      "bytes": 8034,
+      "sha256": "847ba15d66a1d3792a07a9b20ed542a69d04759f84166ab59b3b004b8498f8ef"
+    },
+    {
+      "path": "reports\\data-audit\\cleaning_audit.json",
+      "bytes": 326759,
+      "sha256": "56bd471d291b693925715e3a8ce99f3753209ed1776bffe65aea86c8fd5771d8"
+    }
+  ],
+  "ended": "2026-10-20T09:35:43.014400+08:00"
+}

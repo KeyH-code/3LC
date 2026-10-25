@@ -1,0 +1,17 @@
+{
+  "created_date": "2026-10-25",
+  "status": "mechanical_path_conversion_only",
+  "relative_to": "starter kit root (directory containing dataset.yaml)",
+  "relative_file": "val_use_list_excluding_16.relative.txt",
+  "relative_file_sha256": "f125c2f6ef81c2038997c033602a1cb36bb069e41e2c0721cf40b7dcc8467116",
+  "lines": 966,
+  "original_absolute_file": "val_use_list_excluding_16.txt",
+  "original_absolute_file_sha256": "412109aeabf71f163a7eb7b3396b48a64be512c453ce83e8774bf9d95d17a048",
+  "original_absolute_file_is_local_only": true,
+  "original_metadata": "val_use_list_metadata.json",
+  "excluded_count": 16,
+  "same_order_and_resolved_paths": true,
+  "new_sampling": false,
+  "original_labels_changed": false,
+  "baseline_wired_date": "2026-10-24"
+}

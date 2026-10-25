@@ -1,0 +1,923 @@
+{
+  "schema": "random-missing-label-review-v1",
+  "sample_id": "c34fe86f03c3eccb96c2a5cd27205916cb034a986bee0a9c11f9fe9d26bca4a7",
+  "exported_at": "2026-10-24T12:16:10.848Z",
+  "metadata": {
+    "sample_id": "c34fe86f03c3eccb96c2a5cd27205916cb034a986bee0a9c11f9fe9d26bca4a7",
+    "created_at": "2026-10-24T20:03:33.929471+08:00",
+    "seed": 3323167602,
+    "per_split": 48,
+    "rows": 48,
+    "total_images": 96,
+    "population_original": {
+      "train": 7852,
+      "val": 982
+    },
+    "eligible_sampling_population": {
+      "train": 7620,
+      "val": 787
+    },
+    "sample_fraction_of_eligible": {
+      "train": 0.006299212598425197,
+      "val": 0.060991105463786534
+    },
+    "previous_html_images_excluded": 413,
+    "confirmed_val_images_excluded": 16,
+    "previous_manifest_sha256": "c0908788638adef9563aad18ef29e4d2698db49f1da19b7856c3f7c726e1343b",
+    "pairing": "independent random train/val samples paired only for side-by-side display; no visual similarity condition",
+    "scope": "remaining unshown eligible population, not a simple random sample of all original 8834 images",
+    "data_modified": false,
+    "labels_modified": false,
+    "configured_for_model_use": false
+  },
+  "statistics": {
+    "train": {
+      "total": 48,
+      "missing_images": 10,
+      "no_missing_found_images": 2,
+      "uncertain_images": 0,
+      "unreviewed_images": 36,
+      "definite_images": 12,
+      "missing_image_fraction_among_definite": 0.8333333333333334,
+      "filled_missing_box_count": 0,
+      "missing_images_without_count": 10
+    },
+    "val": {
+      "total": 48,
+      "missing_images": 7,
+      "no_missing_found_images": 5,
+      "uncertain_images": 0,
+      "unreviewed_images": 36,
+      "definite_images": 12,
+      "missing_image_fraction_among_definite": 0.5833333333333334,
+      "filled_missing_box_count": 0,
+      "missing_images_without_count": 7
+    }
+  },
+  "records": [
+    {
+      "id": "train-01",
+      "image": "train/images/MVI_63553_img00086_jpg.rf.b4d63b7dcc66c679db52ea9fff92b657.jpg",
+      "split": "train",
+      "original_box_count": 10,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "train-02",
+      "image": "train/images/MVI_40152_img00056_jpg.rf.a878e2075df36ffc4dfe1ae90c968433.jpg",
+      "split": "train",
+      "original_box_count": 4,
+      "status": "missing",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-03",
+      "image": "train/images/MVI_40852_img00090_jpg.rf.4270d4d9188064c34f61f7e3220f5cb6.jpg",
+      "split": "train",
+      "original_box_count": 14,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "train-04",
+      "image": "train/images/MVI_40871_img01641_jpg.rf.9237d0e9d012db3abc64f59dbb5ca6e2.jpg",
+      "split": "train",
+      "original_box_count": 21,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "train-05",
+      "image": "train/images/MVI_40171_img01037_jpg.rf.b059753eb31bb3f7a4eae5327a404c8f.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "missing",
+      "missing_count": null,
+      "note": "边界小样本"
+    },
+    {
+      "id": "train-06",
+      "image": "train/images/MVI_40793_img00626_jpg.rf.f18c984178e3cfb63c3a977365197ed3.jpg",
+      "split": "train",
+      "original_box_count": 19,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "train-07",
+      "image": "train/images/MVI_40761_img00456_jpg.rf.3dfa6dac8d22be08ef5ec05cf1b6dffe.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标，也有电线杆遮挡"
+    },
+    {
+      "id": "train-08",
+      "image": "train/images/MVI_39031_img00466_jpg.rf.39da70fc050852bde93777920be8d313.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "train-09",
+      "image": "train/images/MVI_40905_img01566_jpg.rf.6eb818b5cc393192390aefc2e03d90d2.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "train-10",
+      "image": "train/images/MVI_63563_img00472_jpg.rf.fa63f15ceab8dd54b58b65a36a3ea688.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "train-11",
+      "image": "train/images/MVI_40905_img01084_jpg.rf.d4f00f43be53132432ed796f61ea1b78.jpg",
+      "split": "train",
+      "original_box_count": 14,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标，而且有错标，画面中的红色车出现了重叠框"
+    },
+    {
+      "id": "train-12",
+      "image": "train/images/MVI_20012_img00844_jpg.rf.2734f00a21a778b376da821b808086e5.jpg",
+      "split": "train",
+      "original_box_count": 2,
+      "status": "missing",
+      "missing_count": null,
+      "note": "注意，这里是和另外一张，我说明有一排汽车没检测出来的样本一样的场景（一样的路口），而且那排车还是没检测出来"
+    },
+    {
+      "id": "train-13",
+      "image": "train/images/MVI_40771_img00723_jpg.rf.f03654edbde50ae8e4d7c1c714abb3dd.jpg",
+      "split": "train",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-14",
+      "image": "train/images/MVI_20051_img00426_jpg.rf.e64175d32ca98803d68b14fa2c565130.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-15",
+      "image": "train/images/MVI_40243_img00691_jpg.rf.4f8ebe4b5dd19e0d4157ecd9adbea5c4.jpg",
+      "split": "train",
+      "original_box_count": 8,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-16",
+      "image": "train/images/MVI_40793_img01699_jpg.rf.6450feaaf161316f51d00999f9d9ed33.jpg",
+      "split": "train",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-17",
+      "image": "train/images/MVI_63561_img01228_jpg.rf.3e639d41f2481da4313be33e3860be97.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-18",
+      "image": "train/images/MVI_40241_img01469_jpg.rf.22d36ac8261ec269b59593afceca64fe.jpg",
+      "split": "train",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-19",
+      "image": "train/images/MVI_40213_img01638_jpg.rf.74ae2a626e3586dec0c08295476e55e5.jpg",
+      "split": "train",
+      "original_box_count": 4,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-20",
+      "image": "train/images/MVI_40211_img00087_jpg.rf.8ce098714adf1263d64b90ee6dc1c9fe.jpg",
+      "split": "train",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-21",
+      "image": "train/images/MVI_40772_img00362_jpg.rf.11a5a8e992409c74e741b28df245801a.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-22",
+      "image": "train/images/MVI_40981_img01926_jpg.rf.58d94912c12424710bb4ddd417813326.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-23",
+      "image": "train/images/MVI_40181_img00931_jpg.rf.df93953ada12e8b3717e20f9977e4e75.jpg",
+      "split": "train",
+      "original_box_count": 3,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-24",
+      "image": "train/images/MVI_40141_img00957_jpg.rf.25661815b5e7030f90713c1ecc1c5723.jpg",
+      "split": "train",
+      "original_box_count": 2,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-25",
+      "image": "train/images/MVI_20064_img00686_jpg.rf.f04dde9f3af453ad54c8a3f3e04c5d79.jpg",
+      "split": "train",
+      "original_box_count": 25,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-26",
+      "image": "train/images/MVI_39031_img00187_jpg.rf.e336fac793ac07ba77fcef4d0bab4d32.jpg",
+      "split": "train",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-27",
+      "image": "train/images/MVI_40172_img00638_jpg.rf.c600794f7d48b5225920cd9c6d91be50.jpg",
+      "split": "train",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-28",
+      "image": "train/images/MVI_40712_img01408_jpg.rf.9bf94456d962efabb139f5b749cffb58.jpg",
+      "split": "train",
+      "original_box_count": 10,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-29",
+      "image": "train/images/MVI_40762_img01683_jpg.rf.6816147d915866672039ac3f242bd148.jpg",
+      "split": "train",
+      "original_box_count": 8,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-30",
+      "image": "train/images/MVI_39401_img00322_jpg.rf.0782aa10e770f07792dbefbad76bb53d.jpg",
+      "split": "train",
+      "original_box_count": 12,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-31",
+      "image": "train/images/MVI_63561_img00878_jpg.rf.85f36eb9334112148b52fe5423c1c23f.jpg",
+      "split": "train",
+      "original_box_count": 10,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-32",
+      "image": "train/images/MVI_63553_img00904_jpg.rf.6896342069c7b95b36f5dbd1578350b0.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-33",
+      "image": "train/images/MVI_40131_img01206_jpg.rf.a4a170f2237c511b55f98a1c9acf963c.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-34",
+      "image": "train/images/MVI_40752_img00387_jpg.rf.9867061bfbb9a8a8017d6c68df5b57d4.jpg",
+      "split": "train",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-35",
+      "image": "train/images/MVI_63562_img01077_jpg.rf.f8884edfb6e0b656cdb2d8d77af59535.jpg",
+      "split": "train",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-36",
+      "image": "train/images/MVI_39271_img00627_jpg.rf.df7a35f311d49e939871fcc3ac9cec56.jpg",
+      "split": "train",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-37",
+      "image": "train/images/MVI_40191_img01507_jpg.rf.995a7c29119915640f6940a4a76ab2ed.jpg",
+      "split": "train",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-38",
+      "image": "train/images/MVI_40855_img00161_jpg.rf.efc572fd73f941c73e07e0a8f1d1421b.jpg",
+      "split": "train",
+      "original_box_count": 33,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-39",
+      "image": "train/images/MVI_40901_img00817_jpg.rf.f8f0716f749d75d5849d23440d864cf4.jpg",
+      "split": "train",
+      "original_box_count": 8,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-40",
+      "image": "train/images/MVI_40853_img00791_jpg.rf.1bc1b3826286d018e0af52901f0279e0.jpg",
+      "split": "train",
+      "original_box_count": 21,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-41",
+      "image": "train/images/MVI_39031_img00552_jpg.rf.d0680d8e93165f166f2e0bae95479e3e.jpg",
+      "split": "train",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-42",
+      "image": "train/images/MVI_40711_img00472_jpg.rf.a2a544d7f69bf41ca93e8dd098607982.jpg",
+      "split": "train",
+      "original_box_count": 7,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-43",
+      "image": "train/images/MVI_39931_img01157_jpg.rf.f569dcd016662b80df2c11a418c45ec0.jpg",
+      "split": "train",
+      "original_box_count": 1,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-44",
+      "image": "train/images/MVI_40772_img00539_jpg.rf.4dd423ae749896980d274de6846c7218.jpg",
+      "split": "train",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-45",
+      "image": "train/images/MVI_63525_img00236_jpg.rf.fc24f0c1c1e0c6eb8e2b270f60e9f680.jpg",
+      "split": "train",
+      "original_box_count": 2,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-46",
+      "image": "train/images/MVI_40891_img00008_jpg.rf.39ac230a5934088a92db1fa009d779a7.jpg",
+      "split": "train",
+      "original_box_count": 26,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-47",
+      "image": "train/images/MVI_39311_img00385_jpg.rf.0f1fad6623a24361f3633a01f0991250.jpg",
+      "split": "train",
+      "original_box_count": 15,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "train-48",
+      "image": "train/images/MVI_40963_img01318_jpg.rf.738735b300f6476605173f3d4e8326d0.jpg",
+      "split": "train",
+      "original_box_count": 8,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-01",
+      "image": "val/images/MVI_39211_img01451_jpg.rf.018ebdd1793449949e1b4903dc2960bf.jpg",
+      "split": "val",
+      "original_box_count": 3,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "val-02",
+      "image": "val/images/MVI_63563_img00366_jpg.rf.6249647ea30b488dbb425a5a76b6058f.jpg",
+      "split": "val",
+      "original_box_count": 8,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "val-03",
+      "image": "val/images/MVI_40851_img00778_jpg.rf.c7ad431aba4c5e03ba077e3a24ad747b.jpg",
+      "split": "val",
+      "original_box_count": 23,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-04",
+      "image": "val/images/MVI_39401_img00688_jpg.rf.35e0d52b59459352ca9a8dfa8254ba0e.jpg",
+      "split": "val",
+      "original_box_count": 12,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "val-05",
+      "image": "val/images/MVI_40891_img00371_jpg.rf.678e287310d8bc6b568d601c74a3a6aa.jpg",
+      "split": "val",
+      "original_box_count": 31,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-06",
+      "image": "val/images/MVI_39401_img01355_jpg.rf.9efbd0e19f9ff6c71cecd77f2d9c1dff.jpg",
+      "split": "val",
+      "original_box_count": 11,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-07",
+      "image": "val/images/MVI_20011_img00160_jpg.rf.6464d1f0260db90d80bba84ed72c8027.jpg",
+      "split": "val",
+      "original_box_count": 16,
+      "status": "missing",
+      "missing_count": null,
+      "note": "样本左侧有一排汽车都没标注，样本大小方面，比这些漏标样本中的一部分小的样本标出来了\n还有再就是边界小样本漏标"
+    },
+    {
+      "id": "val-08",
+      "image": "val/images/MVI_39851_img00990_jpg.rf.7e7069836f8a1949dc1f603399ff9904.jpg",
+      "split": "val",
+      "original_box_count": 7,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "val-09",
+      "image": "val/images/MVI_40904_img00056_jpg.rf.cea0f4ff13ce068000e4dc358eceb370.jpg",
+      "split": "val",
+      "original_box_count": 10,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-10",
+      "image": "val/images/MVI_40204_img01130_jpg.rf.fae1da5ea6da4787aaa7a17debb44764.jpg",
+      "split": "val",
+      "original_box_count": 24,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-11",
+      "image": "val/images/MVI_40712_img00836_jpg.rf.4afbb148f76a3d6d99e45ee288278e4f.jpg",
+      "split": "val",
+      "original_box_count": 11,
+      "status": "missing",
+      "missing_count": null,
+      "note": "远处小，不清晰样本漏标"
+    },
+    {
+      "id": "val-12",
+      "image": "val/images/MVI_40212_img00854_jpg.rf.4eff06dd49eb09abeef3b9c29a55900d.jpg",
+      "split": "val",
+      "original_box_count": 5,
+      "status": "none",
+      "missing_count": 0,
+      "note": ""
+    },
+    {
+      "id": "val-13",
+      "image": "val/images/MVI_40141_img00071_jpg.rf.723c3a7e53a85680c519100a063a6454.jpg",
+      "split": "val",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-14",
+      "image": "val/images/MVI_40891_img00188_jpg.rf.5a1469b0f93e994c980a8a6593299385.jpg",
+      "split": "val",
+      "original_box_count": 27,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-15",
+      "image": "val/images/MVI_40772_img00673_jpg.rf.af4f2278088148e68b29309c04f096c8.jpg",
+      "split": "val",
+      "original_box_count": 10,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-16",
+      "image": "val/images/MVI_40204_img00935_jpg.rf.e8306908b2502dd79a903fd4e80dbeff.jpg",
+      "split": "val",
+      "original_box_count": 23,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-17",
+      "image": "val/images/MVI_39271_img00613_jpg.rf.44472395dcfeb0174fae1860bc81042c.jpg",
+      "split": "val",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-18",
+      "image": "val/images/MVI_63562_img00951_jpg.rf.8a3ada82fe6f460eb8b5f2848c2c42d9.jpg",
+      "split": "val",
+      "original_box_count": 3,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-19",
+      "image": "val/images/MVI_40241_img01276_jpg.rf.f9acf57ed7254ca1999676f95de6e466.jpg",
+      "split": "val",
+      "original_box_count": 17,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-20",
+      "image": "val/images/MVI_40241_img01763_jpg.rf.c86e9efc872b044380c39281410332d2.jpg",
+      "split": "val",
+      "original_box_count": 15,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-21",
+      "image": "val/images/MVI_39511_img00354_jpg.rf.45b4791f163a8771220e26d7729f7d69.jpg",
+      "split": "val",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-22",
+      "image": "val/images/MVI_40773_img00491_jpg.rf.2545fd4557565e189da0d70df6223c97.jpg",
+      "split": "val",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-23",
+      "image": "val/images/MVI_40761_img00827_jpg.rf.b4d5154e9de7ea2fb6192e2d4630459d.jpg",
+      "split": "val",
+      "original_box_count": 13,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-24",
+      "image": "val/images/MVI_40792_img01759_jpg.rf.348b2c1b928d5e4190c772d3a9403c54.jpg",
+      "split": "val",
+      "original_box_count": 12,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-25",
+      "image": "val/images/MVI_63553_img01187_jpg.rf.b9aceae9dbef8109746e550150ff4143.jpg",
+      "split": "val",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-26",
+      "image": "val/images/MVI_39851_img01403_jpg.rf.a193cdf06bb09816c1e501c0a8014b13.jpg",
+      "split": "val",
+      "original_box_count": 7,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-27",
+      "image": "val/images/MVI_40905_img00111_jpg.rf.bc90e09eb4a0523a627b5461efb3c2a0.jpg",
+      "split": "val",
+      "original_box_count": 21,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-28",
+      "image": "val/images/MVI_41063_img00855_jpg.rf.038747748dd57984a8d92a6cf4544656.jpg",
+      "split": "val",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-29",
+      "image": "val/images/MVI_39401_img01107_jpg.rf.fccd56d271cd117c009cc95b50138979.jpg",
+      "split": "val",
+      "original_box_count": 13,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-30",
+      "image": "val/images/MVI_40181_img00006_jpg.rf.325fb36d7526f69c6fdb13d4446b39a8.jpg",
+      "split": "val",
+      "original_box_count": 4,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-31",
+      "image": "val/images/MVI_63521_img00218_jpg.rf.4ab8b18c891ae8ce4b6e9a2b60cae341.jpg",
+      "split": "val",
+      "original_box_count": 7,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-32",
+      "image": "val/images/MVI_40171_img00429_jpg.rf.64ed8246ee5dabd59cf69ee8e47bd90b.jpg",
+      "split": "val",
+      "original_box_count": 3,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-33",
+      "image": "val/images/MVI_40714_img00380_jpg.rf.77785b4985345a191d0e6ca162cc5bac.jpg",
+      "split": "val",
+      "original_box_count": 38,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-34",
+      "image": "val/images/MVI_20052_img00294_jpg.rf.13babe46ab12865335d29d1dd86063fc.jpg",
+      "split": "val",
+      "original_box_count": 21,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-35",
+      "image": "val/images/MVI_20034_img00108_jpg.rf.34f638564379af14ed537d7462a4a989.jpg",
+      "split": "val",
+      "original_box_count": 12,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-36",
+      "image": "val/images/MVI_39371_img01042_jpg.rf.479932c6b191798f917a63cab6d5d16a.jpg",
+      "split": "val",
+      "original_box_count": 4,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-37",
+      "image": "val/images/MVI_20012_img00680_jpg.rf.05c0d530e68c8d095be99ae3a97266e6.jpg",
+      "split": "val",
+      "original_box_count": 9,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-38",
+      "image": "val/images/MVI_40773_img00933_jpg.rf.bbecaca64d05ff063102ffbff7b35887.jpg",
+      "split": "val",
+      "original_box_count": 10,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-39",
+      "image": "val/images/MVI_40793_img01837_jpg.rf.3f22d989c1c015cc29c82e40d6a504d8.jpg",
+      "split": "val",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-40",
+      "image": "val/images/MVI_39501_img00221_jpg.rf.abead99bbcc3931393780f9ed6bb8be9.jpg",
+      "split": "val",
+      "original_box_count": 23,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-41",
+      "image": "val/images/MVI_40743_img00967_jpg.rf.434d6c0c06988443a204aac9d82e6580.jpg",
+      "split": "val",
+      "original_box_count": 8,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-42",
+      "image": "val/images/MVI_40771_img01269_jpg.rf.208af475119a6c1ea14154c9d8a2d994.jpg",
+      "split": "val",
+      "original_box_count": 6,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-43",
+      "image": "val/images/MVI_39311_img00459_jpg.rf.c89453430674f359176ca5026aadf9ed.jpg",
+      "split": "val",
+      "original_box_count": 24,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-44",
+      "image": "val/images/MVI_63561_img01171_jpg.rf.1acdaf045e1e2ac2b1137e762a3d14e7.jpg",
+      "split": "val",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-45",
+      "image": "val/images/MVI_40241_img02125_jpg.rf.f3d9524a6118149df5e0b98ea368f0e9.jpg",
+      "split": "val",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-46",
+      "image": "val/images/MVI_40991_img01412_jpg.rf.64de6c61d3e4f7b7642195a1bd4c2765.jpg",
+      "split": "val",
+      "original_box_count": 4,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-47",
+      "image": "val/images/MVI_40244_img00349_jpg.rf.07a3df79a411f2292603a6f177e0dcbe.jpg",
+      "split": "val",
+      "original_box_count": 5,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    },
+    {
+      "id": "val-48",
+      "image": "val/images/MVI_40905_img00604_jpg.rf.055f6fcc6f657269b76dd086af92dd2c.jpg",
+      "split": "val",
+      "original_box_count": 11,
+      "status": "unreviewed",
+      "missing_count": null,
+      "note": ""
+    }
+  ]
+}

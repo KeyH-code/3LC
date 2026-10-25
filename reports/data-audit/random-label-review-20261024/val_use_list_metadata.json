@@ -1,0 +1,26 @@
+{
+  "status": "list_only_not_wired_to_training_or_evaluation",
+  "original_split_unchanged": true,
+  "original_val_count": 982,
+  "listed_val_count": 966,
+  "excluded_count": 16,
+  "excluded_images": [
+    "val/images/MVI_40751_img00584_jpg.rf.d95818832c8fecdcf873d60681ab364e.jpg",
+    "val/images/MVI_40751_img00601_jpg.rf.5f45a77f3048eef641e951a0363b778d.jpg",
+    "val/images/MVI_40751_img00650_jpg.rf.fbd17823b375c5676dec2626e5382891.jpg",
+    "val/images/MVI_40751_img00811_jpg.rf.0731ce71b57c25a3a3b028f75b823a90.jpg",
+    "val/images/MVI_40751_img00821_jpg.rf.5a2d3581ec50fdbdb7ccbcbf2526f479.jpg",
+    "val/images/MVI_40752_img00364_jpg.rf.47b5b10af651bbb95991e49dc31c992d.jpg",
+    "val/images/MVI_40752_img00387_jpg.rf.df9ede958c2a9b19a8481b8d6e7bea53.jpg",
+    "val/images/MVI_40752_img00391_jpg.rf.a54c86446e00c72319cd9ce1812912f4.jpg",
+    "val/images/MVI_40752_img00456_jpg.rf.a7c36c4dc5d59f5173fa6ece863e41c7.jpg",
+    "val/images/MVI_40752_img00698_jpg.rf.7b8aefabff1ab660dc4075cc2f669c9c.jpg",
+    "val/images/MVI_40752_img00903_jpg.rf.03eda609c8c3a35f5a79a226660b4cda.jpg",
+    "val/images/MVI_40752_img00912_jpg.rf.d1b8784ec508dda12367426cc5e7024a.jpg",
+    "val/images/MVI_40752_img01109_jpg.rf.566cbec4e35efd505e5ad0ec8893bbce.jpg",
+    "val/images/MVI_40752_img01217_jpg.rf.5afc7f252217fa7ed46c233c701ede3a.jpg",
+    "val/images/MVI_40752_img01286_jpg.rf.8240075d16fceb53e709d1953d978763.jpg",
+    "val/images/MVI_40752_img01434_jpg.rf.cf39651eff877574dbc55982e24d7183.jpg"
+  ],
+  "list_sha256": "412109aeabf71f163a7eb7b3396b48a64be512c453ce83e8774bf9d95d17a048"
+}

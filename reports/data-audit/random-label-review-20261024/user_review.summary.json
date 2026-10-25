@@ -1,0 +1,25 @@
+{
+  "archived_date": "2026-10-25",
+  "original_file": "user_review.original.json",
+  "sha256": "6e09be957565068c1021cc750189e6e797f22a65e641b1a7dce93254b3fef832",
+  "exported_at": "2026-10-24T12:16:10.848Z",
+  "sample_id": "c34fe86f03c3eccb96c2a5cd27205916cb034a986bee0a9c11f9fe9d26bca4a7",
+  "records": 96,
+  "reviewed_images": 24,
+  "unreviewed_images": 72,
+  "counts": {
+    "train": {
+      "none": 2,
+      "missing": 10,
+      "unreviewed": 36
+    },
+    "val": {
+      "none": 5,
+      "missing": 7,
+      "unreviewed": 36
+    }
+  },
+  "missing_images_without_box_count": 17,
+  "interpretation": "Existing learner feedback, not a new review. No full-dataset or test extrapolation; original labels unchanged.",
+  "origin_filename": "pasted-68a4f8ef-200e-4a8a-9cd5-813dd3bd4d9d-missing_label_review_c34fe86f03c3.json"
+}

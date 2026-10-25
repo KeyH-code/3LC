@@ -1,0 +1,60 @@
+{
+  "started": "2026-10-24T20:05:47.695266+08:00",
+  "status": "passed",
+  "checks": {
+    "sample_and_exclusions": "passed",
+    "embedded_original_bytes_and_labels": "passed",
+    "val966_list_only_original_split_preserved": "passed",
+    "all_17668_data_files_unchanged": "passed",
+    "ast_utf8_whitespace_and_network_csp": "passed"
+  },
+  "sample_id": "c34fe86f03c3eccb96c2a5cd27205916cb034a986bee0a9c11f9fe9d26bca4a7",
+  "artifacts": [
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\browser_checks.json",
+      "bytes": 1700,
+      "sha256": "648d56f6c2a697d25cc2308578fcde2a0d69e8d7e05c4a778ef2270ce6610263"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\build_review.py",
+      "bytes": 10408,
+      "sha256": "e87cedf7940af64f2ab5d1b5339a3cacdedfa1183afc18b367b132a3d00a1063"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\README.md",
+      "bytes": 5221,
+      "sha256": "b2047d67c2b542fe88bf9dbb349d861ab55041c8a0b0391eab4060d5054cf330"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\review.html",
+      "bytes": 7336013,
+      "sha256": "3a1304419d0ef4b03de2b89c162036c5d57fc79d754c15ae42e0dc3a9a071bb9"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\review.template.html",
+      "bytes": 20460,
+      "sha256": "88f4a0274afb8a5964c8ed53f2ae5b4325b6c8957b189a2a67977067e4439550"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\review_manifest.json",
+      "bytes": 235145,
+      "sha256": "80387bf1d713de0232b7d616e4208fce8a067aa9c079b3d7f28d258f4db31610"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\selection_config.json",
+      "bytes": 329,
+      "sha256": "0d54417a17911039855c80c8e9fd3a8195df2c2cceb391079606c70296ebd1b5"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\val_use_list_excluding_16.txt",
+      "bytes": 211554,
+      "sha256": "412109aeabf71f163a7eb7b3396b48a64be512c453ce83e8774bf9d95d17a048"
+    },
+    {
+      "path": "reports\\data-audit\\random-label-review-20261024\\val_use_list_metadata.json",
+      "bytes": 1614,
+      "sha256": "371e738e987281443efe560b965272f77c627162b00b258db4b60b561d378f3f"
+    }
+  ],
+  "ended": "2026-10-24T20:06:03.775804+08:00"
+}

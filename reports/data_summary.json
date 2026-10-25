@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "train/images": 7852,
+    "train/labels": 7852,
+    "val/images": 982,
+    "val/labels": 982
+  },
+  "files": 17668,
+  "bytes": 485518193,
+  "empty_labels": 2,
+  "manifest_sha256": "b764f57a968e3923f5217c11cf0c0b8ff3efcd15df4a84a6726883cfab929b9b"
+}

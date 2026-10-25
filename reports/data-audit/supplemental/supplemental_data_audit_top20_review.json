@@ -1,0 +1,162 @@
+[
+  {
+    "train": "train/images/MVI_20011_img00291_jpg.rf.5f0a0f856d1ea04d58200c9822372f1d.jpg",
+    "val": "val/images/MVI_20011_img00290_jpg.rf.a828a5eed6c7588f5cee094c50046540.jpg",
+    "distance": 0,
+    "train_dhash64": "f8d8dbf9b436c646",
+    "val_dhash64": "f8d8dbf9b436c646",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20012_img00056_jpg.rf.6377139d48530ed7d0abe944e69f6dad.jpg",
+    "val": "val/images/MVI_20012_img00051_jpg.rf.87903a95e51daeb3d9d23ffe4f9e2d49.jpg",
+    "distance": 0,
+    "train_dhash64": "f8decbd93c7cdc5e",
+    "val_dhash64": "f8decbd93c7cdc5e",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20012_img00305_jpg.rf.4a3c892cffa95740e7557012add19b46.jpg",
+    "val": "val/images/MVI_20012_img00306_jpg.rf.e07edba83fe4be70bf24bba24638076c.jpg",
+    "distance": 0,
+    "train_dhash64": "f8dad29c1c189c7e",
+    "val_dhash64": "f8dad29c1c189c7e",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20051_img00033_jpg.rf.ff115bd2d611cdeef30f5631cb4ecb31.jpg",
+    "val": "val/images/MVI_20051_img00031_jpg.rf.fff29bd64644b69d20ff50fe50851d79.jpg",
+    "distance": 0,
+    "train_dhash64": "f9fcf63b73f3db99",
+    "val_dhash64": "f9fcf63b73f3db99",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20051_img00245_jpg.rf.6d4861558c6c36094dc81e8625c4c8af.jpg",
+    "val": "val/images/MVI_20051_img00243_jpg.rf.8d869a098a020582d298485c0a3ea927.jpg",
+    "distance": 0,
+    "train_dhash64": "fdf4f6b26349d9b1",
+    "val_dhash64": "fdf4f6b26349d9b1",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20062_img00633_jpg.rf.2d3bc48ac720884d1ba2bc505c9af39e.jpg",
+    "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+    "distance": 0,
+    "train_dhash64": "f8fab39998383818",
+    "val_dhash64": "f8fab39998383818",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20062_img00651_jpg.rf.2598520ad6d00226b27aa0e8e1fc06c0.jpg",
+    "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+    "distance": 0,
+    "train_dhash64": "f8fab39998383818",
+    "val_dhash64": "f8fab39998383818",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_20062_img00659_jpg.rf.2862f1ff5cedc878ca8c34b8be3da9e9.jpg",
+    "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+    "distance": 0,
+    "train_dhash64": "f8fab39998383818",
+    "val_dhash64": "f8fab39998383818",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39031_img00120_jpg.rf.7e4f0d67bdf13e90a7bbb47f9c76d669.jpg",
+    "val": "val/images/MVI_39031_img00122_jpg.rf.0603021cac847ca69a196ecf1e65f0f8.jpg",
+    "distance": 0,
+    "train_dhash64": "a470f0f1f4e6c2e2",
+    "val_dhash64": "a470f0f1f4e6c2e2",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39051_img00570_jpg.rf.2f658c970daf3dd668b20789253e3e0e.jpg",
+    "val": "val/images/MVI_39051_img00572_jpg.rf.014ccbd75e211b558035a6e676b60844.jpg",
+    "distance": 0,
+    "train_dhash64": "8fcd076751938776",
+    "val_dhash64": "8fcd076751938776",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39051_img00573_jpg.rf.06cdd7a42a0d1c21a34be8bd4288618a.jpg",
+    "val": "val/images/MVI_39051_img00572_jpg.rf.014ccbd75e211b558035a6e676b60844.jpg",
+    "distance": 0,
+    "train_dhash64": "8fcd076751938776",
+    "val_dhash64": "8fcd076751938776",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39211_img00349_jpg.rf.a33116dbe308eea0261e9c6028aab33a.jpg",
+    "val": "val/images/MVI_39211_img00348_jpg.rf.16021a92a930a0f652fca3780cc95263.jpg",
+    "distance": 0,
+    "train_dhash64": "ccfced6dcdf3f2f2",
+    "val_dhash64": "ccfced6dcdf3f2f2",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39211_img00837_jpg.rf.e72642f0f5f7160d78a305d83b3d1db7.jpg",
+    "val": "val/images/MVI_39211_img00834_jpg.rf.989b505126d016bf152bd9dd98e10da3.jpg",
+    "distance": 0,
+    "train_dhash64": "ccdcef2f5dfdf8f8",
+    "val_dhash64": "ccdcef2f5dfdf8f8",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39211_img00837_jpg.rf.e72642f0f5f7160d78a305d83b3d1db7.jpg",
+    "val": "val/images/MVI_39211_img00838_jpg.rf.d9fdbf9ddf22006189f398370ded589d.jpg",
+    "distance": 0,
+    "train_dhash64": "ccdcef2f5dfdf8f8",
+    "val_dhash64": "ccdcef2f5dfdf8f8",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39211_img01091_jpg.rf.9df945016850872e6cdca400eb96efa9.jpg",
+    "val": "val/images/MVI_39211_img01084_jpg.rf.865bbb385dde6d005549efca9cb5acfc.jpg",
+    "distance": 0,
+    "train_dhash64": "cecefd6d6dedb8f8",
+    "val_dhash64": "cecefd6d6dedb8f8",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39271_img00287_jpg.rf.5dac2ee9f99e7c365a861072d3e52d88.jpg",
+    "val": "val/images/MVI_39271_img00255_jpg.rf.742235a72b1bfbb62af29123edfdaf0f.jpg",
+    "distance": 0,
+    "train_dhash64": "fb5a0f0b2811d3c4",
+    "val_dhash64": "fb5a0f0b2811d3c4",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39271_img00592_jpg.rf.4eaeaacd7bd3440fb343892878b942cc.jpg",
+    "val": "val/images/MVI_39271_img00613_jpg.rf.44472395dcfeb0174fae1860bc81042c.jpg",
+    "distance": 0,
+    "train_dhash64": "fb5a0f0b2811d2c4",
+    "val_dhash64": "fb5a0f0b2811d2c4",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39271_img00594_jpg.rf.ad66103197e48cd32b4b2221e108650c.jpg",
+    "val": "val/images/MVI_39271_img00613_jpg.rf.44472395dcfeb0174fae1860bc81042c.jpg",
+    "distance": 0,
+    "train_dhash64": "fb5a0f0b2811d2c4",
+    "val_dhash64": "fb5a0f0b2811d2c4",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39271_img00811_jpg.rf.b303cfc444145eff3fb1f31886f86fe0.jpg",
+    "val": "val/images/MVI_39271_img00810_jpg.rf.1bd7bff2c0fa147bac686a64775ac9d0.jpg",
+    "distance": 0,
+    "train_dhash64": "fb5a0f092411d2c4",
+    "val_dhash64": "fb5a0f092411d2c4",
+    "same_video_prefix": true
+  },
+  {
+    "train": "train/images/MVI_39311_img00088_jpg.rf.0d40610cff81fef417b923acc760fda5.jpg",
+    "val": "val/images/MVI_39311_img00084_jpg.rf.3c6a33f280fbd5f516522ceecaa84f4e.jpg",
+    "distance": 0,
+    "train_dhash64": "9c7cffe54c5c6c4c",
+    "val_dhash64": "9c7cffe54c5c6c4c",
+    "same_video_prefix": true
+  }
+]

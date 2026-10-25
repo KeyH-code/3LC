@@ -1,0 +1,500 @@
+{
+  "scope": {
+    "project_root": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\.worktrees\\score-search-20261019-150516",
+    "allowed_data_splits": [
+      "train",
+      "val"
+    ],
+    "project_writes": false,
+    "model_used": false,
+    "new_dependencies": false,
+    "visual_review_performed": false
+  },
+  "versions": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "E:\\anaconda\\envs\\dl-3lc\\python.exe",
+    "pillow": "12.3.0",
+    "numpy": "2.5.2"
+  },
+  "parameters": {
+    "workers": 8,
+    "iou_threshold": 0.9,
+    "dhash_bits": 64,
+    "dhash_resize": [
+      9,
+      8
+    ],
+    "dhash_grayscale": "Pillow L",
+    "dhash_resampling": "LANCZOS",
+    "dhash_comparison": "right > left",
+    "dhash_exif_transpose": false,
+    "hamming_threshold": 4,
+    "geometry_checks": "finite; 5 columns; integer class 0..3; all xywh in [0,1]; w,h>0; xyxy edges in [0,1] strict and severity >1e-6",
+    "duplicate_definition": "stripped text exactly equal; numeric equal also recorded separately",
+    "iou_geometry": "unclipped normalized xyxy; finite valid class and positive width/height; includes exact duplicates"
+  },
+  "inventory": {
+    "train": {
+      "images": 7852,
+      "labels": 7852,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "unexpected_label_extensions": []
+    },
+    "val": {
+      "images": 982,
+      "labels": 982,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "unexpected_label_extensions": []
+    }
+  },
+  "manifest_records": 17668,
+  "known_pairs_input": 16,
+  "known_pairs_excluded_count": 16,
+  "known_pairs_excluded": [
+    {
+      "train": "train/images/MVI_40751_img00584_jpg.rf.f236753cee927d4714e9914f764a6689.jpg",
+      "val": "val/images/MVI_40751_img00584_jpg.rf.d95818832c8fecdcf873d60681ab364e.jpg",
+      "distance": 0,
+      "train_dhash64": "6665d1cbde3670e1",
+      "val_dhash64": "6665d1cbde3670e1",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40751_img00601_jpg.rf.42323e39ee41ec1fbf2b5d8e34f18607.jpg",
+      "val": "val/images/MVI_40751_img00601_jpg.rf.5f45a77f3048eef641e951a0363b778d.jpg",
+      "distance": 0,
+      "train_dhash64": "666dd1cbce7470e4",
+      "val_dhash64": "666dd1cbce7470e4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40751_img00650_jpg.rf.8fd574d00c05c8376c68233ea8cc1e1e.jpg",
+      "val": "val/images/MVI_40751_img00650_jpg.rf.fbd17823b375c5676dec2626e5382891.jpg",
+      "distance": 0,
+      "train_dhash64": "666dd1db4f66e1e5",
+      "val_dhash64": "666dd1db4f66e1e5",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40751_img00811_jpg.rf.5c2808e8181c99a4827bb73006aabf2c.jpg",
+      "val": "val/images/MVI_40751_img00811_jpg.rf.0731ce71b57c25a3a3b028f75b823a90.jpg",
+      "distance": 0,
+      "train_dhash64": "666df1d9ca66e0e2",
+      "val_dhash64": "666df1d9ca66e0e2",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40751_img00821_jpg.rf.ecbfdb0cd3a996d8e9b4ad26562240ad.jpg",
+      "val": "val/images/MVI_40751_img00821_jpg.rf.5a2d3581ec50fdbdb7ccbcbf2526f479.jpg",
+      "distance": 0,
+      "train_dhash64": "666dd1d9ca64e0e2",
+      "val_dhash64": "666dd1d9ca64e0e2",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00364_jpg.rf.19508a6d3cc69d09dac5aa832ca5b802.jpg",
+      "val": "val/images/MVI_40752_img00364_jpg.rf.47b5b10af651bbb95991e49dc31c992d.jpg",
+      "distance": 0,
+      "train_dhash64": "341346d63972eccc",
+      "val_dhash64": "341346d63972eccc",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00387_jpg.rf.9867061bfbb9a8a8017d6c68df5b57d4.jpg",
+      "val": "val/images/MVI_40752_img00387_jpg.rf.df9ede958c2a9b19a8481b8d6e7bea53.jpg",
+      "distance": 0,
+      "train_dhash64": "3103679c79d2606c",
+      "val_dhash64": "3103679c79d2606c",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00391_jpg.rf.e0ccab5b4ac4dfa32068a3793c57e3ab.jpg",
+      "val": "val/images/MVI_40752_img00391_jpg.rf.a54c86446e00c72319cd9ce1812912f4.jpg",
+      "distance": 0,
+      "train_dhash64": "310367dcf9c26464",
+      "val_dhash64": "310367dcf9c26464",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00456_jpg.rf.27e2d271e22445e666c6ade898cadde2.jpg",
+      "val": "val/images/MVI_40752_img00456_jpg.rf.a7c36c4dc5d59f5173fa6ece863e41c7.jpg",
+      "distance": 0,
+      "train_dhash64": "2003679c6872d6c4",
+      "val_dhash64": "2003679c6872d6c4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00698_jpg.rf.03515b303803084ac0223dac7c64f788.jpg",
+      "val": "val/images/MVI_40752_img00698_jpg.rf.7b8aefabff1ab660dc4075cc2f669c9c.jpg",
+      "distance": 0,
+      "train_dhash64": "31036edd337266c4",
+      "val_dhash64": "31036edd337266c4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00903_jpg.rf.643b9e93cd9cb99673eaff691c1c6287.jpg",
+      "val": "val/images/MVI_40752_img00903_jpg.rf.03eda609c8c3a35f5a79a226660b4cda.jpg",
+      "distance": 0,
+      "train_dhash64": "3005539a7953d6b4",
+      "val_dhash64": "3005539a7953d6b4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img00912_jpg.rf.92e9e14759dc1eb7220747d32e9099ff.jpg",
+      "val": "val/images/MVI_40752_img00912_jpg.rf.d1b8784ec508dda12367426cc5e7024a.jpg",
+      "distance": 0,
+      "train_dhash64": "30034b9d796adec4",
+      "val_dhash64": "30034b9d796adec4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img01109_jpg.rf.c5582d5f5f556f1540b1aae5c44e6683.jpg",
+      "val": "val/images/MVI_40752_img01109_jpg.rf.566cbec4e35efd505e5ad0ec8893bbce.jpg",
+      "distance": 0,
+      "train_dhash64": "381bc69c3972f2e4",
+      "val_dhash64": "381bc69c3972f2e4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img01217_jpg.rf.df9fe2dca3c07bc4341e7483da294571.jpg",
+      "val": "val/images/MVI_40752_img01217_jpg.rf.5afc7f252217fa7ed46c233c701ede3a.jpg",
+      "distance": 0,
+      "train_dhash64": "70034e9a3162e6c4",
+      "val_dhash64": "70034e9a3162e6c4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img01286_jpg.rf.484a98a53057fc841f513237cc4c9bf8.jpg",
+      "val": "val/images/MVI_40752_img01286_jpg.rf.8240075d16fceb53e709d1953d978763.jpg",
+      "distance": 0,
+      "train_dhash64": "7533c6be7979e2e4",
+      "val_dhash64": "7533c6be7979e2e4",
+      "same_video_prefix": true
+    },
+    {
+      "train": "train/images/MVI_40752_img01434_jpg.rf.810d34756130819013db8865be6d1e30.jpg",
+      "val": "val/images/MVI_40752_img01434_jpg.rf.cf39651eff877574dbc55982e24d7183.jpg",
+      "distance": 0,
+      "train_dhash64": "7003579c6d72e6c4",
+      "val_dhash64": "7003579c6d72e6c4",
+      "same_video_prefix": true
+    }
+  ],
+  "label_decode_summary": {
+    "train": {
+      "images": 7852,
+      "nonblank_label_lines": 72273,
+      "class_counts": {
+        "1": 59385,
+        "2": 5558,
+        "0": 1226,
+        "3": 6104
+      },
+      "empty_labels": [],
+      "issue_counts_by_kind": {},
+      "images_with_any_label_issue": 0,
+      "edge_overflow_lines_beyond_1e_6": 0,
+      "exact_text_duplicate_groups": 0,
+      "exact_text_duplicate_extra_rows": 0,
+      "numeric_duplicate_groups": 0,
+      "images_with_exact_text_duplicates": 0,
+      "high_overlap_same_class_pairs": 0,
+      "high_overlap_different_class_pairs": 0,
+      "images_with_high_overlap_same_class": 0,
+      "images_with_high_overlap_different_class": 0,
+      "decoded": 7852,
+      "decode_errors": [],
+      "decode_warning_images": [],
+      "dimensions": {
+        "640x640": 7852
+      },
+      "edge_overflow_decimal_summary": {
+        "float_flagged_lines": 0,
+        "exact_positive_excess_lines": 0,
+        "exact_positive_excess_images": 0,
+        "float_only_epsilon_lines": 0,
+        "exact_beyond_1e_6_lines": 0,
+        "max_exact_normalized_excess": "0",
+        "exact_excess_histogram": {}
+      }
+    },
+    "val": {
+      "images": 982,
+      "nonblank_label_lines": 11615,
+      "class_counts": {
+        "1": 9470,
+        "0": 207,
+        "2": 954,
+        "3": 984
+      },
+      "empty_labels": [
+        "val/labels/MVI_40172_img00696_jpg.rf.71ed1f8014b8b30d31b3650a5593c833.txt",
+        "val/labels/MVI_40172_img02570_jpg.rf.3a486438eecb4812275bd2958a8b10c4.txt"
+      ],
+      "issue_counts_by_kind": {
+        "box_edges_outside_image": 199
+      },
+      "images_with_any_label_issue": 171,
+      "edge_overflow_lines_beyond_1e_6": 26,
+      "exact_text_duplicate_groups": 0,
+      "exact_text_duplicate_extra_rows": 0,
+      "numeric_duplicate_groups": 0,
+      "images_with_exact_text_duplicates": 0,
+      "high_overlap_same_class_pairs": 0,
+      "high_overlap_different_class_pairs": 0,
+      "images_with_high_overlap_same_class": 0,
+      "images_with_high_overlap_different_class": 0,
+      "decoded": 982,
+      "decode_errors": [],
+      "decode_warning_images": [],
+      "dimensions": {
+        "640x640": 982
+      },
+      "edge_overflow_decimal_summary": {
+        "float_flagged_lines": 199,
+        "exact_positive_excess_lines": 199,
+        "exact_positive_excess_images": 171,
+        "float_only_epsilon_lines": 0,
+        "exact_beyond_1e_6_lines": 26,
+        "max_exact_normalized_excess": "0.003749",
+        "exact_excess_histogram": {
+          "5E-7": 173,
+          "0.001065": 1,
+          "0.0007165": 1,
+          "0.0010455": 1,
+          "0.0005345": 1,
+          "0.0017935": 1,
+          "0.001280": 1,
+          "0.001415": 1,
+          "0.0011525": 1,
+          "0.0007195": 1,
+          "0.000779": 1,
+          "0.002148": 1,
+          "0.002129": 1,
+          "0.003435": 1,
+          "0.001406": 1,
+          "0.003729": 1,
+          "0.000137": 1,
+          "0.003649": 1,
+          "0.001348": 1,
+          "0.003749": 1,
+          "0.0029485": 1,
+          "0.0026795": 1,
+          "0.0002815": 1,
+          "0.0000355": 1,
+          "0.000687": 1,
+          "0.003124": 1,
+          "0.000633": 1
+        },
+        "exact_beyond_1e_6_images": 23,
+        "largest_overflow_pixels_at_640": 2.39936
+      }
+    }
+  },
+  "near_duplicates": {
+    "compared_cross_pairs": 7710664,
+    "candidate_pairs_after_known_exclusion": 4862,
+    "distance_histogram": {
+      "0": 321,
+      "1": 597,
+      "2": 896,
+      "3": 1249,
+      "4": 1799
+    },
+    "unique_train_images": 2139,
+    "unique_val_images": 571,
+    "same_video_prefix_pairs": 4593,
+    "top20_for_visual_review": [
+      {
+        "train": "train/images/MVI_20011_img00291_jpg.rf.5f0a0f856d1ea04d58200c9822372f1d.jpg",
+        "val": "val/images/MVI_20011_img00290_jpg.rf.a828a5eed6c7588f5cee094c50046540.jpg",
+        "distance": 0,
+        "train_dhash64": "f8d8dbf9b436c646",
+        "val_dhash64": "f8d8dbf9b436c646",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20012_img00056_jpg.rf.6377139d48530ed7d0abe944e69f6dad.jpg",
+        "val": "val/images/MVI_20012_img00051_jpg.rf.87903a95e51daeb3d9d23ffe4f9e2d49.jpg",
+        "distance": 0,
+        "train_dhash64": "f8decbd93c7cdc5e",
+        "val_dhash64": "f8decbd93c7cdc5e",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20012_img00305_jpg.rf.4a3c892cffa95740e7557012add19b46.jpg",
+        "val": "val/images/MVI_20012_img00306_jpg.rf.e07edba83fe4be70bf24bba24638076c.jpg",
+        "distance": 0,
+        "train_dhash64": "f8dad29c1c189c7e",
+        "val_dhash64": "f8dad29c1c189c7e",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20051_img00033_jpg.rf.ff115bd2d611cdeef30f5631cb4ecb31.jpg",
+        "val": "val/images/MVI_20051_img00031_jpg.rf.fff29bd64644b69d20ff50fe50851d79.jpg",
+        "distance": 0,
+        "train_dhash64": "f9fcf63b73f3db99",
+        "val_dhash64": "f9fcf63b73f3db99",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20051_img00245_jpg.rf.6d4861558c6c36094dc81e8625c4c8af.jpg",
+        "val": "val/images/MVI_20051_img00243_jpg.rf.8d869a098a020582d298485c0a3ea927.jpg",
+        "distance": 0,
+        "train_dhash64": "fdf4f6b26349d9b1",
+        "val_dhash64": "fdf4f6b26349d9b1",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20062_img00633_jpg.rf.2d3bc48ac720884d1ba2bc505c9af39e.jpg",
+        "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+        "distance": 0,
+        "train_dhash64": "f8fab39998383818",
+        "val_dhash64": "f8fab39998383818",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20062_img00651_jpg.rf.2598520ad6d00226b27aa0e8e1fc06c0.jpg",
+        "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+        "distance": 0,
+        "train_dhash64": "f8fab39998383818",
+        "val_dhash64": "f8fab39998383818",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_20062_img00659_jpg.rf.2862f1ff5cedc878ca8c34b8be3da9e9.jpg",
+        "val": "val/images/MVI_20062_img00634_jpg.rf.8067516bf032d563eb0346b1c79831cc.jpg",
+        "distance": 0,
+        "train_dhash64": "f8fab39998383818",
+        "val_dhash64": "f8fab39998383818",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39031_img00120_jpg.rf.7e4f0d67bdf13e90a7bbb47f9c76d669.jpg",
+        "val": "val/images/MVI_39031_img00122_jpg.rf.0603021cac847ca69a196ecf1e65f0f8.jpg",
+        "distance": 0,
+        "train_dhash64": "a470f0f1f4e6c2e2",
+        "val_dhash64": "a470f0f1f4e6c2e2",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39051_img00570_jpg.rf.2f658c970daf3dd668b20789253e3e0e.jpg",
+        "val": "val/images/MVI_39051_img00572_jpg.rf.014ccbd75e211b558035a6e676b60844.jpg",
+        "distance": 0,
+        "train_dhash64": "8fcd076751938776",
+        "val_dhash64": "8fcd076751938776",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39051_img00573_jpg.rf.06cdd7a42a0d1c21a34be8bd4288618a.jpg",
+        "val": "val/images/MVI_39051_img00572_jpg.rf.014ccbd75e211b558035a6e676b60844.jpg",
+        "distance": 0,
+        "train_dhash64": "8fcd076751938776",
+        "val_dhash64": "8fcd076751938776",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39211_img00349_jpg.rf.a33116dbe308eea0261e9c6028aab33a.jpg",
+        "val": "val/images/MVI_39211_img00348_jpg.rf.16021a92a930a0f652fca3780cc95263.jpg",
+        "distance": 0,
+        "train_dhash64": "ccfced6dcdf3f2f2",
+        "val_dhash64": "ccfced6dcdf3f2f2",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39211_img00837_jpg.rf.e72642f0f5f7160d78a305d83b3d1db7.jpg",
+        "val": "val/images/MVI_39211_img00834_jpg.rf.989b505126d016bf152bd9dd98e10da3.jpg",
+        "distance": 0,
+        "train_dhash64": "ccdcef2f5dfdf8f8",
+        "val_dhash64": "ccdcef2f5dfdf8f8",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39211_img00837_jpg.rf.e72642f0f5f7160d78a305d83b3d1db7.jpg",
+        "val": "val/images/MVI_39211_img00838_jpg.rf.d9fdbf9ddf22006189f398370ded589d.jpg",
+        "distance": 0,
+        "train_dhash64": "ccdcef2f5dfdf8f8",
+        "val_dhash64": "ccdcef2f5dfdf8f8",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39211_img01091_jpg.rf.9df945016850872e6cdca400eb96efa9.jpg",
+        "val": "val/images/MVI_39211_img01084_jpg.rf.865bbb385dde6d005549efca9cb5acfc.jpg",
+        "distance": 0,
+        "train_dhash64": "cecefd6d6dedb8f8",
+        "val_dhash64": "cecefd6d6dedb8f8",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39271_img00287_jpg.rf.5dac2ee9f99e7c365a861072d3e52d88.jpg",
+        "val": "val/images/MVI_39271_img00255_jpg.rf.742235a72b1bfbb62af29123edfdaf0f.jpg",
+        "distance": 0,
+        "train_dhash64": "fb5a0f0b2811d3c4",
+        "val_dhash64": "fb5a0f0b2811d3c4",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39271_img00592_jpg.rf.4eaeaacd7bd3440fb343892878b942cc.jpg",
+        "val": "val/images/MVI_39271_img00613_jpg.rf.44472395dcfeb0174fae1860bc81042c.jpg",
+        "distance": 0,
+        "train_dhash64": "fb5a0f0b2811d2c4",
+        "val_dhash64": "fb5a0f0b2811d2c4",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39271_img00594_jpg.rf.ad66103197e48cd32b4b2221e108650c.jpg",
+        "val": "val/images/MVI_39271_img00613_jpg.rf.44472395dcfeb0174fae1860bc81042c.jpg",
+        "distance": 0,
+        "train_dhash64": "fb5a0f0b2811d2c4",
+        "val_dhash64": "fb5a0f0b2811d2c4",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39271_img00811_jpg.rf.b303cfc444145eff3fb1f31886f86fe0.jpg",
+        "val": "val/images/MVI_39271_img00810_jpg.rf.1bd7bff2c0fa147bac686a64775ac9d0.jpg",
+        "distance": 0,
+        "train_dhash64": "fb5a0f092411d2c4",
+        "val_dhash64": "fb5a0f092411d2c4",
+        "same_video_prefix": true
+      },
+      {
+        "train": "train/images/MVI_39311_img00088_jpg.rf.0d40610cff81fef417b923acc760fda5.jpg",
+        "val": "val/images/MVI_39311_img00084_jpg.rf.3c6a33f280fbd5f516522ceecaa84f4e.jpg",
+        "distance": 0,
+        "train_dhash64": "9c7cffe54c5c6c4c",
+        "val_dhash64": "9c7cffe54c5c6c4c",
+        "same_video_prefix": true
+      }
+    ]
+  },
+  "overlap_visual_review_first20": [],
+  "timing_seconds": {
+    "decode_labels": 18.684194564819336,
+    "total": 19.802435398101807
+  },
+  "artifacts": {
+    "script": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit.py",
+    "all_per_image_records": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_per_image.json",
+    "all_near_duplicate_candidates": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_near_duplicate_candidates.json",
+    "top20_review": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_top20_review.json",
+    "all_high_overlap_pairs": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_all_high_overlap_pairs.json",
+    "all_decimal_edge_overflow_details": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_edge_overflow_decimal.json",
+    "prioritized_review_files_max20": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_review_files_max20.json",
+    "scratch_postprocess_script": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_postprocess.py"
+  },
+  "limitations": [
+    "dHash proximity is not proof of identical images or leakage; fixed-camera scenes may generate false positives.",
+    "No visual inspection performed in this supplementary pass; no semantic wrong/missing-label conclusion.",
+    "Known 16 identical-image pairs and 2 empty validation labels not visually rechecked.",
+    "No models, upstream-source analysis, test split access, dataset/label/split/config edits, or 6luna."
+  ],
+  "execution": {
+    "audit_command": "& \"E:\\anaconda\\envs\\dl-3lc\\python.exe\" -B \"E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit.py\"",
+    "postprocess_command": "& \"E:\\anaconda\\envs\\dl-3lc\\python.exe\" -B \"E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_postprocess.py\"",
+    "audit_exit_code": 0,
+    "audit_execution_log": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_execution.txt",
+    "audit_exit_code_file": "E:\\pi-desktop\\data\\data\\scratch\\086f0f81-aa11-4f2b-9f61-08bf9e9e045c\\supplemental_data_audit_exitcode.txt"
+  }
+}
