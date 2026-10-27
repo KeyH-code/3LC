@@ -1,0 +1,40 @@
+{
+  "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+  "classes": [
+    {
+      "cls": 0,
+      "name": "truck",
+      "ground_truth": 1226,
+      "detections": 10282,
+      "AP50": 0.6500014965768994,
+      "AP50_95": 0.500481631353056
+    },
+    {
+      "cls": 1,
+      "name": "car",
+      "ground_truth": 59385,
+      "detections": 426748,
+      "AP50": 0.8496756626297347,
+      "AP50_95": 0.6336215613096919
+    },
+    {
+      "cls": 2,
+      "name": "van",
+      "ground_truth": 5558,
+      "detections": 22063,
+      "AP50": 0.6600074732877386,
+      "AP50_95": 0.5078953984758818
+    },
+    {
+      "cls": 3,
+      "name": "bus",
+      "ground_truth": 6104,
+      "detections": 37019,
+      "AP50": 0.8379216408377386,
+      "AP50_95": 0.6249138552648379
+    }
+  ],
+  "mAP50": 0.7494015683330278,
+  "mAP50_95": 0.5667281116008669,
+  "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+}

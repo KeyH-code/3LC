@@ -1,0 +1,407 @@
+{
+  "exact_duplicate_groups": 62,
+  "exact_duplicate_images": 124,
+  "inconsistent_duplicate_groups": [],
+  "extra90_scene_counts": {
+    "MVI_40904": 58,
+    "MVI_40902": 56,
+    "MVI_40751": 1,
+    "MVI_39401": 1,
+    "MVI_63552": 1,
+    "MVI_39361": 1,
+    "MVI_40743": 1,
+    "MVI_39511": 4,
+    "MVI_40244": 1,
+    "MVI_40962": 1,
+    "MVI_39501": 5
+  },
+  "extra90_edge_boxes": 59,
+  "conflict90_pairs": [
+    {
+      "original": "van",
+      "predicted": "car",
+      "count": 17
+    },
+    {
+      "original": "car",
+      "predicted": "van",
+      "count": 22
+    },
+    {
+      "original": "bus",
+      "predicted": "car",
+      "count": 1
+    },
+    {
+      "original": "bus",
+      "predicted": "van",
+      "count": 2
+    },
+    {
+      "original": "bus",
+      "predicted": "truck",
+      "count": 3
+    },
+    {
+      "original": "truck",
+      "predicted": "van",
+      "count": 1
+    }
+  ],
+  "context": [
+    {
+      "scene": "MVI_40902",
+      "frame": 414,
+      "kind": "extra",
+      "fixed_xyxy": [
+        287.36077880859375,
+        311.95721435546875,
+        474.60626220703125,
+        481.30926513671875
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 342,
+          "frame_delta": -72,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 367,
+          "frame_delta": -47,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 414,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 451,
+          "frame_delta": 37,
+          "fixed_region_max_iou": 0.007822087767322567,
+          "original_class": "car"
+        },
+        {
+          "frame": 486,
+          "frame_delta": 72,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_40904",
+      "frame": 924,
+      "kind": "extra",
+      "fixed_xyxy": [
+        342.6595458984375,
+        521.76953125,
+        535.9158325195312,
+        640.0
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 919,
+          "frame_delta": -5,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 921,
+          "frame_delta": -3,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 924,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 929,
+          "frame_delta": 5,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 931,
+          "frame_delta": 7,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_63552",
+      "frame": 610,
+      "kind": "extra",
+      "fixed_xyxy": [
+        61.91653060913086,
+        146.51246643066406,
+        109.140869140625,
+        193.1206512451172
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 605,
+          "frame_delta": -5,
+          "fixed_region_max_iou": 0.3092877199455287,
+          "original_class": "van"
+        },
+        {
+          "frame": 609,
+          "frame_delta": -1,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 610,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 613,
+          "frame_delta": 3,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 614,
+          "frame_delta": 4,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_40751",
+      "frame": 354,
+      "kind": "extra",
+      "fixed_xyxy": [
+        572.5203857421875,
+        261.99847412109375,
+        639.3773193359375,
+        338.4814453125
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 346,
+          "frame_delta": -8,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 354,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 362,
+          "frame_delta": 8,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 363,
+          "frame_delta": 9,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 365,
+          "frame_delta": 11,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_40775",
+      "frame": 440,
+      "kind": "class_conflict",
+      "fixed_xyxy": [
+        387.44537353515625,
+        0.0,
+        475.76556396484375,
+        172.60739135742188
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 417,
+          "frame_delta": -23,
+          "fixed_region_max_iou": 0.3493065741212029,
+          "original_class": "bus"
+        },
+        {
+          "frame": 420,
+          "frame_delta": -20,
+          "fixed_region_max_iou": 0.416631613550273,
+          "original_class": "bus"
+        },
+        {
+          "frame": 422,
+          "frame_delta": -18,
+          "fixed_region_max_iou": 0.4806939695771214,
+          "original_class": "bus"
+        },
+        {
+          "frame": 425,
+          "frame_delta": -15,
+          "fixed_region_max_iou": 0.5362514827456644,
+          "original_class": "bus"
+        },
+        {
+          "frame": 440,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.9842097650213916,
+          "original_class": "bus"
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_40152",
+      "frame": 8,
+      "kind": "class_conflict",
+      "fixed_xyxy": [
+        246.14085388183594,
+        364.40948486328125,
+        362.264404296875,
+        488.17584228515625
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 8,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.9049997879769711,
+          "original_class": "van"
+        },
+        {
+          "frame": 29,
+          "frame_delta": 21,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 52,
+          "frame_delta": 44,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 53,
+          "frame_delta": 45,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 56,
+          "frame_delta": 48,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_63562",
+      "frame": 1159,
+      "kind": "class_conflict",
+      "fixed_xyxy": [
+        36.21867370605469,
+        151.37237548828125,
+        184.59019470214844,
+        294.14971923828125
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 1106,
+          "frame_delta": -53,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 1124,
+          "frame_delta": -35,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 1159,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.890073517460368,
+          "original_class": "bus"
+        },
+        {
+          "frame": 1167,
+          "frame_delta": 8,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 1178,
+          "frame_delta": 19,
+          "fixed_region_max_iou": 0.009383232045366143,
+          "original_class": "car"
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    },
+    {
+      "scene": "MVI_63561",
+      "frame": 1244,
+      "kind": "class_conflict",
+      "fixed_xyxy": [
+        535.81884765625,
+        134.12222290039062,
+        639.34228515625,
+        279.10400390625
+      ],
+      "nearest_sampled_frame_context": [
+        {
+          "frame": 1175,
+          "frame_delta": -69,
+          "fixed_region_max_iou": 0.04610576242029981,
+          "original_class": "car"
+        },
+        {
+          "frame": 1204,
+          "frame_delta": -40,
+          "fixed_region_max_iou": 0.3470155734011495,
+          "original_class": "car"
+        },
+        {
+          "frame": 1225,
+          "frame_delta": -19,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 1228,
+          "frame_delta": -16,
+          "fixed_region_max_iou": 0.0,
+          "original_class": null
+        },
+        {
+          "frame": 1244,
+          "frame_delta": 0,
+          "fixed_region_max_iou": 0.9344421054410668,
+          "original_class": "van"
+        }
+      ],
+      "warning": "Fixed-coordinate context only; moving object not tracked, no temporal label conclusion"
+    }
+  ],
+  "mechanical_checks_passed": 6,
+  "model_executed": false
+}

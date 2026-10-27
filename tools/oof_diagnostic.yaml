@@ -1,0 +1,60 @@
+schema: oof-diagnostic-recovery-v2
+folds: 5
+split_seed: 42
+monitor_fraction_of_remaining: 0.10
+training:
+  epochs: 24
+  patience: 8
+  batch: 16
+  imgsz: 640
+  device: 0
+  workers: 2
+  seed: 0
+  deterministic: true
+  pretrained: false
+  resume: false
+  optimizer: auto
+  lr0: 0.01
+  mosaic: 1.0
+  mixup: 0.0
+  copy_paste: 0.0
+  cutmix: 0.0
+  close_mosaic: 10
+  amp: true
+  cache: false
+  rect: false
+  compile: false
+  fraction: 1.0
+  val: true
+  save: true
+  save_period: -1
+  plots: false
+prediction:
+  conf: 0.001
+  iou: 0.7
+  max_det: 300
+  agnostic_nms: false
+  batch: 1
+  imgsz: 640
+  device: 0
+  half: false
+  augment: false
+  rect: false
+  compile: false
+budget:
+  training_seconds_per_fold: 2700
+  prediction_seconds_per_fold: 900
+  batch_seconds: 21600
+  training_attempts: 5
+safety:
+  random_initialization_only: true
+  independent_monitor: true
+  preserve_originals: true
+  allow_network: false
+  allow_3lc: false
+  allow_retry: true
+  allow_relabeling: false
+  allow_test: false
+  external_amp_probe: false
+  nan_recovery: false
+  competition_approved: false

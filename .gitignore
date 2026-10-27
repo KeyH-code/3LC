@@ -50,3 +50,112 @@ __pycache__/
 # Original UTF-16 execution logs retained locally without transcoding
 /reports/data-audit/supplemental/supplemental_data_audit_execution.txt
 /reports/data-audit/supplemental/supplemental_data_audit_postprocess_execution.txt
+
+# Secrets and machine-local identity (never publish credentials)
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+.secrets/
+credentials/
+credentials.json
+*credentials*.json
+kaggle.json
+.netrc
+_netrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local development environments, caches and linked worktrees
+/.worktrees/
+/.venv/
+/venv/
+/env/
+/.conda/
+/.vscode/
+/.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+node_modules/
+*.cache
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Machine/session state stays local; approved plan documents are versioned
+/.pi/*
+!/.pi/plan/
+
+# Model exports, archives and dataset copies (including copies under reports)
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.npz
+*.npy
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+**/data/
+**/datasets/
+**/weights/
+
+# Competition images, derived crops/heatmaps and review screenshots stay local
+/reports/**/*.jpg
+/reports/**/*.jpeg
+/reports/**/*.png
+/reports/**/*.webp
+/reports/**/*.gif
+/reports/**/*.mp4
+/reports/**/*.pdf
+
+# New diagnostic runs: deny generated contents by default, publish compact evidence
+# This also prevents copied labels, worker tokens/configs, huge JSONL predictions,
+# embedded-image HTML and full hash inventories from entering Git by accident.
+/reports/bus-*/**
+!/reports/bus-*/*.md
+!/reports/bus-*/*.py
+!/reports/bus-*/summary.json
+
+/reports/oof-*/**
+!/reports/oof-*/*.md
+!/reports/oof-*/*.py
+!/reports/oof-*/oof_metrics.json
+!/reports/oof-*/fold_summary.json
+!/reports/oof-*/post_run_verification.json
+!/reports/oof-*/split_verification.json
+!/reports/oof-*/failure_verification.json
+!/reports/oof-*/summary.json
+!/reports/oof-*/review.json
+!/reports/oof-*/review.csv
+!/reports/oof-*/high_confidence_candidates.json
+!/reports/oof-*/high_confidence_candidates.csv
+!/reports/oof-*/representative_candidates.json
+!/reports/oof-*/scalar_crosscheck.json
+!/reports/oof-*/context_and_duplicate_checks.json
+
+# Full per-image prediction streams are local artifacts, not source files
+/reports/**/*.jsonl
+# Keep the original pilot's small nested narrative without its generated data
+!/reports/bus-crop-pilot/ultralytics-run/
+/reports/bus-crop-pilot/ultralytics-run/*
+!/reports/bus-crop-pilot/ultralytics-run/*.md
+
+# Git publication checks are compact metadata only
+/reports/git-publication-*/**
+!/reports/git-publication-*/*.md
+!/reports/git-publication-*/checks.json
+!/reports/git-publication-*/commit_files.json

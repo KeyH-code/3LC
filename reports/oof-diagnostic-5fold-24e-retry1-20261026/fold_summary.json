@@ -1,0 +1,297 @@
+[
+  {
+    "fold": 1,
+    "fit": 5629,
+    "monitor": 628,
+    "outer": 1595,
+    "epochs": 24,
+    "best_epoch": 21,
+    "stopper_best_epoch": 21,
+    "early_stopped": false,
+    "training_seconds": 1200.0607685000014,
+    "best_file": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\oof-diagnostic-5fold-24e-retry1-20261026\\fold_01\\training\\weights\\best.pt",
+    "model_sha256": "a5759ac4ccee56cc98fac268a5d2db90f5cd31399d023e9bb12222aaac586c8d",
+    "monitor_metrics_native": {
+      "metrics/precision(B)": 0.6088524054853458,
+      "metrics/recall(B)": 0.8401019515453954,
+      "metrics/mAP50(B)": 0.7772103105888313,
+      "metrics/mAP50-95(B)": 0.5744859912359127
+    },
+    "outer_metrics_saved_records": {
+      "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "ground_truth": 253,
+          "detections": 1858,
+          "AP50": 0.667871999772794,
+          "AP50_95": 0.5379844768082369
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "ground_truth": 11823,
+          "detections": 88996,
+          "AP50": 0.8136880800897481,
+          "AP50_95": 0.5945567408741358
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "ground_truth": 1206,
+          "detections": 5937,
+          "AP50": 0.6761565568157669,
+          "AP50_95": 0.5205782023653254
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "ground_truth": 1029,
+          "detections": 10205,
+          "AP50": 0.8375196883183953,
+          "AP50_95": 0.6676652763424
+        }
+      ],
+      "mAP50": 0.7488090812491761,
+      "mAP50_95": 0.5801961740975246,
+      "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+    }
+  },
+  {
+    "fold": 2,
+    "fit": 5637,
+    "monitor": 638,
+    "outer": 1577,
+    "epochs": 24,
+    "best_epoch": 22,
+    "stopper_best_epoch": 22,
+    "early_stopped": false,
+    "training_seconds": 1526.1985967,
+    "best_file": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\oof-diagnostic-5fold-24e-retry1-20261026\\fold_02\\training\\weights\\best.pt",
+    "model_sha256": "3966d45e5b44f9ec7d038b4bd66b3b8e441d865ff6ac89adcb24212404a0dbff",
+    "monitor_metrics_native": {
+      "metrics/precision(B)": 0.865735271658125,
+      "metrics/recall(B)": 0.7606758319097014,
+      "metrics/mAP50(B)": 0.8345024598533839,
+      "metrics/mAP50-95(B)": 0.6290704458471179
+    },
+    "outer_metrics_saved_records": {
+      "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "ground_truth": 229,
+          "detections": 1862,
+          "AP50": 0.7881694063349833,
+          "AP50_95": 0.5653785730422511
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "ground_truth": 12385,
+          "detections": 91653,
+          "AP50": 0.915310849565324,
+          "AP50_95": 0.6916264939654972
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "ground_truth": 1074,
+          "detections": 4393,
+          "AP50": 0.7134328125379863,
+          "AP50_95": 0.5387141632952049
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "ground_truth": 1341,
+          "detections": 6978,
+          "AP50": 0.9011640547691816,
+          "AP50_95": 0.7118992252717952
+        }
+      ],
+      "mAP50": 0.8295192808018688,
+      "mAP50_95": 0.6269046138936871,
+      "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+    }
+  },
+  {
+    "fold": 3,
+    "fit": 5664,
+    "monitor": 641,
+    "outer": 1547,
+    "epochs": 24,
+    "best_epoch": 23,
+    "stopper_best_epoch": 23,
+    "early_stopped": false,
+    "training_seconds": 1948.6336000999981,
+    "best_file": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\oof-diagnostic-5fold-24e-retry1-20261026\\fold_03\\training\\weights\\best.pt",
+    "model_sha256": "142daafb9344238fb437aac587c411e2f5e96d51ac74346d1c84f723cff42825",
+    "monitor_metrics_native": {
+      "metrics/precision(B)": 0.7154820957140995,
+      "metrics/recall(B)": 0.7626954934463966,
+      "metrics/mAP50(B)": 0.7891108143688353,
+      "metrics/mAP50-95(B)": 0.5948704458093683
+    },
+    "outer_metrics_saved_records": {
+      "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "ground_truth": 241,
+          "detections": 1293,
+          "AP50": 0.7397800977276487,
+          "AP50_95": 0.5722661236540874
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "ground_truth": 11928,
+          "detections": 66460,
+          "AP50": 0.7990645289307797,
+          "AP50_95": 0.5830548313638003
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "ground_truth": 1150,
+          "detections": 3372,
+          "AP50": 0.6546987650319516,
+          "AP50_95": 0.5115060491006572
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "ground_truth": 1224,
+          "detections": 4842,
+          "AP50": 0.76800866300819,
+          "AP50_95": 0.5712786002490072
+        }
+      ],
+      "mAP50": 0.7403880136746426,
+      "mAP50_95": 0.559526401091888,
+      "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+    }
+  },
+  {
+    "fold": 4,
+    "fit": 5677,
+    "monitor": 612,
+    "outer": 1563,
+    "epochs": 24,
+    "best_epoch": 23,
+    "stopper_best_epoch": 23,
+    "early_stopped": false,
+    "training_seconds": 1493.7176297000005,
+    "best_file": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\oof-diagnostic-5fold-24e-retry1-20261026\\fold_04\\training\\weights\\best.pt",
+    "model_sha256": "260a946d4e12ef3e78e82d8c5be361c3dd96b3a06c15ecf54749cfd8b911b36c",
+    "monitor_metrics_native": {
+      "metrics/precision(B)": 0.8478473581216819,
+      "metrics/recall(B)": 0.7681553448472583,
+      "metrics/mAP50(B)": 0.8398961388136034,
+      "metrics/mAP50-95(B)": 0.6523815366910609
+    },
+    "outer_metrics_saved_records": {
+      "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "ground_truth": 245,
+          "detections": 3139,
+          "AP50": 0.3711241752114314,
+          "AP50_95": 0.26059577169507203
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "ground_truth": 11343,
+          "detections": 90710,
+          "AP50": 0.8632747746555074,
+          "AP50_95": 0.6611093601339537
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "ground_truth": 1088,
+          "detections": 2860,
+          "AP50": 0.5965271269693956,
+          "AP50_95": 0.47628742791454143
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "ground_truth": 1385,
+          "detections": 8856,
+          "AP50": 0.8684916477327865,
+          "AP50_95": 0.6004286483154754
+        }
+      ],
+      "mAP50": 0.6748544311422802,
+      "mAP50_95": 0.4996053020147606,
+      "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+    }
+  },
+  {
+    "fold": 5,
+    "fit": 5644,
+    "monitor": 638,
+    "outer": 1570,
+    "epochs": 24,
+    "best_epoch": 21,
+    "stopper_best_epoch": 21,
+    "early_stopped": false,
+    "training_seconds": 1473.8457632999998,
+    "best_file": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\oof-diagnostic-5fold-24e-retry1-20261026\\fold_05\\training\\weights\\best.pt",
+    "model_sha256": "57526491ecc5b041d85711e9f72c6a8082911a60341a89faf050a85f2709d9b7",
+    "monitor_metrics_native": {
+      "metrics/precision(B)": 0.5437409846250851,
+      "metrics/recall(B)": 0.5638883462640184,
+      "metrics/mAP50(B)": 0.6049265054038405,
+      "metrics/mAP50-95(B)": 0.4563089654739706
+    },
+    "outer_metrics_saved_records": {
+      "evaluator": "Saved-record same-class global-per-image descending-IoU one-to-one greedy matching,101point interpolated precision trapezoid AP; conf>=.001 max_det300; not Ultralytics native matching/P-R operating point",
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "ground_truth": 258,
+          "detections": 2130,
+          "AP50": 0.7822259973562647,
+          "AP50_95": 0.6447686238638461
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "ground_truth": 11906,
+          "detections": 88929,
+          "AP50": 0.8653617244512988,
+          "AP50_95": 0.6470369036372057
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "ground_truth": 1040,
+          "detections": 5501,
+          "AP50": 0.6995990917910495,
+          "AP50_95": 0.531796862080522
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "ground_truth": 1125,
+          "detections": 6138,
+          "AP50": 0.8320569505681887,
+          "AP50_95": 0.6097264694005605
+        }
+      ],
+      "mAP50": 0.7948109410417005,
+      "mAP50_95": 0.6083322147455336,
+      "limits": "Relative to original potentially noisy annotations; not label-quality truth, not official/test score, not weighted mean fold AP"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-10-26T11:16:10.967996+00:00",
+  "backend_readonly_verify_passed": true,
+  "folds": 5,
+  "unique_oof_images": 7852,
+  "model_reexecuted": false,
+  "browser_review_pending": true,
+  "human_label_quality_adjudication": false,
+  "limits": "Only backend verification; real browser acceptance still pending. No labels changed or competition submission."
+}

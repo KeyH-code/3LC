@@ -1,0 +1,9 @@
+{
+  "independent_scalar_counts_match": true,
+  "confidence": 0.9,
+  "extra_boxes": 130,
+  "conflict_pairs": 46,
+  "unique_candidate_images": 165,
+  "signal_rows": 176,
+  "model_executed": false
+}

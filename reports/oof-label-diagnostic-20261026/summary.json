@@ -1,0 +1,1103 @@
+{
+  "images": 7852,
+  "scenes": 100,
+  "fold_images": {
+    "1": 1595,
+    "2": 1577,
+    "3": 1547,
+    "4": 1563,
+    "5": 1570
+  },
+  "gt_boxes_by_class": [
+    1226,
+    59385,
+    5558,
+    6104
+  ],
+  "raw_predictions_by_class": [
+    10282,
+    426748,
+    22063,
+    37019
+  ],
+  "raw_zero_prediction_images": 0,
+  "thresholds": {
+    "0.25": {
+      "predictions": [
+        1287,
+        67801,
+        5911,
+        7224
+      ],
+      "matched_predictions": [
+        849,
+        50782,
+        3738,
+        5440
+      ],
+      "unmatched_gt": [
+        377,
+        8603,
+        1820,
+        664
+      ],
+      "extra_separated": [
+        167,
+        12189,
+        872,
+        873
+      ],
+      "class_conflict": [
+        199,
+        1773,
+        997,
+        178
+      ],
+      "class_conflict_same_support_below_threshold": [
+        76,
+        963,
+        393,
+        106
+      ],
+      "image_counts": {
+        "extra_separated": 4798,
+        "class_conflict": 2612,
+        "unmatched_gt": 4181
+      }
+    },
+    "0.5": {
+      "predictions": [
+        913,
+        56203,
+        4331,
+        5963
+      ],
+      "matched_predictions": [
+        739,
+        47477,
+        3295,
+        5119
+      ],
+      "unmatched_gt": [
+        487,
+        11908,
+        2263,
+        985
+      ],
+      "extra_separated": [
+        83,
+        6451,
+        413,
+        514
+      ],
+      "class_conflict": [
+        75,
+        1261,
+        545,
+        88
+      ],
+      "class_conflict_same_support_below_threshold": [
+        53,
+        977,
+        407,
+        79
+      ],
+      "image_counts": {
+        "extra_separated": 3415,
+        "class_conflict": 1765,
+        "unmatched_gt": 5153
+      }
+    },
+    "0.7": {
+      "predictions": [
+        703,
+        45386,
+        2968,
+        4576
+      ],
+      "matched_predictions": [
+        610,
+        41481,
+        2563,
+        4205
+      ],
+      "unmatched_gt": [
+        616,
+        17904,
+        2995,
+        1899
+      ],
+      "extra_separated": [
+        65,
+        2961,
+        136,
+        281
+      ],
+      "class_conflict": [
+        23,
+        739,
+        253,
+        44
+      ],
+      "class_conflict_same_support_below_threshold": [
+        20,
+        714,
+        249,
+        44
+      ],
+      "image_counts": {
+        "extra_separated": 1915,
+        "class_conflict": 1005,
+        "unmatched_gt": 6277
+      }
+    },
+    "0.9": {
+      "predictions": [
+        393,
+        5128,
+        715,
+        489
+      ],
+      "matched_predictions": [
+        336,
+        5044,
+        686,
+        481
+      ],
+      "unmatched_gt": [
+        890,
+        54341,
+        4872,
+        5623
+      ],
+      "extra_separated": [
+        53,
+        66,
+        3,
+        8
+      ],
+      "class_conflict": [
+        3,
+        18,
+        25,
+        0
+      ],
+      "class_conflict_same_support_below_threshold": [
+        3,
+        18,
+        25,
+        0
+      ],
+      "image_counts": {
+        "extra_separated": 119,
+        "class_conflict": 46,
+        "unmatched_gt": 7840
+      }
+    }
+  },
+  "conflict_pairs_conf50": [
+    {
+      "original": "van",
+      "predicted": "car",
+      "boxes": 1205
+    },
+    {
+      "original": "car",
+      "predicted": "van",
+      "boxes": 435
+    },
+    {
+      "original": "truck",
+      "predicted": "van",
+      "boxes": 81
+    },
+    {
+      "original": "van",
+      "predicted": "bus",
+      "boxes": 47
+    },
+    {
+      "original": "truck",
+      "predicted": "car",
+      "boxes": 37
+    },
+    {
+      "original": "van",
+      "predicted": "truck",
+      "boxes": 35
+    },
+    {
+      "original": "bus",
+      "predicted": "truck",
+      "boxes": 29
+    },
+    {
+      "original": "bus",
+      "predicted": "van",
+      "boxes": 29
+    },
+    {
+      "original": "truck",
+      "predicted": "bus",
+      "boxes": 26
+    },
+    {
+      "original": "bus",
+      "predicted": "car",
+      "boxes": 19
+    },
+    {
+      "original": "car",
+      "predicted": "bus",
+      "boxes": 15
+    },
+    {
+      "original": "car",
+      "predicted": "truck",
+      "boxes": 11
+    }
+  ],
+  "top_scenes_extra50": [
+    {
+      "scene": "MVI_39361",
+      "images": 129,
+      "fold": 3,
+      "gt": [
+        0,
+        694,
+        57,
+        29
+      ],
+      "extra50": [
+        0,
+        437,
+        51,
+        24
+      ],
+      "conflict50": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "extra50_images": 107,
+      "conflict50_images": 5
+    },
+    {
+      "scene": "MVI_40871",
+      "images": 90,
+      "fold": 1,
+      "gt": [
+        0,
+        1539,
+        276,
+        90
+      ],
+      "extra50": [
+        2,
+        278,
+        43,
+        63
+      ],
+      "conflict50": [
+        0,
+        124,
+        2,
+        0
+      ],
+      "extra50_images": 90,
+      "conflict50_images": 86
+    },
+    {
+      "scene": "MVI_40243",
+      "images": 82,
+      "fold": 5,
+      "gt": [
+        4,
+        592,
+        85,
+        7
+      ],
+      "extra50": [
+        0,
+        307,
+        27,
+        2
+      ],
+      "conflict50": [
+        0,
+        33,
+        14,
+        0
+      ],
+      "extra50_images": 82,
+      "conflict50_images": 38
+    },
+    {
+      "scene": "MVI_39401",
+      "images": 80,
+      "fold": 3,
+      "gt": [
+        0,
+        639,
+        54,
+        100
+      ],
+      "extra50": [
+        0,
+        304,
+        7,
+        18
+      ],
+      "conflict50": [
+        3,
+        1,
+        11,
+        1
+      ],
+      "extra50_images": 80,
+      "conflict50_images": 16
+    },
+    {
+      "scene": "MVI_40904",
+      "images": 83,
+      "fold": 1,
+      "gt": [
+        111,
+        666,
+        90,
+        13
+      ],
+      "extra50": [
+        4,
+        273,
+        9,
+        37
+      ],
+      "conflict50": [
+        0,
+        61,
+        1,
+        2
+      ],
+      "extra50_images": 80,
+      "conflict50_images": 64
+    },
+    {
+      "scene": "MVI_40244",
+      "images": 80,
+      "fold": 5,
+      "gt": [
+        0,
+        447,
+        51,
+        7
+      ],
+      "extra50": [
+        0,
+        276,
+        27,
+        1
+      ],
+      "conflict50": [
+        0,
+        9,
+        19,
+        0
+      ],
+      "extra50_images": 79,
+      "conflict50_images": 27
+    },
+    {
+      "scene": "MVI_40902",
+      "images": 53,
+      "fold": 1,
+      "gt": [
+        9,
+        370,
+        32,
+        116
+      ],
+      "extra50": [
+        55,
+        188,
+        6,
+        9
+      ],
+      "conflict50": [
+        5,
+        8,
+        2,
+        2
+      ],
+      "extra50_images": 53,
+      "conflict50_images": 15
+    },
+    {
+      "scene": "MVI_40711",
+      "images": 63,
+      "fold": 4,
+      "gt": [
+        56,
+        366,
+        22,
+        37
+      ],
+      "extra50": [
+        0,
+        217,
+        1,
+        39
+      ],
+      "conflict50": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "extra50_images": 63,
+      "conflict50_images": 5
+    },
+    {
+      "scene": "MVI_40891",
+      "images": 88,
+      "fold": 2,
+      "gt": [
+        88,
+        1325,
+        95,
+        33
+      ],
+      "extra50": [
+        0,
+        234,
+        2,
+        2
+      ],
+      "conflict50": [
+        0,
+        20,
+        10,
+        0
+      ],
+      "extra50_images": 77,
+      "conflict50_images": 26
+    },
+    {
+      "scene": "MVI_40192",
+      "images": 134,
+      "fold": 5,
+      "gt": [
+        8,
+        1486,
+        263,
+        23
+      ],
+      "extra50": [
+        0,
+        185,
+        37,
+        2
+      ],
+      "conflict50": [
+        0,
+        50,
+        19,
+        0
+      ],
+      "extra50_images": 108,
+      "conflict50_images": 62
+    },
+    {
+      "scene": "MVI_39501",
+      "images": 27,
+      "fold": 5,
+      "gt": [
+        0,
+        193,
+        15,
+        83
+      ],
+      "extra50": [
+        0,
+        151,
+        0,
+        62
+      ],
+      "conflict50": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "extra50_images": 27,
+      "conflict50_images": 5
+    },
+    {
+      "scene": "MVI_40771",
+      "images": 91,
+      "fold": 5,
+      "gt": [
+        28,
+        490,
+        11,
+        91
+      ],
+      "extra50": [
+        11,
+        119,
+        60,
+        16
+      ],
+      "conflict50": [
+        1,
+        2,
+        6,
+        4
+      ],
+      "extra50_images": 83,
+      "conflict50_images": 13
+    },
+    {
+      "scene": "MVI_40131",
+      "images": 84,
+      "fold": 2,
+      "gt": [
+        0,
+        613,
+        53,
+        123
+      ],
+      "extra50": [
+        0,
+        189,
+        1,
+        10
+      ],
+      "conflict50": [
+        0,
+        16,
+        5,
+        5
+      ],
+      "extra50_images": 75,
+      "conflict50_images": 25
+    },
+    {
+      "scene": "MVI_40855",
+      "images": 69,
+      "fold": 1,
+      "gt": [
+        0,
+        1777,
+        115,
+        35
+      ],
+      "extra50": [
+        0,
+        144,
+        0,
+        21
+      ],
+      "conflict50": [
+        0,
+        43,
+        1,
+        0
+      ],
+      "extra50_images": 66,
+      "conflict50_images": 43
+    },
+    {
+      "scene": "MVI_40152",
+      "images": 100,
+      "fold": 1,
+      "gt": [
+        7,
+        257,
+        38,
+        15
+      ],
+      "extra50": [
+        0,
+        145,
+        8,
+        1
+      ],
+      "conflict50": [
+        0,
+        9,
+        7,
+        0
+      ],
+      "extra50_images": 99,
+      "conflict50_images": 14
+    }
+  ],
+  "top_scenes_conflict50": [
+    {
+      "scene": "MVI_40871",
+      "images": 90,
+      "fold": 1,
+      "gt": [
+        0,
+        1539,
+        276,
+        90
+      ],
+      "extra50": [
+        2,
+        278,
+        43,
+        63
+      ],
+      "conflict50": [
+        0,
+        124,
+        2,
+        0
+      ],
+      "extra50_images": 90,
+      "conflict50_images": 86
+    },
+    {
+      "scene": "MVI_40864",
+      "images": 95,
+      "fold": 3,
+      "gt": [
+        14,
+        2355,
+        256,
+        225
+      ],
+      "extra50": [
+        0,
+        17,
+        1,
+        10
+      ],
+      "conflict50": [
+        0,
+        72,
+        4,
+        0
+      ],
+      "extra50_images": 27,
+      "conflict50_images": 71
+    },
+    {
+      "scene": "MVI_40191",
+      "images": 145,
+      "fold": 2,
+      "gt": [
+        11,
+        1930,
+        274,
+        0
+      ],
+      "extra50": [
+        0,
+        27,
+        1,
+        0
+      ],
+      "conflict50": [
+        11,
+        51,
+        8,
+        3
+      ],
+      "extra50_images": 23,
+      "conflict50_images": 60
+    },
+    {
+      "scene": "MVI_40192",
+      "images": 134,
+      "fold": 5,
+      "gt": [
+        8,
+        1486,
+        263,
+        23
+      ],
+      "extra50": [
+        0,
+        185,
+        37,
+        2
+      ],
+      "conflict50": [
+        0,
+        50,
+        19,
+        0
+      ],
+      "extra50_images": 108,
+      "conflict50_images": 62
+    },
+    {
+      "scene": "MVI_40904",
+      "images": 83,
+      "fold": 1,
+      "gt": [
+        111,
+        666,
+        90,
+        13
+      ],
+      "extra50": [
+        4,
+        273,
+        9,
+        37
+      ],
+      "conflict50": [
+        0,
+        61,
+        1,
+        2
+      ],
+      "extra50_images": 80,
+      "conflict50_images": 64
+    },
+    {
+      "scene": "MVI_40854",
+      "images": 57,
+      "fold": 1,
+      "gt": [
+        0,
+        762,
+        113,
+        82
+      ],
+      "extra50": [
+        0,
+        17,
+        1,
+        0
+      ],
+      "conflict50": [
+        1,
+        54,
+        9,
+        0
+      ],
+      "extra50_images": 17,
+      "conflict50_images": 52
+    },
+    {
+      "scene": "MVI_40241",
+      "images": 131,
+      "fold": 4,
+      "gt": [
+        15,
+        1070,
+        141,
+        3
+      ],
+      "extra50": [
+        0,
+        36,
+        2,
+        0
+      ],
+      "conflict50": [
+        0,
+        33,
+        24,
+        5
+      ],
+      "extra50_images": 30,
+      "conflict50_images": 51
+    },
+    {
+      "scene": "MVI_40853",
+      "images": 69,
+      "fold": 1,
+      "gt": [
+        0,
+        1152,
+        161,
+        137
+      ],
+      "extra50": [
+        0,
+        95,
+        4,
+        11
+      ],
+      "conflict50": [
+        0,
+        47,
+        4,
+        0
+      ],
+      "extra50_images": 52,
+      "conflict50_images": 45
+    },
+    {
+      "scene": "MVI_40243",
+      "images": 82,
+      "fold": 5,
+      "gt": [
+        4,
+        592,
+        85,
+        7
+      ],
+      "extra50": [
+        0,
+        307,
+        27,
+        2
+      ],
+      "conflict50": [
+        0,
+        33,
+        14,
+        0
+      ],
+      "extra50_images": 82,
+      "conflict50_images": 38
+    },
+    {
+      "scene": "MVI_63521",
+      "images": 119,
+      "fold": 5,
+      "gt": [
+        9,
+        675,
+        59,
+        120
+      ],
+      "extra50": [
+        0,
+        9,
+        0,
+        0
+      ],
+      "conflict50": [
+        3,
+        24,
+        18,
+        0
+      ],
+      "extra50_images": 9,
+      "conflict50_images": 37
+    },
+    {
+      "scene": "MVI_40855",
+      "images": 69,
+      "fold": 1,
+      "gt": [
+        0,
+        1777,
+        115,
+        35
+      ],
+      "extra50": [
+        0,
+        144,
+        0,
+        21
+      ],
+      "conflict50": [
+        0,
+        43,
+        1,
+        0
+      ],
+      "extra50_images": 66,
+      "conflict50_images": 43
+    },
+    {
+      "scene": "MVI_20065",
+      "images": 60,
+      "fold": 5,
+      "gt": [
+        0,
+        740,
+        92,
+        62
+      ],
+      "extra50": [
+        0,
+        113,
+        2,
+        1
+      ],
+      "conflict50": [
+        0,
+        44,
+        0,
+        0
+      ],
+      "extra50_images": 52,
+      "conflict50_images": 32
+    },
+    {
+      "scene": "MVI_40752",
+      "images": 148,
+      "fold": 3,
+      "gt": [
+        14,
+        1026,
+        113,
+        24
+      ],
+      "extra50": [
+        3,
+        81,
+        2,
+        0
+      ],
+      "conflict50": [
+        2,
+        41,
+        0,
+        0
+      ],
+      "extra50_images": 75,
+      "conflict50_images": 39
+    },
+    {
+      "scene": "MVI_40863",
+      "images": 111,
+      "fold": 4,
+      "gt": [
+        104,
+        1072,
+        222,
+        754
+      ],
+      "extra50": [
+        0,
+        82,
+        3,
+        0
+      ],
+      "conflict50": [
+        0,
+        6,
+        36,
+        1
+      ],
+      "extra50_images": 57,
+      "conflict50_images": 41
+    },
+    {
+      "scene": "MVI_63552",
+      "images": 69,
+      "fold": 3,
+      "gt": [
+        3,
+        309,
+        97,
+        0
+      ],
+      "extra50": [
+        0,
+        82,
+        24,
+        0
+      ],
+      "conflict50": [
+        2,
+        26,
+        14,
+        0
+      ],
+      "extra50_images": 62,
+      "conflict50_images": 32
+    }
+  ],
+  "input_sha256": {
+    "source_manifest.json": "d101e5e3e1456725feb25140443453ed809c8640a614bdb3bb840701e9f28d27",
+    "oof_predictions.jsonl": "7602e3f4a50ffc2c9675578eb4352d404fa53f8e9c4de99bb0d3f01c7bc6ed96",
+    "fold_manifest.json": "fc1fe68b9df412e9410e47274790d9046c9dabbc706fbaa09400bd7e5406fcd4",
+    "post_run_verification.json": "e851490c23d2378cfc97167d572e511e4419b6b5460cdc9f5581ca79a51a6f63"
+  },
+  "input_unchanged": true,
+  "model_executed": false,
+  "exploratory_rules": {
+    "threshold_grid": [
+      0.25,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "matching": "same-class IoU>=.5 descending-IoU one-to-one",
+    "separated": "max IoU with any GT<.1 AND max intersection/prediction_area<.2",
+    "class_conflict": "other-class IoU>=.7 AND max same-class IoU<.3; highest confidence conflicting prediction per GT",
+    "warning": "Signals only; not label error counts, no validated thresholds or error probabilities, no track identity or independent temporal votes"
+  },
+  "elapsed_seconds": 5.609344399999827,
+  "generated_at": "2026-10-26T12:05:11.503325+00:00",
+  "high_confidence_slice": {
+    "independent_scalar_counts_match": true,
+    "confidence": 0.9,
+    "extra_boxes": 130,
+    "conflict_pairs": 46,
+    "unique_candidate_images": 165,
+    "signal_rows": 176,
+    "model_executed": false
+  },
+  "exact_duplicate_groups": 62,
+  "exact_duplicate_images": 124,
+  "inconsistent_duplicate_groups": 0,
+  "extra90_scene_counts": {
+    "MVI_40904": 58,
+    "MVI_40902": 56,
+    "MVI_40751": 1,
+    "MVI_39401": 1,
+    "MVI_63552": 1,
+    "MVI_39361": 1,
+    "MVI_40743": 1,
+    "MVI_39511": 4,
+    "MVI_40244": 1,
+    "MVI_40962": 1,
+    "MVI_39501": 5
+  },
+  "extra90_edge_boxes": 59,
+  "conflict90_pairs": [
+    {
+      "original": "van",
+      "predicted": "car",
+      "count": 17
+    },
+    {
+      "original": "car",
+      "predicted": "van",
+      "count": 22
+    },
+    {
+      "original": "bus",
+      "predicted": "car",
+      "count": 1
+    },
+    {
+      "original": "bus",
+      "predicted": "van",
+      "count": 2
+    },
+    {
+      "original": "bus",
+      "predicted": "truck",
+      "count": 3
+    },
+    {
+      "original": "truck",
+      "predicted": "van",
+      "count": 1
+    }
+  ],
+  "candidate_original_images_and_labels_hash_verified": 174,
+  "visual_review": {
+    "completed": false,
+    "screenshot_attempts": 3,
+    "blocker": "Browser screenshot API timed out on both full OOF and lightweight page; no visual label adjudication claimed",
+    "lightweight_preview_first4_images_decoded": true,
+    "full_browser_acceptance_completed": false
+  },
+  "source_analysis_sha256": "f8ce6b0e4d5aa23045bced7bda4489d35fe33d7b8ee9e96b1885f73088d27384"
+}

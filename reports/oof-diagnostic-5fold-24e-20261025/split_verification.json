@@ -1,0 +1,280 @@
+{
+  "seed": 42,
+  "algorithm": "MVI+hash union components; descending normalized rarity; greedy delta squared load/target cost; image dimension weight4, other8 dimensions weight1; inner greedy towards10%remaining with fit/monitor class coverage",
+  "monitor_fraction_of_remaining": 0.1,
+  "details": [
+    {
+      "fold": 1,
+      "role": "fit",
+      "images": 5629,
+      "groups": 72,
+      "boxes_by_class": [
+        858.0,
+        42539.0,
+        3789.0,
+        4233.0
+      ],
+      "images_by_class": [
+        815.0,
+        5569.0,
+        2491.0,
+        2354.0
+      ]
+    },
+    {
+      "fold": 1,
+      "role": "monitor",
+      "images": 628,
+      "groups": 7,
+      "boxes_by_class": [
+        115.0,
+        5023.0,
+        563.0,
+        842.0
+      ],
+      "images_by_class": [
+        115.0,
+        628.0,
+        289.0,
+        195.0
+      ]
+    },
+    {
+      "fold": 1,
+      "role": "outer",
+      "images": 1595,
+      "groups": 21,
+      "boxes_by_class": [
+        253.0,
+        11823.0,
+        1206.0,
+        1029.0
+      ],
+      "images_by_class": [
+        225.0,
+        1558.0,
+        671.0,
+        649.0
+      ]
+    },
+    {
+      "fold": 2,
+      "role": "fit",
+      "images": 5637,
+      "groups": 72,
+      "boxes_by_class": [
+        885.0,
+        42887.0,
+        3925.0,
+        3928.0
+      ],
+      "images_by_class": [
+        823.0,
+        5563.0,
+        2487.0,
+        2378.0
+      ]
+    },
+    {
+      "fold": 2,
+      "role": "monitor",
+      "images": 638,
+      "groups": 7,
+      "boxes_by_class": [
+        112.0,
+        4113.0,
+        559.0,
+        835.0
+      ],
+      "images_by_class": [
+        112.0,
+        635.0,
+        288.0,
+        176.0
+      ]
+    },
+    {
+      "fold": 2,
+      "role": "outer",
+      "images": 1577,
+      "groups": 21,
+      "boxes_by_class": [
+        229.0,
+        12385.0,
+        1074.0,
+        1341.0
+      ],
+      "images_by_class": [
+        220.0,
+        1557.0,
+        676.0,
+        644.0
+      ]
+    },
+    {
+      "fold": 3,
+      "role": "fit",
+      "images": 5664,
+      "groups": 76,
+      "boxes_by_class": [
+        859.0,
+        42900.0,
+        3853.0,
+        4069.0
+      ],
+      "images_by_class": [
+        788.0,
+        5580.0,
+        2458.0,
+        2411.0
+      ]
+    },
+    {
+      "fold": 3,
+      "role": "monitor",
+      "images": 641,
+      "groups": 6,
+      "boxes_by_class": [
+        126.0,
+        4557.0,
+        555.0,
+        811.0
+      ],
+      "images_by_class": [
+        126.0,
+        638.0,
+        277.0,
+        163.0
+      ]
+    },
+    {
+      "fold": 3,
+      "role": "outer",
+      "images": 1547,
+      "groups": 18,
+      "boxes_by_class": [
+        241.0,
+        11928.0,
+        1150.0,
+        1224.0
+      ],
+      "images_by_class": [
+        241.0,
+        1537.0,
+        716.0,
+        624.0
+      ]
+    },
+    {
+      "fold": 4,
+      "role": "fit",
+      "images": 5677,
+      "groups": 75,
+      "boxes_by_class": [
+        855.0,
+        42394.0,
+        3889.0,
+        4243.0
+      ],
+      "images_by_class": [
+        790.0,
+        5606.0,
+        2492.0,
+        2369.0
+      ]
+    },
+    {
+      "fold": 4,
+      "role": "monitor",
+      "images": 612,
+      "groups": 6,
+      "boxes_by_class": [
+        126.0,
+        5648.0,
+        581.0,
+        476.0
+      ],
+      "images_by_class": [
+        126.0,
+        611.0,
+        283.0,
+        222.0
+      ]
+    },
+    {
+      "fold": 4,
+      "role": "outer",
+      "images": 1563,
+      "groups": 19,
+      "boxes_by_class": [
+        245.0,
+        11343.0,
+        1088.0,
+        1385.0
+      ],
+      "images_by_class": [
+        239.0,
+        1538.0,
+        676.0,
+        607.0
+      ]
+    },
+    {
+      "fold": 5,
+      "role": "fit",
+      "images": 5644,
+      "groups": 73,
+      "boxes_by_class": [
+        853.0,
+        42490.0,
+        3955.0,
+        4140.0
+      ],
+      "images_by_class": [
+        810.0,
+        5552.0,
+        2450.0,
+        2332.0
+      ]
+    },
+    {
+      "fold": 5,
+      "role": "monitor",
+      "images": 638,
+      "groups": 6,
+      "boxes_by_class": [
+        115.0,
+        4989.0,
+        563.0,
+        839.0
+      ],
+      "images_by_class": [
+        115.0,
+        638.0,
+        289.0,
+        192.0
+      ]
+    },
+    {
+      "fold": 5,
+      "role": "outer",
+      "images": 1570,
+      "groups": 21,
+      "boxes_by_class": [
+        258.0,
+        11906.0,
+        1040.0,
+        1125.0
+      ],
+      "images_by_class": [
+        230.0,
+        1565.0,
+        712.0,
+        674.0
+      ]
+    }
+  ],
+  "outer_unique_images": 7852,
+  "group_hash_disjoint": true,
+  "near_duplicates_across_groups": "not exhaustively checked"
+}

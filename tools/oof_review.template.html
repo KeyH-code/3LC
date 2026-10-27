@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>分组 OOF · 只读诊断</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#182b3a;background:#eef2f6}*{box-sizing:border-box}body{margin:0}main{max-width:1360px;margin:auto;padding:22px}header{margin-bottom:18px}h1{font-size:25px;margin:0 0 8px}.note{color:#526676;line-height:1.7;font-size:14px}.panel{background:white;border:1px solid #d6dfe7;border-radius:10px;padding:16px;margin-bottom:14px}.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center}label{display:flex;gap:6px;align-items:center;font-size:14px}select,input,button{font:inherit;max-width:100%;padding:7px;border:1px solid #bdcbd6;border-radius:5px;background:white;color:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}button:hover:not(:disabled){background:#e9f3fc}input[type=number]{width:85px}input[type=search]{width:190px}.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:16px}canvas{display:block;width:100%;height:auto;background:#1c2830;border-radius:5px}.meta{font-size:13px;line-height:1.8;overflow-wrap:anywhere}.mono{font-family:ui-monospace,Consolas,monospace}#status{margin:8px 0;color:#425c70;min-height:24px}#count{font-weight:600}.legend{font-size:13px;margin-top:10px;line-height:1.7}.scroll{max-height:570px;overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:7px;text-align:left;border-bottom:1px solid #e4eaf0}th{position:sticky;top:0;background:white}details{margin-top:10px}summary{cursor:pointer}#empty{padding:18px;color:#607381}@media(max-width:850px){main{padding:12px}.layout{grid-template-columns:1fr}h1{font-size:21px}.scroll{max-height:300px}}
+</style></head><body><main>
+<header><h1>分组 OOF · 原图只读诊断</h1><div class="note">每张 train 图片只使用自己的外折模型，fit / monitor / outer 按 MVI 与完全同图哈希隔离。<br>框与指标相对于可能错漏的原标签；预测置信度不是真值或错标概率。本页不会改标、训练、补框或提交。</div></header>
+<section class="panel controls">
+<label>外折 <select id="fold"><option value="all">全部五折</option><option value="1">Fold 01</option><option value="2">Fold 02</option><option value="3">Fold 03</option><option value="4">Fold 04</option><option value="5">Fold 05</option></select></label>
+<label>MVI <select id="scene"><option value="all">全部场景</option></select></label>
+<label>显示 conf ≥ <select id="threshold"><option>0.001</option><option>0.05</option><option>0.10</option><option selected>0.25</option><option>0.40</option><option>0.50</option><option>0.70</option><option>0.90</option><option>0.99</option></select></label>
+<label>类别 <select id="cls"><option value="all">全部四类</option><option value="0">truck</option><option value="1">car</option><option value="2">van</option><option value="3">bus</option></select></label>
+<label>记录 <select id="mode"><option value="all">全部图片（含空预测）</option><option value="empty">原始零预测图片</option></select></label>
+<label>查找 <input id="search" type="search" placeholder="图片ID / 帧号" aria-label="查找图片"></label>
+</section>
+<section class="panel"><div class="controls"><button id="prev">← 上一张</button><button id="next">下一张 →</button><span id="count"></span><label>跳至 <input id="jump" type="number" min="1" value="1"></label><label><input id="labels" type="checkbox" checked>原标签</label><label><input id="predictions" type="checkbox" checked>预测</label></div><div id="status" role="status"></div>
+<div class="layout"><div><canvas id="image" width="640" height="640" aria-label="原图及四类框"></canvas><div class="legend">虚线蓝框＝四类原标签；实线彩框＝四类预测（truck 紫 / car 绿 / van 橙 / bus 红）。<br>没有框可能是原始零预测，或仅因当前类别/显示阈值隐藏。始终保留原始 conf≥.001 的记录；无裁剪、TTA或多模型投票。</div></div>
+<aside><div id="meta" class="meta"></div><h3 id="boxcount"></h3><div class="scroll"><table><thead><tr><th>类别</th><th>conf</th><th>原图 xyxy</th></tr></thead><tbody id="boxes"></tbody></table><div id="empty" hidden>当前显示条件下无预测框。</div></div></aside></div></section>
+<details class="panel"><summary>训练来源与限制</summary><div class="note">YOLOv8n 从零初始化；SS03，最多24轮、patience8，trainer seed0 / split seed42。只有内层 monitor 参与早停和 best 选择。AMP启用，但明确跳过额外权重一致性自检。普通 Ultralytics 仅获本次离线诊断授权，不代表主办方认可竞赛使用。近重复残留、场景分布差异、内层标签噪声和模型能力均可能影响结果。原val仅用于完整性核验，未进入模型；test未读取。</div><pre id="summary" class="meta"></pre></details>
+</main><script>
+'use strict';
+const DATA=__OOF_DATA__;
+const $=id=>document.getElementById(id),state={index:0,token:0,loaded:null,lastDraw:null};
+const colors=['#b46cff','#26e791','#ffb548','#ff625e'];
+const scenes=[...new Set(DATA.samples.map(s=>s.scene))].sort();
+for(const value of scenes){const op=document.createElement('option');op.value=value;op.textContent=value;$('scene').append(op);}
+function visible(){const f=$('fold').value,g=$('scene').value,q=$('search').value.trim().toLowerCase(),empty=$('mode').value==='empty';return DATA.samples.filter(s=>(f==='all'||s.fold===Number(f))&&(g==='all'||s.scene===g)&&(!empty||s.candidates.length===0)&&(!q||s.id.toLowerCase().includes(q)||String(s.frame)===q));}
+function current(){return visible()[state.index]||null;}
+function candidates(s){const c=$('cls').value,t=Number($('threshold').value);return s.candidates.filter(p=>p.confidence>=t&&(c==='all'||p.cls===Number(c)));}
+function clear(){const ctx=$('image').getContext('2d');ctx.clearRect(0,0,640,640);state.lastDraw=null;}
+function box(ctx,xyxy,text,color,dash){ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=2;ctx.setLineDash(dash);ctx.strokeRect(xyxy[0],xyxy[1],xyxy[2]-xyxy[0],xyxy[3]-xyxy[1]);ctx.setLineDash([]);ctx.font='12px sans-serif';const width=ctx.measureText(text).width+5,y=Math.max(14,xyxy[1]);ctx.fillRect(xyxy[0],y-14,width,15);ctx.fillStyle='#101820';ctx.fillText(text,xyxy[0]+2,y-2);}
+function draw(s,img){clear();const ctx=$('image').getContext('2d');ctx.drawImage(img,0,0,640,640);const cl=$('cls').value;
+if($('labels').checked)for(const [c,cx,cy,w,h] of s.labels){if(cl!=='all'&&Number(cl)!==c)continue;const xy=[(Number(cx)-Number(w)/2)*640,(Number(cy)-Number(h)/2)*640,(Number(cx)+Number(w)/2)*640,(Number(cy)+Number(h)/2)*640];box(ctx,xy,'GT '+DATA.names[c],'#70baff',[6,3]);}
+const cc=candidates(s);if($('predictions').checked)for(const p of cc)box(ctx,p.xyxy,DATA.names[p.cls]+' '+p.confidence.toFixed(3),colors[p.cls],[]);
+state.lastDraw={id:s.id,fold:s.fold,model_sha256:s.model_sha256,prediction_ids:$('predictions').checked?cc.map(p=>p.id):[],labels:$('labels').checked,threshold:Number($('threshold').value)};
+$('status').textContent='已载入原图 · '+s.scene+' / frame '+s.frame;}
+function render(){const ss=visible();state.index=Math.max(0,Math.min(state.index,ss.length-1));const s=ss[state.index],token=++state.token;clear();$('count').textContent=ss.length?(state.index+1)+' / '+ss.length:'0 / 0';$('jump').value=ss.length?state.index+1:1;$('jump').max=Math.max(1,ss.length);$('prev').disabled=!ss.length||state.index===0;$('next').disabled=!ss.length||state.index===ss.length-1;
+$('boxes').replaceChildren();$('meta').textContent='';$('empty').hidden=true;$('boxcount').textContent='';
+if(!s){state.loaded=null;$('status').textContent='当前筛选没有图片；原始记录未被删除。';return;}
+$('meta').textContent='图片：'+s.id+'\n外折：'+s.fold+' · '+s.scene+' · frame '+s.frame+'\n模型 SHA256：'+s.model_sha256+'\n原图 SHA256：'+s.image_sha256+'\n原图：640 × 640 · FP32 · conf存储.001 / NMS IoU.7\n原标签框数：'+s.labels.length+' · 原始预测框数：'+s.candidates.length;$('meta').style.whiteSpace='pre-line';
+const cc=candidates(s);$('boxcount').textContent='显示预测 '+cc.length+' / 原始 '+s.candidates.length;$('empty').hidden=cc.length!==0;
+for(const p of cc){const tr=document.createElement('tr');tr.dataset.id=p.id;for(const text of [DATA.names[p.cls],p.confidence.toFixed(6),p.xyxy.map(x=>x.toFixed(1)).join(', ')]){const td=document.createElement('td');td.textContent=text;tr.append(td);}$('boxes').append(tr);}
+if(state.loaded&&state.loaded.id===s.id&&state.loaded.url===s.image_url){draw(s,state.loaded.img);return;}
+state.loaded=null;$('status').textContent='载入原图中…';const img=new Image();img.onload=()=>{if(token!==state.token)return;if(img.naturalWidth!==640||img.naturalHeight!==640){clear();$('status').textContent='原图尺寸不符，已清空画布。';return;}state.loaded={id:s.id,url:s.image_url,img};draw(s,img);};img.onerror=()=>{if(token!==state.token)return;clear();state.loaded=null;$('status').textContent='原图载入失败，已清空画布；请保持报告与原图相对路径。';};img.src=s.image_url;}
+for(const id of ['fold','scene','search','mode'])$(id).addEventListener(id==='search'?'input':'change',()=>{const old=state.loaded&&state.loaded.id,ss=visible(),i=ss.findIndex(s=>s.id===old);state.index=i<0?0:i;render();});
+for(const id of ['threshold','cls','labels','predictions'])$(id).addEventListener('change',render);
+$('prev').onclick=()=>{state.index--;render();};$('next').onclick=()=>{state.index++;render();};$('jump').onchange=()=>{state.index=Math.max(0,(Number($('jump').value)||1)-1);render();};
+document.addEventListener('keydown',e=>{if(['INPUT','SELECT'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'&&!$('next').disabled)$('next').click();if(e.key==='ArrowLeft'&&!$('prev').disabled)$('prev').click();});
+$('summary').textContent=DATA.summary.map(r=>'Fold '+r.fold+': fit '+r.fit+', monitor '+r.monitor+', outer '+r.outer+', epochs '+r.epochs+', best '+r.best_epoch+', early_stop '+r.early_stopped).join('\n');
+window.OOF_REVIEW={data:DATA,state,visible,current,candidates,render};render();
+</script></body></html>
