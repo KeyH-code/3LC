@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-29T11:55:19.147942+00:00",
+  "verified": true,
+  "ladder_rows_checked": 30,
+  "label_hashes_checked": 15704,
+  "no_model_calls": true,
+  "no_label_edits": true,
+  "focused_tests": 4,
+  "whole_regression": "301 passed; 1 old synthetic OOF prepare test blocked by real free disk <8GiB; no frozen old tool changed",
+  "test_source_sha256": "112f4248ac990bda3db7464de2ceef3e662533459b022d969b6ab1a8a7d77166",
+  "report_sha256": {
+    "RESULT.md": "fdcef6be9e0264612882771a1bb431b4d07a7812bcc7cc1842800485da48bda6",
+    "original_ladder.json": "086f55d5eb7e978453081d180478b9ce04da8d6e075c7fcb00ba881199bbd1a2",
+    "original_ladder.csv": "f66d68f3d0343b2ebc016e364629543020609065b50cc1830cf8da74e3e228d9",
+    "current_clean_ladder.json": "249d231e0334be5493d87229c9f28afda4b4632615c487f9f66c62dcbab6a3b6",
+    "current_clean_ladder.csv": "126b7f856454b997c69c6c363d68dd0e0b38189e0a1d86628eaa33ecdaf3e960",
+    "candidate_records.json": "60accc58fccfed5d684c794da2d1fdce08ba3e47d8f8db06736693b4337c4e05",
+    "verification.json": "ddbcd0eccef7475ca66aa282967a1f23b0da445ddb4db0e5ea937ae05b48f089"
+  },
+  "note": "One post-counting synthetic test added; original generation verification pins retained rather than overwritten"
+}

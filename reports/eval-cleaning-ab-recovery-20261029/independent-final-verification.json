@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-29T09:53:19.207621+00:00",
+  "verified": true,
+  "no_model_execution": true,
+  "training_runs_during_recovery": 0,
+  "evaluations": 6,
+  "checkpoint_files_verified": 4,
+  "report_hashes_verified": {
+    "RESULT.md": "cd6a4339e967cb7f8eb469ab65b2767f85ad2f0b7c15b6293dc52cc3d28c6bc7",
+    "metrics.csv": "86d8dc47014c9cdeaf89f90d2fbd80d1722963e48f70e23091658e1ce5683c0b",
+    "comparison.json": "7117350abbed8f279d8f02ae5a72ebdbfc7fb1de71638869964310c97dbeb2a3"
+  },
+  "counts": {
+    "original_seal": 15,
+    "recovery_seal": 13,
+    "protected_files": 33520,
+    "original_data_files": 33340,
+    "recovery_data_files": 33340
+  },
+  "eval_guard_events": 0,
+  "each_evaluation_guarded_children": 2,
+  "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+  "val_AP95_B_minus_A": 0.013714082798235161,
+  "scope": "Existing blocked diagnostic and preflight-v1 events retained, not counted as evaluation success"
+}

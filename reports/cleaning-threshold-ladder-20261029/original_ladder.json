@@ -1,0 +1,961 @@
+[
+  {
+    "threshold": 0.95,
+    "total": {
+      "signals": 47,
+      "prediction_boxes": 47,
+      "images": 47,
+      "uncovered_signals": 46,
+      "class_conflict_signals": 1,
+      "by_predicted_class": {
+        "truck": 46,
+        "car": 0,
+        "van": 1,
+        "bus": 0
+      }
+    },
+    "band": {
+      "signals": 47,
+      "prediction_boxes": 47,
+      "images": 47,
+      "uncovered_signals": 46,
+      "class_conflict_signals": 1,
+      "by_predicted_class": {
+        "truck": 46,
+        "car": 0,
+        "van": 1,
+        "bus": 0
+      }
+    },
+    "band_upper_exclusive": null,
+    "below085": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "unreviewed": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "never_reviewed_images": 0,
+    "new_images_vs085": 0,
+    "reviewed_decisions": {
+      "defer": 20,
+      "add_box": 25,
+      "keep": 2
+    }
+  },
+  {
+    "threshold": 0.9,
+    "total": {
+      "signals": 176,
+      "prediction_boxes": 176,
+      "images": 165,
+      "uncovered_signals": 130,
+      "class_conflict_signals": 46,
+      "by_predicted_class": {
+        "truck": 56,
+        "car": 84,
+        "van": 28,
+        "bus": 8
+      }
+    },
+    "band": {
+      "signals": 129,
+      "prediction_boxes": 129,
+      "images": 120,
+      "uncovered_signals": 84,
+      "class_conflict_signals": 45,
+      "by_predicted_class": {
+        "truck": 10,
+        "car": 84,
+        "van": 27,
+        "bus": 8
+      }
+    },
+    "band_upper_exclusive": 0.95,
+    "below085": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "unreviewed": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "never_reviewed_images": 0,
+    "new_images_vs085": 0,
+    "reviewed_decisions": {
+      "add_box": 105,
+      "defer": 34,
+      "keep": 21,
+      "change_class": 16
+    }
+  },
+  {
+    "threshold": 0.85,
+    "total": {
+      "signals": 744,
+      "prediction_boxes": 744,
+      "images": 591,
+      "uncovered_signals": 521,
+      "class_conflict_signals": 223,
+      "by_predicted_class": {
+        "truck": 62,
+        "car": 501,
+        "van": 99,
+        "bus": 82
+      }
+    },
+    "band": {
+      "signals": 568,
+      "prediction_boxes": 568,
+      "images": 492,
+      "uncovered_signals": 391,
+      "class_conflict_signals": 177,
+      "by_predicted_class": {
+        "truck": 6,
+        "car": 417,
+        "van": 71,
+        "bus": 74
+      }
+    },
+    "band_upper_exclusive": 0.9,
+    "below085": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "unreviewed": {
+      "signals": 0,
+      "prediction_boxes": 0,
+      "images": 0,
+      "uncovered_signals": 0,
+      "class_conflict_signals": 0,
+      "by_predicted_class": {
+        "truck": 0,
+        "car": 0,
+        "van": 0,
+        "bus": 0
+      }
+    },
+    "never_reviewed_images": 0,
+    "new_images_vs085": 0,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.8,
+    "total": {
+      "signals": 1955,
+      "prediction_boxes": 1955,
+      "images": 1331,
+      "uncovered_signals": 1457,
+      "class_conflict_signals": 498,
+      "by_predicted_class": {
+        "truck": 73,
+        "car": 1535,
+        "van": 183,
+        "bus": 164
+      }
+    },
+    "band": {
+      "signals": 1211,
+      "prediction_boxes": 1211,
+      "images": 945,
+      "uncovered_signals": 936,
+      "class_conflict_signals": 275,
+      "by_predicted_class": {
+        "truck": 11,
+        "car": 1034,
+        "van": 84,
+        "bus": 82
+      }
+    },
+    "band_upper_exclusive": 0.85,
+    "below085": {
+      "signals": 1211,
+      "prediction_boxes": 1211,
+      "images": 945,
+      "uncovered_signals": 936,
+      "class_conflict_signals": 275,
+      "by_predicted_class": {
+        "truck": 11,
+        "car": 1034,
+        "van": 84,
+        "bus": 82
+      }
+    },
+    "unreviewed": {
+      "signals": 1211,
+      "prediction_boxes": 1211,
+      "images": 945,
+      "uncovered_signals": 936,
+      "class_conflict_signals": 275,
+      "by_predicted_class": {
+        "truck": 11,
+        "car": 1034,
+        "van": 84,
+        "bus": 82
+      }
+    },
+    "never_reviewed_images": 740,
+    "new_images_vs085": 740,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.75,
+    "total": {
+      "signals": 3218,
+      "prediction_boxes": 3218,
+      "images": 1976,
+      "uncovered_signals": 2451,
+      "class_conflict_signals": 767,
+      "by_predicted_class": {
+        "truck": 79,
+        "car": 2621,
+        "van": 264,
+        "bus": 254
+      }
+    },
+    "band": {
+      "signals": 1263,
+      "prediction_boxes": 1263,
+      "images": 1056,
+      "uncovered_signals": 994,
+      "class_conflict_signals": 269,
+      "by_predicted_class": {
+        "truck": 6,
+        "car": 1086,
+        "van": 81,
+        "bus": 90
+      }
+    },
+    "band_upper_exclusive": 0.8,
+    "below085": {
+      "signals": 2474,
+      "prediction_boxes": 2474,
+      "images": 1694,
+      "uncovered_signals": 1930,
+      "class_conflict_signals": 544,
+      "by_predicted_class": {
+        "truck": 17,
+        "car": 2120,
+        "van": 165,
+        "bus": 172
+      }
+    },
+    "unreviewed": {
+      "signals": 2474,
+      "prediction_boxes": 2474,
+      "images": 1694,
+      "uncovered_signals": 1930,
+      "class_conflict_signals": 544,
+      "by_predicted_class": {
+        "truck": 17,
+        "car": 2120,
+        "van": 165,
+        "bus": 172
+      }
+    },
+    "never_reviewed_images": 1385,
+    "new_images_vs085": 1385,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.7,
+    "total": {
+      "signals": 4502,
+      "prediction_boxes": 4502,
+      "images": 2585,
+      "uncovered_signals": 3443,
+      "class_conflict_signals": 1059,
+      "by_predicted_class": {
+        "truck": 88,
+        "car": 3700,
+        "van": 389,
+        "bus": 325
+      }
+    },
+    "band": {
+      "signals": 1284,
+      "prediction_boxes": 1284,
+      "images": 1085,
+      "uncovered_signals": 992,
+      "class_conflict_signals": 292,
+      "by_predicted_class": {
+        "truck": 9,
+        "car": 1079,
+        "van": 125,
+        "bus": 71
+      }
+    },
+    "band_upper_exclusive": 0.75,
+    "below085": {
+      "signals": 3758,
+      "prediction_boxes": 3758,
+      "images": 2352,
+      "uncovered_signals": 2922,
+      "class_conflict_signals": 836,
+      "by_predicted_class": {
+        "truck": 26,
+        "car": 3199,
+        "van": 290,
+        "bus": 243
+      }
+    },
+    "unreviewed": {
+      "signals": 3758,
+      "prediction_boxes": 3758,
+      "images": 2352,
+      "uncovered_signals": 2922,
+      "class_conflict_signals": 836,
+      "by_predicted_class": {
+        "truck": 26,
+        "car": 3199,
+        "van": 290,
+        "bus": 243
+      }
+    },
+    "never_reviewed_images": 1994,
+    "new_images_vs085": 1994,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.65,
+    "total": {
+      "signals": 5712,
+      "prediction_boxes": 5712,
+      "images": 3122,
+      "uncovered_signals": 4429,
+      "class_conflict_signals": 1283,
+      "by_predicted_class": {
+        "truck": 108,
+        "car": 4696,
+        "van": 524,
+        "bus": 384
+      }
+    },
+    "band": {
+      "signals": 1210,
+      "prediction_boxes": 1210,
+      "images": 1054,
+      "uncovered_signals": 986,
+      "class_conflict_signals": 224,
+      "by_predicted_class": {
+        "truck": 20,
+        "car": 996,
+        "van": 135,
+        "bus": 59
+      }
+    },
+    "band_upper_exclusive": 0.7,
+    "below085": {
+      "signals": 4968,
+      "prediction_boxes": 4968,
+      "images": 2919,
+      "uncovered_signals": 3908,
+      "class_conflict_signals": 1060,
+      "by_predicted_class": {
+        "truck": 46,
+        "car": 4195,
+        "van": 425,
+        "bus": 302
+      }
+    },
+    "unreviewed": {
+      "signals": 4968,
+      "prediction_boxes": 4968,
+      "images": 2919,
+      "uncovered_signals": 3908,
+      "class_conflict_signals": 1060,
+      "by_predicted_class": {
+        "truck": 46,
+        "car": 4195,
+        "van": 425,
+        "bus": 302
+      }
+    },
+    "never_reviewed_images": 2531,
+    "new_images_vs085": 2531,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.6,
+    "total": {
+      "signals": 6954,
+      "prediction_boxes": 6954,
+      "images": 3539,
+      "uncovered_signals": 5433,
+      "class_conflict_signals": 1521,
+      "by_predicted_class": {
+        "truck": 128,
+        "car": 5703,
+        "van": 673,
+        "bus": 450
+      }
+    },
+    "band": {
+      "signals": 1242,
+      "prediction_boxes": 1242,
+      "images": 1059,
+      "uncovered_signals": 1004,
+      "class_conflict_signals": 238,
+      "by_predicted_class": {
+        "truck": 20,
+        "car": 1007,
+        "van": 149,
+        "bus": 66
+      }
+    },
+    "band_upper_exclusive": 0.65,
+    "below085": {
+      "signals": 6210,
+      "prediction_boxes": 6210,
+      "images": 3363,
+      "uncovered_signals": 4912,
+      "class_conflict_signals": 1298,
+      "by_predicted_class": {
+        "truck": 66,
+        "car": 5202,
+        "van": 574,
+        "bus": 368
+      }
+    },
+    "unreviewed": {
+      "signals": 6210,
+      "prediction_boxes": 6210,
+      "images": 3363,
+      "uncovered_signals": 4912,
+      "class_conflict_signals": 1298,
+      "by_predicted_class": {
+        "truck": 66,
+        "car": 5202,
+        "van": 574,
+        "bus": 368
+      }
+    },
+    "never_reviewed_images": 2948,
+    "new_images_vs085": 2948,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.55,
+    "total": {
+      "signals": 8164,
+      "prediction_boxes": 8164,
+      "images": 3910,
+      "uncovered_signals": 6426,
+      "class_conflict_signals": 1738,
+      "by_predicted_class": {
+        "truck": 147,
+        "car": 6688,
+        "van": 811,
+        "bus": 518
+      }
+    },
+    "band": {
+      "signals": 1210,
+      "prediction_boxes": 1210,
+      "images": 1032,
+      "uncovered_signals": 993,
+      "class_conflict_signals": 217,
+      "by_predicted_class": {
+        "truck": 19,
+        "car": 985,
+        "van": 138,
+        "bus": 68
+      }
+    },
+    "band_upper_exclusive": 0.6,
+    "below085": {
+      "signals": 7420,
+      "prediction_boxes": 7420,
+      "images": 3755,
+      "uncovered_signals": 5905,
+      "class_conflict_signals": 1515,
+      "by_predicted_class": {
+        "truck": 85,
+        "car": 6187,
+        "van": 712,
+        "bus": 436
+      }
+    },
+    "unreviewed": {
+      "signals": 7420,
+      "prediction_boxes": 7420,
+      "images": 3755,
+      "uncovered_signals": 5905,
+      "class_conflict_signals": 1515,
+      "by_predicted_class": {
+        "truck": 85,
+        "car": 6187,
+        "van": 712,
+        "bus": 436
+      }
+    },
+    "never_reviewed_images": 3319,
+    "new_images_vs085": 3319,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.5,
+    "total": {
+      "signals": 9430,
+      "prediction_boxes": 9430,
+      "images": 4249,
+      "uncovered_signals": 7461,
+      "class_conflict_signals": 1969,
+      "by_predicted_class": {
+        "truck": 158,
+        "car": 7712,
+        "van": 958,
+        "bus": 602
+      }
+    },
+    "band": {
+      "signals": 1266,
+      "prediction_boxes": 1266,
+      "images": 1082,
+      "uncovered_signals": 1035,
+      "class_conflict_signals": 231,
+      "by_predicted_class": {
+        "truck": 11,
+        "car": 1024,
+        "van": 147,
+        "bus": 84
+      }
+    },
+    "band_upper_exclusive": 0.55,
+    "below085": {
+      "signals": 8686,
+      "prediction_boxes": 8686,
+      "images": 4107,
+      "uncovered_signals": 6940,
+      "class_conflict_signals": 1746,
+      "by_predicted_class": {
+        "truck": 96,
+        "car": 7211,
+        "van": 859,
+        "bus": 520
+      }
+    },
+    "unreviewed": {
+      "signals": 8686,
+      "prediction_boxes": 8686,
+      "images": 4107,
+      "uncovered_signals": 6940,
+      "class_conflict_signals": 1746,
+      "by_predicted_class": {
+        "truck": 96,
+        "car": 7211,
+        "van": 859,
+        "bus": 520
+      }
+    },
+    "never_reviewed_images": 3658,
+    "new_images_vs085": 3658,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.45,
+    "total": {
+      "signals": 10761,
+      "prediction_boxes": 10761,
+      "images": 4561,
+      "uncovered_signals": 8549,
+      "class_conflict_signals": 2212,
+      "by_predicted_class": {
+        "truck": 181,
+        "car": 8748,
+        "van": 1154,
+        "bus": 678
+      }
+    },
+    "band": {
+      "signals": 1331,
+      "prediction_boxes": 1331,
+      "images": 1105,
+      "uncovered_signals": 1088,
+      "class_conflict_signals": 243,
+      "by_predicted_class": {
+        "truck": 23,
+        "car": 1036,
+        "van": 196,
+        "bus": 76
+      }
+    },
+    "band_upper_exclusive": 0.5,
+    "below085": {
+      "signals": 10017,
+      "prediction_boxes": 10017,
+      "images": 4435,
+      "uncovered_signals": 8028,
+      "class_conflict_signals": 1989,
+      "by_predicted_class": {
+        "truck": 119,
+        "car": 8247,
+        "van": 1055,
+        "bus": 596
+      }
+    },
+    "unreviewed": {
+      "signals": 10017,
+      "prediction_boxes": 10017,
+      "images": 4435,
+      "uncovered_signals": 8028,
+      "class_conflict_signals": 1989,
+      "by_predicted_class": {
+        "truck": 119,
+        "car": 8247,
+        "van": 1055,
+        "bus": 596
+      }
+    },
+    "never_reviewed_images": 3970,
+    "new_images_vs085": 3970,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.4,
+    "total": {
+      "signals": 12122,
+      "prediction_boxes": 12122,
+      "images": 4844,
+      "uncovered_signals": 9679,
+      "class_conflict_signals": 2443,
+      "by_predicted_class": {
+        "truck": 202,
+        "car": 9842,
+        "van": 1336,
+        "bus": 742
+      }
+    },
+    "band": {
+      "signals": 1361,
+      "prediction_boxes": 1361,
+      "images": 1134,
+      "uncovered_signals": 1130,
+      "class_conflict_signals": 231,
+      "by_predicted_class": {
+        "truck": 21,
+        "car": 1094,
+        "van": 182,
+        "bus": 64
+      }
+    },
+    "band_upper_exclusive": 0.45,
+    "below085": {
+      "signals": 11378,
+      "prediction_boxes": 11378,
+      "images": 4736,
+      "uncovered_signals": 9158,
+      "class_conflict_signals": 2220,
+      "by_predicted_class": {
+        "truck": 140,
+        "car": 9341,
+        "van": 1237,
+        "bus": 660
+      }
+    },
+    "unreviewed": {
+      "signals": 11378,
+      "prediction_boxes": 11378,
+      "images": 4736,
+      "uncovered_signals": 9158,
+      "class_conflict_signals": 2220,
+      "by_predicted_class": {
+        "truck": 140,
+        "car": 9341,
+        "van": 1237,
+        "bus": 660
+      }
+    },
+    "never_reviewed_images": 4253,
+    "new_images_vs085": 4253,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.35,
+    "total": {
+      "signals": 13560,
+      "prediction_boxes": 13560,
+      "images": 5122,
+      "uncovered_signals": 10864,
+      "class_conflict_signals": 2696,
+      "by_predicted_class": {
+        "truck": 242,
+        "car": 10973,
+        "van": 1515,
+        "bus": 830
+      }
+    },
+    "band": {
+      "signals": 1438,
+      "prediction_boxes": 1438,
+      "images": 1197,
+      "uncovered_signals": 1185,
+      "class_conflict_signals": 253,
+      "by_predicted_class": {
+        "truck": 40,
+        "car": 1131,
+        "van": 179,
+        "bus": 88
+      }
+    },
+    "band_upper_exclusive": 0.4,
+    "below085": {
+      "signals": 12816,
+      "prediction_boxes": 12816,
+      "images": 5029,
+      "uncovered_signals": 10343,
+      "class_conflict_signals": 2473,
+      "by_predicted_class": {
+        "truck": 180,
+        "car": 10472,
+        "van": 1416,
+        "bus": 748
+      }
+    },
+    "unreviewed": {
+      "signals": 12816,
+      "prediction_boxes": 12816,
+      "images": 5029,
+      "uncovered_signals": 10343,
+      "class_conflict_signals": 2473,
+      "by_predicted_class": {
+        "truck": 180,
+        "car": 10472,
+        "van": 1416,
+        "bus": 748
+      }
+    },
+    "never_reviewed_images": 4531,
+    "new_images_vs085": 4531,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.3,
+    "total": {
+      "signals": 15249,
+      "prediction_boxes": 15249,
+      "images": 5373,
+      "uncovered_signals": 12327,
+      "class_conflict_signals": 2922,
+      "by_predicted_class": {
+        "truck": 306,
+        "car": 12334,
+        "van": 1676,
+        "bus": 933
+      }
+    },
+    "band": {
+      "signals": 1689,
+      "prediction_boxes": 1689,
+      "images": 1351,
+      "uncovered_signals": 1463,
+      "class_conflict_signals": 226,
+      "by_predicted_class": {
+        "truck": 64,
+        "car": 1361,
+        "van": 161,
+        "bus": 103
+      }
+    },
+    "band_upper_exclusive": 0.35,
+    "below085": {
+      "signals": 14505,
+      "prediction_boxes": 14505,
+      "images": 5292,
+      "uncovered_signals": 11806,
+      "class_conflict_signals": 2699,
+      "by_predicted_class": {
+        "truck": 244,
+        "car": 11833,
+        "van": 1577,
+        "bus": 851
+      }
+    },
+    "unreviewed": {
+      "signals": 14505,
+      "prediction_boxes": 14505,
+      "images": 5292,
+      "uncovered_signals": 11806,
+      "class_conflict_signals": 2699,
+      "by_predicted_class": {
+        "truck": 244,
+        "car": 11833,
+        "van": 1577,
+        "bus": 851
+      }
+    },
+    "never_reviewed_images": 4782,
+    "new_images_vs085": 4782,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  },
+  {
+    "threshold": 0.25,
+    "total": {
+      "signals": 17248,
+      "prediction_boxes": 17248,
+      "images": 5651,
+      "uncovered_signals": 14101,
+      "class_conflict_signals": 3147,
+      "by_predicted_class": {
+        "truck": 366,
+        "car": 13962,
+        "van": 1869,
+        "bus": 1051
+      }
+    },
+    "band": {
+      "signals": 1999,
+      "prediction_boxes": 1999,
+      "images": 1548,
+      "uncovered_signals": 1774,
+      "class_conflict_signals": 225,
+      "by_predicted_class": {
+        "truck": 60,
+        "car": 1628,
+        "van": 193,
+        "bus": 118
+      }
+    },
+    "band_upper_exclusive": 0.3,
+    "below085": {
+      "signals": 16504,
+      "prediction_boxes": 16504,
+      "images": 5576,
+      "uncovered_signals": 13580,
+      "class_conflict_signals": 2924,
+      "by_predicted_class": {
+        "truck": 304,
+        "car": 13461,
+        "van": 1770,
+        "bus": 969
+      }
+    },
+    "unreviewed": {
+      "signals": 16504,
+      "prediction_boxes": 16504,
+      "images": 5576,
+      "uncovered_signals": 13580,
+      "class_conflict_signals": 2924,
+      "by_predicted_class": {
+        "truck": 304,
+        "car": 13461,
+        "van": 1770,
+        "bus": 969
+      }
+    },
+    "never_reviewed_images": 5060,
+    "new_images_vs085": 5060,
+    "reviewed_decisions": {
+      "add_box": 394,
+      "defer": 196,
+      "keep": 96,
+      "change_class": 58
+    }
+  }
+]

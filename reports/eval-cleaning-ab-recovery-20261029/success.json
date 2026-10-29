@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-29T09:51:58.924552+00:00",
+  "training_runs": 0,
+  "evaluations": 6,
+  "reports": {
+    "RESULT.md": "cd6a4339e967cb7f8eb469ab65b2767f85ad2f0b7c15b6293dc52cc3d28c6bc7",
+    "metrics.csv": "86d8dc47014c9cdeaf89f90d2fbd80d1722963e48f70e23091658e1ce5683c0b",
+    "comparison.json": "7117350abbed8f279d8f02ae5a72ebdbfc7fb1de71638869964310c97dbeb2a3"
+  },
+  "note": "completed.json marks evaluation/integrity prerequisite; this marker confirms reporting too"
+}

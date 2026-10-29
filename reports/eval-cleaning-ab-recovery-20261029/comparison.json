@@ -1,0 +1,880 @@
+{
+  "training": {
+    "A": {
+      "arm": "A",
+      "epochs": 28,
+      "best_epoch": 28,
+      "best": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\A\\yolov8n\\weights\\best.pt",
+      "last": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\A\\yolov8n\\weights\\last.pt",
+      "best_sha256": "2f7bc93b907fe6f2559cbb0788a70f4fe4e436188bf104297f7cabc208978d8d",
+      "last_sha256": "4d503b6f5caf2c05d9e4d8a026a6084ae36e299ed198045566d8c622c48759d5",
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "external_amp_selfcheck": false,
+      "native_final_metrics": {
+        "metrics/precision(B)": 0.9137780060565459,
+        "metrics/recall(B)": 0.7343927398417741,
+        "metrics/mAP50(B)": 0.8085827896986403,
+        "metrics/mAP50-95(B)": 0.6598055589441467
+      },
+      "state": "completed",
+      "finished_at": "2026-10-29T03:33:57.238869+00:00",
+      "seconds": 3020.8106937000002,
+      "runtime": {
+        "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+        "torch": "2.14.1+cu130",
+        "ultralytics": "8.4.165",
+        "cuda": "13.0",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+      },
+      "no_3lc_import": true
+    },
+    "B": {
+      "arm": "B",
+      "epochs": 28,
+      "best_epoch": 27,
+      "best": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\B\\yolov8n\\weights\\best.pt",
+      "last": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\B\\yolov8n\\weights\\last.pt",
+      "best_sha256": "ca6da799dda679b91fa60eb2d93690aada0ca370be09fab90d8f5dc3d224d701",
+      "last_sha256": "d856c8f091391ddf3634ce83c1ecf6ac95d12a628c2403f37bb24ba91bbea2f1",
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "external_amp_selfcheck": false,
+      "native_final_metrics": {
+        "metrics/precision(B)": 0.901606092042449,
+        "metrics/recall(B)": 0.7605592629529684,
+        "metrics/mAP50(B)": 0.8277961904867539,
+        "metrics/mAP50-95(B)": 0.6732965288678769
+      },
+      "state": "completed",
+      "finished_at": "2026-10-29T04:27:23.126204+00:00",
+      "seconds": 3203.1342054999996,
+      "runtime": {
+        "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+        "torch": "2.14.1+cu130",
+        "ultralytics": "8.4.165",
+        "cuda": "13.0",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+      },
+      "no_3lc_import": true
+    }
+  },
+  "evaluations": {
+    "A": {
+      "A": {
+        "arm": "A",
+        "reference": "A",
+        "images": 7852,
+        "weight_sha256": "2f7bc93b907fe6f2559cbb0788a70f4fe4e436188bf104297f7cabc208978d8d",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\A\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.9446029111025525,
+          "metrics/recall(B)": 0.9120783206764758,
+          "metrics/mAP50(B)": 0.9673423145286312,
+          "metrics/mAP50-95(B)": 0.812963530431362,
+          "fitness": 0.812963530431362
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9650157510735442,
+            "recall_best_f1": 0.8964110929853181,
+            "AP50": 0.9641857439986345,
+            "AP50_95": 0.8331685859085958
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9390454089655682,
+            "recall_best_f1": 0.926193483202829,
+            "AP50": 0.9758551299472495,
+            "AP50_95": 0.7829415840696347
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.9056286617688998,
+            "recall_best_f1": 0.8646995322058294,
+            "AP50": 0.9396722512187439,
+            "AP50_95": 0.7775343633786989
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9687218226021972,
+            "recall_best_f1": 0.9610091743119266,
+            "AP50": 0.9896561329498971,
+            "AP50_95": 0.8582095883685188
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 1148,
+              "FP": 174,
+              "FN": 78,
+              "precision": 0.8683812405446294,
+              "recall": 0.9363784665579119
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 57228,
+              "FP": 9934,
+              "FN": 2157,
+              "precision": 0.8520889788868705,
+              "recall": 0.9636776963879767
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 5159,
+              "FP": 1518,
+              "FN": 399,
+              "precision": 0.7726523887973641,
+              "recall": 0.9282115869017632
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 6016,
+              "FP": 555,
+              "FN": 88,
+              "precision": 0.9155379698676,
+              "recall": 0.9855832241153342
+            }
+          ],
+          "precision_macro": 0.8521651445241161,
+          "recall_macro": 0.9534627434907466
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 169.44556910000028,
+        "at": "2026-10-29T09:42:18.636915+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      },
+      "B": {
+        "arm": "A",
+        "reference": "B",
+        "images": 7852,
+        "weight_sha256": "2f7bc93b907fe6f2559cbb0788a70f4fe4e436188bf104297f7cabc208978d8d",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\A\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.9436336998468766,
+          "metrics/recall(B)": 0.9095996690742197,
+          "metrics/mAP50(B)": 0.9666598564703149,
+          "metrics/mAP50-95(B)": 0.8123333548927956,
+          "fitness": 0.8123333548927956
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9661680451582558,
+            "recall_best_f1": 0.8822593476531424,
+            "AP50": 0.9594398278999837,
+            "AP50_95": 0.8300527714819299
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9365632057976297,
+            "recall_best_f1": 0.9270332322233581,
+            "AP50": 0.9758252199957889,
+            "AP50_95": 0.7829759469298329
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.9040706887972103,
+            "recall_best_f1": 0.8710300483215812,
+            "AP50": 0.9430629824232754,
+            "AP50_95": 0.7806747963502796
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9677328596344104,
+            "recall_best_f1": 0.9580760480987975,
+            "AP50": 0.9883113955622118,
+            "AP50_95": 0.8556299048091404
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 1163,
+              "FP": 159,
+              "FN": 94,
+              "precision": 0.8797276853252648,
+              "recall": 0.9252187748607796
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 57424,
+              "FP": 9738,
+              "FN": 2247,
+              "precision": 0.8550072957922635,
+              "recall": 0.9623435169512828
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 5185,
+              "FP": 1492,
+              "FN": 398,
+              "precision": 0.7765463531526134,
+              "recall": 0.9287121619201146
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 6034,
+              "FP": 537,
+              "FN": 120,
+              "precision": 0.9182772789529752,
+              "recall": 0.9805004874878128
+            }
+          ],
+          "precision_macro": 0.8573896533057792,
+          "recall_macro": 0.9491937353049975
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 175.90760720000253,
+        "at": "2026-10-29T09:45:16.618359+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      },
+      "val966": {
+        "arm": "A",
+        "reference": "val966",
+        "images": 966,
+        "weight_sha256": "2f7bc93b907fe6f2559cbb0788a70f4fe4e436188bf104297f7cabc208978d8d",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\A\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.9182148277400192,
+          "metrics/recall(B)": 0.7372012146819632,
+          "metrics/mAP50(B)": 0.8095096609258362,
+          "metrics/mAP50-95(B)": 0.6560222209033413,
+          "fitness": 0.6560222209033413
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9447763880760147,
+            "recall_best_f1": 0.6676408433092613,
+            "AP50": 0.7671089901259356,
+            "AP50_95": 0.6395084031916214
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9263540431174968,
+            "recall_best_f1": 0.8106376161486702,
+            "AP50": 0.8761491891111419,
+            "AP50_95": 0.6807894939312353
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.8406544859873258,
+            "recall_best_f1": 0.71005291005291,
+            "AP50": 0.7764124005706015,
+            "AP50_95": 0.6208233022645844
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9610743937792394,
+            "recall_best_f1": 0.7604734892170112,
+            "AP50": 0.8183680638956655,
+            "AP50_95": 0.6829676842259242
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 139,
+              "FP": 18,
+              "FN": 66,
+              "precision": 0.8853503184713376,
+              "recall": 0.6780487804878049
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 7736,
+              "FP": 801,
+              "FN": 1627,
+              "precision": 0.9061731287337472,
+              "recall": 0.8262309088967211
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 691,
+              "FP": 170,
+              "FN": 254,
+              "precision": 0.8025551684088269,
+              "recall": 0.7312169312169312
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 749,
+              "FP": 34,
+              "FN": 225,
+              "precision": 0.9565772669220945,
+              "recall": 0.768993839835729
+            }
+          ],
+          "precision_macro": 0.8876639706340016,
+          "recall_macro": 0.7511226151092966
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 40.21489719999954,
+        "at": "2026-10-29T09:45:58.098952+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      }
+    },
+    "B": {
+      "A": {
+        "arm": "B",
+        "reference": "A",
+        "images": 7852,
+        "weight_sha256": "ca6da799dda679b91fa60eb2d93690aada0ca370be09fab90d8f5dc3d224d701",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\B\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.9225092962288165,
+          "metrics/recall(B)": 0.9168453113271131,
+          "metrics/mAP50(B)": 0.9572057216534957,
+          "metrics/mAP50-95(B)": 0.799106005107397,
+          "fitness": 0.799106005107397
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9287767165927908,
+            "recall_best_f1": 0.901305057096248,
+            "AP50": 0.9442108407849251,
+            "AP50_95": 0.8020077980773088
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9208627330293524,
+            "recall_best_f1": 0.932704435000918,
+            "AP50": 0.9672749386063924,
+            "AP50_95": 0.7757718771451609
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.8883506740680934,
+            "recall_best_f1": 0.8646627099609585,
+            "AP50": 0.9304102788438187,
+            "AP50_95": 0.7692307122576849
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9520470612250295,
+            "recall_best_f1": 0.9687090432503277,
+            "AP50": 0.9869268283788467,
+            "AP50_95": 0.8494136329494337
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 1142,
+              "FP": 177,
+              "FN": 84,
+              "precision": 0.8658074298711145,
+              "recall": 0.9314845024469821
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 57081,
+              "FP": 10451,
+              "FN": 2304,
+              "precision": 0.8452437363027898,
+              "recall": 0.9612023238191463
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 5136,
+              "FP": 1472,
+              "FN": 422,
+              "precision": 0.7772397094430993,
+              "recall": 0.9240734077006117
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 6022,
+              "FP": 720,
+              "FN": 82,
+              "precision": 0.8932067635716404,
+              "recall": 0.9865661861074705
+            }
+          ],
+          "precision_macro": 0.8453744097971609,
+          "recall_macro": 0.9508316050185527
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 117.18812569999864,
+        "at": "2026-10-29T09:47:56.606309+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      },
+      "B": {
+        "arm": "B",
+        "reference": "B",
+        "images": 7852,
+        "weight_sha256": "ca6da799dda679b91fa60eb2d93690aada0ca370be09fab90d8f5dc3d224d701",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\B\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.9337910732297527,
+          "metrics/recall(B)": 0.9185546739942287,
+          "metrics/mAP50(B)": 0.9653425300364492,
+          "metrics/mAP50-95(B)": 0.8063489660170934,
+          "fitness": 0.8063489660170934
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9555398555160511,
+            "recall_best_f1": 0.9045346062052506,
+            "AP50": 0.957392285211365,
+            "AP50_95": 0.8140554819398057
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9255805065293808,
+            "recall_best_f1": 0.9333580187056566,
+            "AP50": 0.9742063199600481,
+            "AP50_95": 0.7820610238279785
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.8963649155041384,
+            "recall_best_f1": 0.8692459251298585,
+            "AP50": 0.9413932023140273,
+            "AP50_95": 0.77881751163913
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9576790153694406,
+            "recall_best_f1": 0.9670801459361494,
+            "AP50": 0.9883783126603564,
+            "AP50_95": 0.8504618466614593
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 1173,
+              "FP": 146,
+              "FN": 84,
+              "precision": 0.8893100833965125,
+              "recall": 0.9331742243436754
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 57381,
+              "FP": 10151,
+              "FN": 2290,
+              "precision": 0.8496860747497482,
+              "recall": 0.9616228988956109
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 5180,
+              "FP": 1428,
+              "FN": 403,
+              "precision": 0.7838983050847458,
+              "recall": 0.9278165860648397
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 6066,
+              "FP": 676,
+              "FN": 88,
+              "precision": 0.8997330169089292,
+              "recall": 0.9857003574910628
+            }
+          ],
+          "precision_macro": 0.8556568700349839,
+          "recall_macro": 0.9520785166987972
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 84.15074309999909,
+        "at": "2026-10-29T09:49:21.693607+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      },
+      "val966": {
+        "arm": "B",
+        "reference": "val966",
+        "images": 966,
+        "weight_sha256": "ca6da799dda679b91fa60eb2d93690aada0ca370be09fab90d8f5dc3d224d701",
+        "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-ab-ss04-20261029\\B\\yolov8n\\weights\\best.pt",
+        "native": {
+          "metrics/precision(B)": 0.895431889269626,
+          "metrics/recall(B)": 0.7647160575640656,
+          "metrics/mAP50(B)": 0.8284069362230124,
+          "metrics/mAP50-95(B)": 0.6697363037015764,
+          "fitness": 0.6697363037015764
+        },
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "precision_best_f1": 0.9185549692153812,
+            "recall_best_f1": 0.7152114134481418,
+            "AP50": 0.7844374622274204,
+            "AP50_95": 0.6543287373875991
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "precision_best_f1": 0.9107289472406468,
+            "recall_best_f1": 0.8256968920217879,
+            "AP50": 0.8869825974395997,
+            "AP50_95": 0.6876025261998947
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "precision_best_f1": 0.8022189564769874,
+            "recall_best_f1": 0.7339605762099153,
+            "AP50": 0.7910027584341585,
+            "AP50_95": 0.6364063505313196
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "precision_best_f1": 0.9502246841454887,
+            "recall_best_f1": 0.7839953485764172,
+            "AP50": 0.8512049267908712,
+            "AP50_95": 0.7006076006874925
+          }
+        ],
+        "fixed": {
+          "confidence": 0.25,
+          "iou": 0.5,
+          "classes": [
+            {
+              "cls": 0,
+              "name": "truck",
+              "TP": 147,
+              "FP": 13,
+              "FN": 58,
+              "precision": 0.91875,
+              "recall": 0.7170731707317073
+            },
+            {
+              "cls": 1,
+              "name": "car",
+              "TP": 7760,
+              "FP": 803,
+              "FN": 1603,
+              "precision": 0.906224454046479,
+              "recall": 0.8287941898964007
+            },
+            {
+              "cls": 2,
+              "name": "van",
+              "TP": 697,
+              "FP": 180,
+              "FN": 248,
+              "precision": 0.7947548460661346,
+              "recall": 0.7375661375661375
+            },
+            {
+              "cls": 3,
+              "name": "bus",
+              "TP": 765,
+              "FP": 40,
+              "FN": 209,
+              "precision": 0.9503105590062112,
+              "recall": 0.7854209445585215
+            }
+          ],
+          "precision_macro": 0.8925099647797061,
+          "recall_macro": 0.7672136106881917
+        },
+        "precision": "FP32 quantize=None",
+        "effective_options": {
+          "split": "val",
+          "imgsz": 640,
+          "batch": 32,
+          "device": 0,
+          "workers": 2,
+          "conf": 0.001,
+          "iou": 0.7,
+          "max_det": 300,
+          "quantize": null,
+          "rect": false,
+          "augment": false,
+          "plots": false,
+          "save_json": false,
+          "save_txt": false,
+          "verbose": false,
+          "exist_ok": false,
+          "agnostic_nms": false,
+          "classes": null,
+          "single_cls": false,
+          "compile": false
+        },
+        "evaluator": "Ultralytics8.4.165 native matching/AP; fixed confidence rematched separately",
+        "state": "completed",
+        "seconds": 36.00761390000116,
+        "at": "2026-10-29T09:49:58.701939+00:00",
+        "no_3lc_import": true,
+        "runtime": {
+          "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+          "torch": "2.14.1+cu130",
+          "ultralytics": "8.4.165",
+          "cuda": "13.0",
+          "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+        }
+      }
+    }
+  },
+  "comparison": {
+    "val_B_minus_A": {
+      "metrics/precision(B)": -0.022782938470393144,
+      "metrics/recall(B)": 0.027514842882102375,
+      "metrics/mAP50(B)": 0.01889727529717622,
+      "metrics/mAP50-95(B)": 0.013714082798235161
+    },
+    "gaps": {
+      "A": {
+        "A": {
+          "metrics/precision(B)": 0.026388083362533288,
+          "metrics/recall(B)": 0.17487710599451256,
+          "metrics/mAP50(B)": 0.15783265360279497,
+          "metrics/mAP50-95(B)": 0.15694130952802077
+        },
+        "B": {
+          "metrics/precision(B)": 0.02541887210685745,
+          "metrics/recall(B)": 0.17239845439225654,
+          "metrics/mAP50(B)": 0.15715019554447873,
+          "metrics/mAP50-95(B)": 0.1563111339894543
+        }
+      },
+      "B": {
+        "A": {
+          "metrics/precision(B)": 0.027077406959190475,
+          "metrics/recall(B)": 0.15212925376304753,
+          "metrics/mAP50(B)": 0.1287987854304833,
+          "metrics/mAP50-95(B)": 0.1293697014058206
+        },
+        "B": {
+          "metrics/precision(B)": 0.03835918396012672,
+          "metrics/recall(B)": 0.15383861643016317,
+          "metrics/mAP50(B)": 0.13693559381343678,
+          "metrics/mAP50-95(B)": 0.13661266231551694
+        }
+      }
+    },
+    "gap_B_minus_A": {
+      "A": {
+        "metrics/precision(B)": 0.0006893235966571876,
+        "metrics/recall(B)": -0.022747852231465027,
+        "metrics/mAP50(B)": -0.029033868172311683,
+        "metrics/mAP50-95(B)": -0.027571608122200164
+      },
+      "B": {
+        "metrics/precision(B)": 0.01294031185326927,
+        "metrics/recall(B)": -0.018559837962093373,
+        "metrics/mAP50(B)": -0.020214601731041948,
+        "metrics/mAP50-95(B)": -0.019698471673937346
+      }
+    }
+  }
+}
