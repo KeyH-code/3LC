@@ -12,7 +12,7 @@
 - `PROJECT_LOG.md`：真实操作、决策、问题来源与学习记录。
 - `AGENTS.md`、`RULES.md`：协作边界和竞赛规则。
 
-## 当前结果（2026-11-02，三档实验完成，D060提交文件已生成）
+## 当前结果（2026-11-02，三档实验完成，D060赛后提交已评分）
 
 SS04固定YOLOv8n、640输入、28轮；train7852张，统一验证集val966。原A/B结果复用，三档新模型各对D0/D085/self/val966完成12次FP32评估，交付后只读终验通过。
 
@@ -29,13 +29,16 @@ SS04固定YOLOv8n、640输入、28轮；train7852张，统一验证集val966。�
 - D070/D060总体有收益，但不严格单调，van AP50–95均低于B；固定参照train观察到D070后反升。单种子、val选best及候选组成变化限制因果解释，不宣称显著性。
 - [完整实验报告](reports/train-cleaning-expansion-resume-r1-20261102/RESULT.md) · [分类收益与代价](reports/train-cleaning-expansion-resume-r1-20261102/class_deltas.csv) · [真实修改规模](reports/train-cleaning-expansion-resume-r1-20261102/change_scale.csv) · [标签应用报告](reports/cleaning-expansion-080-070-060-20261029/LABEL-APPLICATION-RESULT-20261101.md)。
 
-### D060阶段性提交文件（尚无Kaggle成绩）
+### D060阶段性提交（赛后首次提交已评分）
 
 学习者指定D060 best对test982张执行一次推理，沿用starter参数conf=.25、iou=.7、imgsz640、batch1、max_det300、GPU0，FP32、无TTA/集成/阈值搜索。已生成982行、10557框的`submission.csv`，样例列名、原id/image_id及顺序、六元组/有限值/归一化范围核验通过。
 
 - **CSV仅在本地**：`reports/submission-d060-20261102/submission.csv`（不纳入Git）。
 - SHA256：`2751c6dc8603293605b2f1ffe1d6b844c1ba3c9fb547da3c9362da85eba87db5`。
-- [生成及验证说明](reports/submission-d060-20261102/README.md)。由学习者手动上传，AI未上传Kaggle；没有官方Public/Private成绩或位次，原官方AP50≥.90目标尚未验收。
+- 学习者手动上传后，Kaggle显示`Complete (after deadline)`、`first submission`。本次用户提供带列标题的截图确认：**Private Score=0.77173，Public Score=0.77408**；AI未上传Kaggle。
+- 按学习者提供的榜单区间作单个分数插入比较：Private介于原第64名0.77291和第65名0.77132之间，约对应**第65位**；Public介于原第63名0.77586和第64名0.77060之间，约对应**第64位**。这是历史榜单分数位置估算，**不是Kaggle授予的正式排名**，赛后提交不据此改写最终名次。
+- 原目标为官方隐藏测试集AP50≥.90，本次Private尚差**12.827个百分点**，未达标。D060本地val AP50=.845502，与Private/Public分别相差约7.377/7.142个百分点；不同数据子集和推理工作点的差值不能直接归因为过拟合、场景变化或清洗效果。
+- [生成、验证与评分反馈说明](reports/submission-d060-20261102/README.md)。当前只有D060官方评分，没有A/B等同口径官方对照，不能由本次单点推断清洗在隐藏测试上的净收益。
 - CSV格式通过不代表训练工作流获得主办方许可；规定官方入口/3LC要求的适用性由学习者审阅，不将本次离线流程冒充已合规。
 
 ## 历史阶段：D085清洗（2026-10-28，当时未训练）
