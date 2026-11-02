@@ -1,0 +1,22 @@
+{
+  "approved_by_user": true,
+  "user_message": "可以应用到标签",
+  "source_reference": "Current conversation: user approved the three sealed D080/D070/D060 proposals after the 6188-candidate completion report and exact SHA256 listing.",
+  "scope": "Apply only the three final-proposals-20261101 cumulative proposals to new independent dataset copies. Preserve D0, D085, originals, frozen proposals and history. No inference or training.",
+  "proposal_seal_sha256": "4f91fe7e33d79f9d69b8ac4128ab4a955240e35f5e569ee0a264e1f1b12773d6",
+  "proposal_sha256": {
+    "D080": "bf5256bea98117e04bb074fefd48e2ee1a5b34c492c0259a6d4d89207bd4bf67",
+    "D070": "88189a9714e31858656a4fc5de4d92bbcff529e84c3448b92dc583b4240369fd",
+    "D060": "30c59b11303f24a6f92cddbede727360ad6b169b714bf8c0f6bcd31af67cd182"
+  },
+  "review_snapshot_sha256": "15d63394247aae213a318e83df0644aaa892946599e7d67bcd0a34ff4c436ca3",
+  "reference_manifest_sha256": "1898d635ab9808c00cab3ccc6dcbf30a564820393b91f260775204711de2c76e",
+  "experiment_spec_sha256": "c7b0e60befa36801dc79669f379ebf4c419e5a556bd3c1aa3a0f2ca0dda8a17b",
+  "deferred_policy": "leave_unchanged",
+  "conflict_policy": "exclude",
+  "storage": "Independent full train/val copies, preserving prior copy strategy; no shared mutable image files or hardlinks.",
+  "output_directory": "reports/cleaning-expansion-080-070-060-20261029/datasets-20261101",
+  "training_authorized": false,
+  "preserve_stop_B": true,
+  "git_push_authorized": false
+}

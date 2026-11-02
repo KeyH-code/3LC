@@ -1,0 +1,62 @@
+{
+  "batch": "OOF30-20261027",
+  "feedback_images": 30,
+  "mapped_adjudications": 29,
+  "target_mapping_pending": 1,
+  "status_counts": {
+    "not_required_to_annotate": 1,
+    "missing_label": 11,
+    "wrong_class": 7,
+    "original_label_correct_model_wrong": 10,
+    "target_mapping_pending": 1
+  },
+  "missing_label_cases": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "wrong_class_cases": [
+    13,
+    14,
+    15,
+    17,
+    18,
+    22,
+    27
+  ],
+  "original_label_correct_model_wrong_cases": [
+    16,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30
+  ],
+  "not_required_to_annotate_cases": [
+    1
+  ],
+  "target_mapping_pending_cases": [
+    19
+  ],
+  "confirmed_label_issue_cases_with_mapped_target": 18,
+  "explicit_ai_tendency_overruled_cases": [
+    22
+  ],
+  "model_calls": 0,
+  "label_writes": 0,
+  "new_boxes_created": 0,
+  "generalized_ai_accuracy": null,
+  "limits": "Purposive correlated sample; contextual interpretation disclosed for cases9/12. Case19 van class accepted but GT-object association unresolved. No label-change authorization."
+}

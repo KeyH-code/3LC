@@ -1,0 +1,13 @@
+{
+  "approved_by_user": true,
+  "user_message": "同意进行，可以重试",
+  "preceding_request": "是否同意仅重试运行准备一次，将其工具时限提高到1800秒？成功后继续预检；预检通过即按原授权执行，任何技术失败仍停止。",
+  "scope": "Retry tools/train_cleaning_expansion.py prepare once only; if successful continue preflight and the already authorized three trainings and twelve evaluations.",
+  "preparation_retry_count": 1,
+  "preparation_tool_timeout_seconds": 1800,
+  "preserve_previous_timeout_evidence": true,
+  "no_automatic_further_retry": true,
+  "no_label_or_parameter_changes": true,
+  "original_training_authorization": "TRAINING-AUTHORIZATION-20261101.json",
+  "state": "authorized_not_yet_executed"
+}

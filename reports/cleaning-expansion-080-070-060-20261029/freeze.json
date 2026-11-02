@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-29T12:58:33.494238+00:00",
+  "files": {
+    "AUTHORIZATION.json": "22f57e75d0adbb62334d2ddfd9b523dce77e39968e52e0806bb0139416e0441c",
+    "candidates.json": "4b0b797eae15404012d0ea1497e15acddffeafb116a6201292db5c9014351b71",
+    "batches.json": "cafda383445c1adbbd976d6e32489079b72b37d9c4a26491d6ce1afbf7aa945d",
+    "protected.json": "58dcb4e9b17d08c9ca76ab8913c5d1a2c701617c58ae98801bfdfc2ebcaf3dfc",
+    "experiment_spec.json": "c7b0e60befa36801dc79669f379ebf4c419e5a556bd3c1aa3a0f2ca0dda8a17b",
+    "candidates/D080.json": "d994b75e9b823fc5da4cc5eeca5838bc0045a5953165da747422997c3ec7ec92",
+    "candidates/D070.json": "d2297630bb1677bac0878830aa5669a575848980a93af254e868b73cd3cd6120",
+    "candidates/D060.json": "52ba48b4461d16f2214639dd829791eae576218a2d14857f4904552bfe080551"
+  },
+  "review_initial_sha256": "cec6635c361990a03faa90a8a747c06ddce1f90f35c45eb7848aa8dfddbe0502",
+  "initial_index_sha256": "14f9da5145e21d448ac3a11d9d8b864b7e308d6b5741760460b8bfeb089fe0eb"
+}

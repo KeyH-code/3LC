@@ -1,0 +1,22 @@
+{
+  "approved_by_user": true,
+  "user_message": "B，同意恢复执行器和预算",
+  "scope": "This recovery only: complete tools/resume_cleaning_expansion.py and tools/summarize_cleaning_expansion_resume.py with supporting tests; inspect D080 last checkpoint; if resumable, resume D080 to 28 total epochs, train D070 and D060 once each from scratch, then perform the original twelve FP32 evaluations and verified reporting.",
+  "source_directory": "reports/train-cleaning-expansion-ss04-20261101",
+  "output_directory": "reports/train-cleaning-expansion-resume-20261102",
+  "resume_band": "D080",
+  "expected_completed_epochs": 4,
+  "checkpoint_sha256": "6fe96d336204c1ce3189efdc49f73b8b78e9058242f0294ec6e7a4d43b445623",
+  "training_timeout_seconds": 5400,
+  "evaluation_timeout_seconds": 3600,
+  "total_timeout_seconds": 21600,
+  "new_recovery_budget": true,
+  "deviation": "D080 resumes from interrupted epoch-4 checkpoint rather than uninterrupted resume=false; RNG/data-loader stream and FP16 serialized checkpoint may differ. Preserve original attempt and report this limitation.",
+  "no_fallback_to_fresh_D080": true,
+  "no_automatic_retry": true,
+  "no_label_or_hyperparameter_changes": true,
+  "no_test_evaluation": true,
+  "no_network_or_3lc": true,
+  "git_push_authorized": false,
+  "python_environment": "E:\\anaconda\\envs\\dl-3lc"
+}

@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "rows": 982,
+  "boxes": 10557,
+  "no_box_rows": 0,
+  "classes": {
+    "0": 157,
+    "1": 8831,
+    "2": 708,
+    "3": 861
+  },
+  "sha256": "2751c6dc8603293605b2f1ffe1d6b844c1ba3c9fb547da3c9362da85eba87db5",
+  "bytes": 558948
+}

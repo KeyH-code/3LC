@@ -1,0 +1,17 @@
+{
+  "schema": "cleaning-expansion-final-proposal-seal-v1",
+  "review_snapshot_sha256": "15d63394247aae213a318e83df0644aaa892946599e7d67bcd0a34ff4c436ca3",
+  "candidate_count": 6188,
+  "completed": 6188,
+  "files": {
+    "review_snapshot.json": "15d63394247aae213a318e83df0644aaa892946599e7d67bcd0a34ff4c436ca3",
+    "conflicts.json": "2ad3a0bdc632133241e919ca529207abf3eab202f4962e9eff0d7a3573b86933",
+    "D080.json": "bf5256bea98117e04bb074fefd48e2ee1a5b34c492c0259a6d4d89207bd4bf67",
+    "D070.json": "88189a9714e31858656a4fc5de4d92bbcff529e84c3448b92dc583b4240369fd",
+    "D060.json": "30c59b11303f24a6f92cddbede727360ad6b169b714bf8c0f6bcd31af67cd182",
+    "summary.json": "d3ed3cbd9bb12e82aa38af8973318df5783a128f7776107bf906156378207f92"
+  },
+  "label_application_authorized": false,
+  "training_authorized": false,
+  "stop": "A: exact proposal hashes require user approval before label application"
+}

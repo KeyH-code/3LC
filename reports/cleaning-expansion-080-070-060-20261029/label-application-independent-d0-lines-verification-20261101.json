@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "versions": {
+    "D080": {
+      "additions_relative_D0": 729,
+      "class_changes_relative_D0": 72,
+      "all_original_geometry_preserved": true,
+      "yaml_parser_valid": true
+    },
+    "D070": {
+      "additions_relative_D0": 1807,
+      "class_changes_relative_D0": 184,
+      "all_original_geometry_preserved": true,
+      "yaml_parser_valid": true
+    },
+    "D060": {
+      "additions_relative_D0": 3361,
+      "class_changes_relative_D0": 274,
+      "all_original_geometry_preserved": true,
+      "yaml_parser_valid": true
+    }
+  }
+}

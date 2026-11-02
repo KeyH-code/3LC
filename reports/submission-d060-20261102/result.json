@@ -1,0 +1,33 @@
+{
+  "verified": true,
+  "rows": 982,
+  "boxes": 10557,
+  "no_box_rows": 0,
+  "classes": {
+    "0": 157,
+    "1": 8831,
+    "2": 708,
+    "3": 861
+  },
+  "sha256": "2751c6dc8603293605b2f1ffe1d6b844c1ba3c9fb547da3c9362da85eba87db5",
+  "bytes": 558948,
+  "seconds": 61.45623239999986,
+  "weight_sha256": "b36f72c507a13cc134092f3589d181c25b2014ae8f6845113b662ce654ed1eac",
+  "options": {
+    "conf": 0.25,
+    "iou": 0.7,
+    "imgsz": 640,
+    "batch": 1,
+    "max_det": 300,
+    "device": 0,
+    "augment": false,
+    "agnostic_nms": false,
+    "half": false,
+    "save": false,
+    "save_txt": false,
+    "save_conf": false,
+    "verbose": false
+  },
+  "no_3lc_import": true,
+  "state": "completed"
+}

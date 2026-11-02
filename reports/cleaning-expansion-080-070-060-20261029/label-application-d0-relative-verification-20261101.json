@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "reference": "D0 original frozen source manifest; cumulative D085 approved392 additions58 corrections retained",
+  "versions": {
+    "D080": {
+      "changed_label_files_relative_D0": 573,
+      "total_added_boxes_relative_D0": 729,
+      "class_corrections_relative_D0": 72
+    },
+    "D070": {
+      "changed_label_files_relative_D0": 1309,
+      "total_added_boxes_relative_D0": 1807,
+      "class_corrections_relative_D0": 184
+    },
+    "D060": {
+      "changed_label_files_relative_D0": 2207,
+      "total_added_boxes_relative_D0": 3361,
+      "class_corrections_relative_D0": 274
+    }
+  }
+}

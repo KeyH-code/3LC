@@ -1,0 +1,7 @@
+{
+  "user_requested_D060_test_csv": true,
+  "manual_upload_by_user": true,
+  "scope": "One test pass using existing starter options; no training/TTA/ensemble/search or upload.",
+  "output": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\submission-d060-20261102\\submission.csv",
+  "workflow_compliance_not_certified": true
+}

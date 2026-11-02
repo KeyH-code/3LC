@@ -1,0 +1,16 @@
+{
+  "user_message": "你先去除失败即停的约定，然后可以重试，不需要之后每次失败都停下来汇报了",
+  "scope": "This B recovery workflow only: correct and retry technical inspection, environment adaptation, executor and reporting faults without asking for approval on every failure. Preserve all failed attempts. This does not modify AGENTS.md or authorize unrelated future tasks.",
+  "original_recovery_authorization": "TRAINING-RESUME-AUTHORIZATION-20261102.json",
+  "output_directory": "reports/train-cleaning-expansion-resume-r1-20261102",
+  "preserve_failure_directory": "reports/train-cleaning-expansion-resume-20261102",
+  "training_and_evaluation_counts_unchanged": true,
+  "training_timeout_seconds": 5400,
+  "evaluation_timeout_seconds": 3600,
+  "total_timeout_seconds": 21600,
+  "no_fresh_D080_fallback": true,
+  "no_label_or_hyperparameter_changes": true,
+  "no_automatic_additional_training_attempts": true,
+  "no_test_or_network_or_3lc": true,
+  "git_push_authorized": false
+}

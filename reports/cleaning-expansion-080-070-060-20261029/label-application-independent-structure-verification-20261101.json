@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-01T09:48:28.947467+00:00",
+  "verified": true,
+  "versions": {
+    "D080": {
+      "train_images": 7852,
+      "validation_images": 966,
+      "validation_boxes": 11487,
+      "ab_train_order_identity": true,
+      "independent_files": true,
+      "data_yaml_sha256": "a150ddd5faa240bdea6e16818411d1d160c6221a926547ad5c852cdb910c00e0",
+      "manifest_sha256": "662da72af8636851a76c602aef9dde987300e97112216c56da029bb99694a40b"
+    },
+    "D070": {
+      "train_images": 7852,
+      "validation_images": 966,
+      "validation_boxes": 11487,
+      "ab_train_order_identity": true,
+      "independent_files": true,
+      "data_yaml_sha256": "eaf8eb3a3ee54d18a6091e0122492edfb765ed828393ce5c6f237c5b5993791a",
+      "manifest_sha256": "f509aa825a2bdb608b0d7f55f225dd65a29810f8495e3637107404e697b62319"
+    },
+    "D060": {
+      "train_images": 7852,
+      "validation_images": 966,
+      "validation_boxes": 11487,
+      "ab_train_order_identity": true,
+      "independent_files": true,
+      "data_yaml_sha256": "92b44304b6aaabe5dc96c12077253ca4bf8cd8f81634ffd7f9929359f95ddd67",
+      "manifest_sha256": "102d2983c04523d47d1b4f5ade1abec62e5e2143a9d679129871f040b1b69c49"
+    }
+  },
+  "distinct_dataset_files": 52908,
+  "actual_dataset_bytes": 1454281598,
+  "source_protection_after_copy": {
+    "at": "2026-11-01T09:47:32.914063+00:00",
+    "protected_files": 33520,
+    "source_files": 20,
+    "verified": true
+  },
+  "application_seal_sha256": "572b98e3026a50697d18397f32e5e2562385f2c76269347f582de7d043dff20a",
+  "training_runs": 0,
+  "model_calls": 0
+}

@@ -1,0 +1,30 @@
+{
+  "batch": "OOF30-20261027",
+  "images": 30,
+  "new_images_excluding_previous_8": true,
+  "scene_count": 27,
+  "signal_counts": {
+    "prediction_without_label_coverage": 12,
+    "class_disagreement": 18
+  },
+  "predicted_class_counts": {
+    "truck": 2,
+    "bus": 6,
+    "car": 13,
+    "van": 9
+  },
+  "ai_assessment_counts": {
+    "needs_policy_review": 6,
+    "likely_missing_label": 6,
+    "possible_wrong_class": 5,
+    "needs_class_definition_review": 5,
+    "needs_visual_or_class_review": 3,
+    "likely_model_classification_error": 5
+  },
+  "ai_visual_review_completed": 30,
+  "human_reviewed": 0,
+  "label_writes": 0,
+  "model_calls": 0,
+  "selection": "Purposive: 12 uncovered +18 class disagreement; max2 per scene; prefer unused scenes then scene/class then highest model confidence. Not a random sample or error-rate estimate.",
+  "calibrated_error_probability": false
+}

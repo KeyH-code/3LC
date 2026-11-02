@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-02T07:40:00.657069+00:00",
+  "verified": true,
+  "completed_models": 3,
+  "continuation_runs": 1,
+  "fresh_trainings": 2,
+  "uniform_evaluations": 12,
+  "original_attempt_unchanged": true,
+  "D080_resume": true,
+  "uninterrupted_equivalence": false
+}

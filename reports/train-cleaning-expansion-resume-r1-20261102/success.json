@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-02T07:40:00.683946+00:00",
+  "D080_resume": true,
+  "models": 3,
+  "evaluations": 12,
+  "files": {
+    "comparison.json": "6b47b1e15c3f373e801289f1de076ebd7ae83737d7ccc616d9c162e84dd10fe8",
+    "metrics.csv": "d837306e44f653c39f73b2b4e5b60da19fe647b173a38207ddb8e67229215c93",
+    "per_class.csv": "48dcc28e879524b833f5821a7ffdda6559e54c1935e4bdfe4d3330ef8735cf49",
+    "class_deltas.csv": "eb9a3244f5c33aef0c4772063b9274988ef6cf90e1b385165a6965458841413d",
+    "change_scale.csv": "259dbc3bb1fcee73ddb7b456e98b16c47fa2dc949f15a55f6d9cc0f51d061325",
+    "RESULT.md": "4e590b4615ac9d38bbd801f29558f3d4aae8bd2b6871ddc6062f92625a88b5c8",
+    "independent_verification.json": "978fc13930355b76aa9fe1234838518672d8b53dbdea107c27d4cefd7809e14c"
+  },
+  "original_attempt_unchanged": true
+}

@@ -1,0 +1,73 @@
+{
+  "files": {
+    "approval_record.json": "e0cd998fcd49c961647c63c6139f1a5bd0789e4a846d9b3b84cbe7d88701cc6d",
+    "source_seal.json": "27558754bd878ef78d2b880a8b4ce705ae23785c277edeade3aef613cd53ad80",
+    "D080/data.yaml": "a150ddd5faa240bdea6e16818411d1d160c6221a926547ad5c852cdb910c00e0",
+    "D080/manifest.json": "662da72af8636851a76c602aef9dde987300e97112216c56da029bb99694a40b",
+    "D080/applied_changes.json": "ba100a0c443cd704925ce160347812bdf6d24a70e5c92d8488464cf7cd53062c",
+    "D070/data.yaml": "eaf8eb3a3ee54d18a6091e0122492edfb765ed828393ce5c6f237c5b5993791a",
+    "D070/manifest.json": "f509aa825a2bdb608b0d7f55f225dd65a29810f8495e3637107404e697b62319",
+    "D070/applied_changes.json": "8c1e30e5fd489675a6241d93c84f502e882518db530dfed5ff2a6ab5843dd8d4",
+    "D060/data.yaml": "92b44304b6aaabe5dc96c12077253ca4bf8cd8f81634ffd7f9929359f95ddd67",
+    "D060/manifest.json": "102d2983c04523d47d1b4f5ade1abec62e5e2143a9d679129871f040b1b69c49",
+    "D060/applied_changes.json": "ab73fd555e4206d2e03c5c03d89c4cf2df30fb41a521b1c41a5c7b37e27e16c1"
+  },
+  "code_files": {
+    "tools\\cleaning_expansion_apply.py": "76ec02ac2e0eef9cd5841d11c5b37bb5248d4230288438742995104bb8cc2a6f",
+    "tools\\oof_label_cleaning.py": "c99b801fb21606d7ef6b202d601f57942c35f4c414da07f9f7a4fa6a2e312765",
+    "tools\\cleaning_expansion_review.py": "2b911da8822419c01c494ae1b2bfead8a45c5ad47eb37c388bc4b456331865f7",
+    "docs\\plans\\cleaning-expansion-review.schema.json": "56fd8c8929793f7fba443514d54faee8d0c45e4eb05b0ba5642ece470f30129c"
+  },
+  "experiment_spec_sha256": "c7b0e60befa36801dc79669f379ebf4c419e5a556bd3c1aa3a0f2ca0dda8a17b",
+  "versions": {
+    "D080": {
+      "boxes": 73002,
+      "classes": {
+        "1": 59983,
+        "2": 5575,
+        "0": 1259,
+        "3": 6185
+      },
+      "changed_label_files": 298,
+      "actions": 351,
+      "added_boxes": 337,
+      "changed_classes": 14,
+      "train_images": 7852,
+      "val_images": 966,
+      "data_yaml": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\cleaning-expansion-080-070-060-20261029\\datasets-20261101\\D080\\data.yaml"
+    },
+    "D070": {
+      "boxes": 74080,
+      "classes": {
+        "1": 61022,
+        "2": 5515,
+        "0": 1256,
+        "3": 6287
+      },
+      "changed_label_files": 1128,
+      "actions": 1541,
+      "added_boxes": 1415,
+      "changed_classes": 126,
+      "train_images": 7852,
+      "val_images": 966,
+      "data_yaml": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\cleaning-expansion-080-070-060-20261029\\datasets-20261101\\D070\\data.yaml"
+    },
+    "D060": {
+      "boxes": 75634,
+      "classes": {
+        "1": 62455,
+        "2": 5546,
+        "0": 1259,
+        "3": 6374
+      },
+      "changed_label_files": 2070,
+      "actions": 3185,
+      "added_boxes": 2969,
+      "changed_classes": 216,
+      "train_images": 7852,
+      "val_images": 966,
+      "data_yaml": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\cleaning-expansion-080-070-060-20261029\\datasets-20261101\\D060\\data.yaml"
+    }
+  },
+  "training_authorized": false
+}
