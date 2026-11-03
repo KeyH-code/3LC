@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-02T11:07:23.842334+00:00",
+  "hashes": {
+    "tools/train_d060_ap50_cycle.py": "2f6d1f756ced23c59267b7dad5687439f1a75477b81df2135169fe831bf505e5",
+    "tests/test_d060_ap50_cycle.py": "06c711755a2745834c39b0a38ae45e20edd4b6dd5ac4a846d82aee948c2439e2",
+    "tools/train_cleaning_expansion.py": "c3acbe7520ade34af2af58ba046f1e31cb9b9e2ea2dcbf7ae53326a74c32b34c",
+    "tools/train_cleaning_ab.py": "d31c54504e719203b4e97719a9b8568c0c867ef2bf9a217d1281f0cfb8fe5e48",
+    "tools/eval_cleaning_ab_recovery.py": "54497dfe410391494c50433943206e43cc87380d7991b96fd9af3053946eb264",
+    "tools/oof_diagnostic.py": "6c43b7fcf6e563db1c92b185b61fd1f5b42beadfb984a59cbb5648b299b304e6",
+    "reports/d060-ap50-cycle-study-20261102/plan.json": "3b3251ccb0a437a8a3993505622db7d29fe60ddfffc81f4f5f32ff7a99b03b86",
+    "reports/d060-ap50-cycle-study-20261102/authorization.json": "6dbfbd1f50faf01c2fd49257d773a07f55347c17af4d8896b28dbcc22cc6b9f1",
+    "reports/d060-ap50-cycle-study-20261102/protected.json": "5bddc0b1cecd06451f81369b9e06e052ef2a218caee882bd8d18e7e2122445b0",
+    "reports/d060-ap50-cycle-study-20261102/baseline_initialization.json": "1c6338049be6e6adab8cd05dc6c25d72b362cc83dedaed933d8ecd31626c0ff1",
+    "reports/d060-ap50-cycle-study-20261102/baseline_evaluation.json": "67aef6c14f3b3507259722bafda893b73cf8f56e790467bf664e9491d6549904",
+    "reports/d060-ap50-cycle-study-20261102/baseline_training.json": "cfa243e17c3c4bcd99cdfca38e9af1afc1d7c800216bb253569a4b21ad6a3ae8",
+    "reports/d060-ap50-cycle-study-20261102/preflight/result.json": "e13f7542dff13495efd0c8bd3a64bb8c710c96d8e55fed9d754bbf7ebe8678b8",
+    "reports/d060-ap50-cycle-study-20261102/architecture/yolov8n.yaml": "405a3c302eb6096103a99af4d82c1d2d8b2bbff469a228c55aac944b2c19672a",
+    "reports/d060-ap50-cycle-study-20261102/preflight/metadata_clarification.json": "c5358ffac2368ffef3a55bfbae3a0360f0c7e39c8e76c023e36cbdd55e36008f",
+    "reports/d060-ap50-cycle-study-20261102/manifests/D060.json": "0ac33aee057a52087a44a686bdc683dc0cc3568dd7e28f9a0406e914e79e124a",
+    "reports/d060-ap50-cycle-study-20261102/manifests/val966.json": "db37a7dc7cd27e7186419b063bfcba71860b96f3137309ee63d62cdb37722459",
+    "reports/d060-ap50-cycle-study-20261102/D060.yaml": "9946e1550c17980396a684b22152431963a52c36792a790e876b4e7955f361fa",
+    "reports/d060-ap50-cycle-study-20261102/R00-eval-val966.yaml": "701d1021c392c84653b61864b946b7d4608489f9300baab0e277637375de1f2b",
+    "reports/d060-ap50-cycle-study-20261102/R01-eval-val966.yaml": "701d1021c392c84653b61864b946b7d4608489f9300baab0e277637375de1f2b"
+  },
+  "dependencies": {
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\cfg\\default.yaml": "285fa6ff485cb5d556ed216b966f0952a391c89a651901c49b246fda18cf0108",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\cfg\\models\\v8\\yolov8.yaml": "405a3c302eb6096103a99af4d82c1d2d8b2bbff469a228c55aac944b2c19672a",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\engine\\trainer.py": "3d4460f851ee00814432483bae25ddfab9151bc7d9dacc7ecc896d089bc96ec9",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\engine\\model.py": "844f7d6be1221ab617533a6685674a9f5221d58eec4ee559c1d849f2cf8718a5",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\models\\yolo\\detect\\train.py": "a045142cebae53ff94af9144fa108cd413904c27f085d58dc4ade2e83343c93a",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\models\\yolo\\detect\\predict.py": "1711eaacf6f577d5277e0933a5437881e2c3ba833d13358d3dc4244424b5edc2",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\models\\yolo\\detect\\val.py": "fae8c3ba4300b6a50ed67e97e7a661ae32ab1e309bfd449d5ddbb995906d255a",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\data\\dataset.py": "fd9938d76f87486e97bdfe20ef983cf96496c35bc5138ac203ca1dac909274b5",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\data\\utils.py": "a04b37d161be4d8050fc40001bcf4b139c1a9a8c0ad83252339acca3fcad1cf2",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\utils\\checks.py": "4c694935c327ebd07250d12fc2a2694bb50a4ccad793398adfd8dafdeca9c8c6",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\utils\\torch_utils.py": "8d3fcbd8a3e548427e7eea930470ba6b3f71058d17298769f812d7d44a8766c5",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\utils\\metrics.py": "a41b9c09c19f5c41990b00d323efc3ef657d391ad0a1a7eb1774b5556d2fd37e",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\nn\\tasks.py": "4f54fd2fd743d364e25124597dbfd74746e1edf62ab7bf85f27251c5334a4880",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\engine\\validator.py": "8d30fb06b435fcb848def7c18a9d31efe6bb9b148f5e9e4ec1e8f08dbcfd2025",
+    "E:\\anaconda\\envs\\dl-3lc\\Lib\\site-packages\\ultralytics\\utils\\downloads.py": "c0052b55ad90f499780721eb92e8c33e6fd424fb3a2cbfbf68d81e1266c8092e"
+  }
+}

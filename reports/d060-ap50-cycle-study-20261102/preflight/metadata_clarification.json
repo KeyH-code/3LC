@@ -1,0 +1,7 @@
+{
+  "at": "2026-11-02T11:07:06.294798+00:00",
+  "field": "no_model_construction",
+  "correct_full_preflight_value": false,
+  "reason": "Inherited matcher-only helper field referred only to its substage; full preflight constructed random models and optimizer groups, performed zero optimizer steps and no dataset inference. Original result retained unchanged.",
+  "source_change": "Metadata-only clarification after preflight; no training behavior change"
+}

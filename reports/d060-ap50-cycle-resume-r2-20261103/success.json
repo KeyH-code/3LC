@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-03T02:39:19.154846+00:00",
+  "new_training_segments": 1,
+  "evaluations": 2,
+  "R00_reused": true,
+  "files": {
+    "independent_verification.json": "98fb1ef0ddca5a1b7f50ff1b7167ad54feaff902684817a47357f046500b1693",
+    "comparison.json": "4c2997ea26b606d45af6a236a8bb124a2f09571ecbadeab32ec23433a326993e",
+    "metrics.csv": "1aae08984075659b29510b8bb4225f9820771ebb257f9464a8ea0bb5863fc5f1",
+    "per_class.csv": "11d8ad0b531b2fd46ee31d36ed0c5b6959b41b349620d3b4f542862e74d7a182",
+    "RESULT.md": "21ef6a655adfce602e300b589cb202bd049cfb3c5e2c7e553ca75ef6d9a3ebd0"
+  }
+}

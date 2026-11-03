@@ -1,0 +1,19 @@
+{
+  "approved_by_user": true,
+  "user_message": "可以采用这个方案，你现在可以完成训练入口的代码编写，并在编写好入口代码之后，开始训练",
+  "training_runs": 2,
+  "evaluations": 2,
+  "runs": {
+    "R00": 28,
+    "R01": 80
+  },
+  "resume": false,
+  "full_entrypoint": true,
+  "no_retry": true,
+  "no_test": true,
+  "no_network_or_3lc": true,
+  "total_timeout_seconds": null,
+  "best_selection": "unrounded native val AP50; strict improvement; earlier tie",
+  "independent_offline": true,
+  "competition_approved": false
+}

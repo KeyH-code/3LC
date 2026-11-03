@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-02T10:58:10.444252+00:00",
+  "operation": "prepare independent copies",
+  "tool_wait_timeout_seconds": 120,
+  "training_started": false,
+  "observed_counts": {
+    "data\\D060\\images\\train": 812,
+    "data\\D060\\labels\\train": 812
+  },
+  "process_no_longer_running": true,
+  "policy": "Preserve all partial copies, verify existing bytes, complete only mechanical preparation; never rerun a training"
+}

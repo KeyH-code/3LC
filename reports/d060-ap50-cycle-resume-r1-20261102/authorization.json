@@ -1,0 +1,20 @@
+{
+  "approved_by_user": true,
+  "user_message": "结束这三个残留进程，释放资源，采用第四轮续训",
+  "R00": {
+    "completed_epochs": 4,
+    "resume_epochs": 24,
+    "target_epochs": 28
+  },
+  "R01": {
+    "from_scratch": true,
+    "epochs": 80
+  },
+  "evaluations": 2,
+  "no_more_retries": true,
+  "no_test": true,
+  "no_parameter_changes": true,
+  "timeout_seconds": null,
+  "full_recovery_entrypoint": true,
+  "competition_approved": false
+}

@@ -161,6 +161,47 @@ Thumbs.db
 !/reports/git-publication-*/commit_files.json
 
 # Approved 2026-11-02 publication: keep raw evidence locally, whitelist compact records.
+# Approved 2026-11-03 D060 study publication: compact evidence only.
+/reports/d060-ap50-*/**
+!/reports/d060-ap50-*/RESULT.md
+!/reports/d060-ap50-*/authorization.json
+!/reports/d060-ap50-*/plan.json
+!/reports/d060-ap50-*/comparison.json
+!/reports/d060-ap50-*/metrics.csv
+!/reports/d060-ap50-*/per_class.csv
+!/reports/d060-ap50-*/independent_verification.json
+!/reports/d060-ap50-*/success.json
+!/reports/d060-ap50-*/supervision_exit.json
+!/reports/d060-ap50-*/run_failure.json
+!/reports/d060-ap50-*/seal.json
+!/reports/d060-ap50-*/recovery_seal.json
+!/reports/d060-ap50-*/recovery_prepared.json
+!/reports/d060-ap50-*/preparation_interruption.json
+!/reports/d060-ap50-*/preparation_completed.json
+!/reports/d060-ap50-*/prior_costs.json
+!/reports/d060-ap50-*/*clarification.json
+!/reports/d060-ap50-*/preflight/
+/reports/d060-ap50-*/preflight/*
+!/reports/d060-ap50-*/preflight/result.json
+!/reports/d060-ap50-*/preflight/exit.json
+!/reports/d060-ap50-*/preflight/*clarification.json
+!/reports/d060-ap50-*/R00/
+!/reports/d060-ap50-*/R01/
+/reports/d060-ap50-*/R0*/*
+!/reports/d060-ap50-*/R0*/train/
+/reports/d060-ap50-*/R0*/train/*
+!/reports/d060-ap50-*/R0*/train/result.json
+!/reports/d060-ap50-*/R0*/train/initialization.json
+!/reports/d060-ap50-*/R0*/train/failure.json
+!/reports/d060-ap50-*/R0*/train/exit.json
+!/reports/d060-ap50-*/R0*/yolov8n/
+/reports/d060-ap50-*/R0*/yolov8n/*
+!/reports/d060-ap50-*/R0*/yolov8n/results.csv
+!/reports/d060-ap50-*/R0*/eval_val966/
+/reports/d060-ap50-*/R0*/eval_val966/*
+!/reports/d060-ap50-*/R0*/eval_val966/result.json
+!/reports/d060-ap50-*/R0*/eval_val966/exit.json
+
 /oof-probe-*/
 /oof-train-*/
 /tools/pi-direct-review-images/

@@ -1,0 +1,57 @@
+{
+  "run": "R01",
+  "epochs": 80,
+  "prior_epochs": 63,
+  "resumed_epochs": 17,
+  "resume": true,
+  "best_epoch": 59,
+  "best_native_AP50": 0.8658022625260243,
+  "best": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R01\\yolov8n\\weights\\best.pt",
+  "last": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R01\\yolov8n\\weights\\last.pt",
+  "best_sha256": "9c41aa85d9c44efc91907fa148577b6d084ba2645351f703d07c229d7f4c9c21",
+  "last_sha256": "52402e30dcbf64758e2bb74cf6dd7cba62ee61fe2ca197adf6b746eb05b76753",
+  "checkpoint_evidence": {
+    "last": {
+      "epoch": 80,
+      "fitness": 0.8551390508973222,
+      "metrics": {
+        "metrics/precision(B)": 0.91322,
+        "metrics/recall(B)": 0.79046,
+        "metrics/mAP50(B)": 0.8551390508973222,
+        "metrics/mAP50-95(B)": 0.70951,
+        "val/box_loss": 0.75883,
+        "val/cls_loss": 0.54521,
+        "val/dfl_loss": 0.95939,
+        "fitness": 0.8551390508973222
+      },
+      "model_state_sha256": "750adf22cc82b65a3da0ae7efd6eb84c16a1629b2ca20a3704f6fe68b2368260",
+      "finite_weights": true,
+      "optimizer_stripped": true
+    },
+    "best": {
+      "epoch": 59,
+      "fitness": 0.8658022625260243,
+      "metrics": {
+        "metrics/precision(B)": 0.90809,
+        "metrics/recall(B)": 0.7894,
+        "metrics/mAP50(B)": 0.8658022625260243,
+        "metrics/mAP50-95(B)": 0.71204,
+        "val/box_loss": 0.7699,
+        "val/cls_loss": 0.5398,
+        "val/dfl_loss": 0.96579,
+        "fitness": 0.8658022625260243
+      },
+      "model_state_sha256": "0401eea091651e4a047b7b649e44e63db4477bdcf5ddc99717423d1c9b6e42cb",
+      "finite_weights": true,
+      "optimizer_stripped": true
+    }
+  },
+  "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+  "uninterrupted_equivalence": false,
+  "extra_native_final_validation": false,
+  "state": "completed",
+  "seconds": 1099.7568385,
+  "at": "2026-11-03T02:37:14.757058+00:00",
+  "guarded_spawn_children": 8,
+  "no_3lc_import": true
+}

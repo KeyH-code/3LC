@@ -1,0 +1,15 @@
+{
+  "approved_by_user": true,
+  "user_message": "续训至80轮，完成原定两次验证",
+  "resume_from_epoch": 63,
+  "remaining_epochs": 17,
+  "target_epochs": 80,
+  "reuse_completed_R00": true,
+  "evaluations": 2,
+  "no_parameter_changes": true,
+  "no_retry": true,
+  "no_test": true,
+  "timeout_seconds": null,
+  "full_recovery_entrypoint": true,
+  "competition_approved": false
+}

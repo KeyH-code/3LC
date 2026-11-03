@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-03T02:39:18.941253+00:00",
+  "verified": true,
+  "training_runs": 2,
+  "evaluations": 2,
+  "originals_unchanged": true,
+  "protected_files": 167173,
+  "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+  "no_guard_events": true,
+  "R00_reused": true,
+  "R01_resumed_from_epoch": 63,
+  "newly_executed_training_segments": 1,
+  "newly_executed_evaluations": 2
+}

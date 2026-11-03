@@ -1,0 +1,14 @@
+{
+  "hashes": {
+    "tools/train_d060_ap50_cycle.py": "2f6d1f756ced23c59267b7dad5687439f1a75477b81df2135169fe831bf505e5",
+    "tests/test_resume_d060_ap50_cycle.py": "7e757e7725292c1c2001f661cf0519d6c12c9586feb16f053f71320779d2aaa7",
+    "reports/d060-ap50-cycle-resume-r1-20261102/checkpoint/last.pt": "ccbf1b9045c0262eb41102771c9cbdd4794a1e845a5c0c580c98f57aba7b34ba",
+    "reports/d060-ap50-cycle-resume-r1-20261102/checkpoint/best.pt": "ccbf1b9045c0262eb41102771c9cbdd4794a1e845a5c0c580c98f57aba7b34ba",
+    "reports/d060-ap50-cycle-resume-r1-20261102/prior_epochs.jsonl": "78bdc931199cd890e250cfec043fb490bd9e688b9ce49bf925c61a12989545b3",
+    "reports/d060-ap50-cycle-resume-r1-20261102/prior_results.csv": "a38683fcad8ad322582c175e27edc111e5b3e5e43a65bbdde8cfaf3e833fe52f",
+    "reports/d060-ap50-cycle-resume-r1-20261102/original_initialization.json": "bb0194316a4441a842e1bff4cd2210ac139d051a0cc4ba499cc453e9cb1ef46d",
+    "reports/d060-ap50-cycle-resume-r1-20261102/original_failure.json": "09d87555b69199197b90d0a46e25ab69de55d25c2d3e79f63cec1dee6e81df09",
+    "reports/d060-ap50-cycle-resume-r1-20261102/recovery_prepared.json": "5ecbff959b4e467dbc9a992da23558407f94815da17928a2224a6f07faee4dc7",
+    "reports/d060-ap50-cycle-resume-r1-20261102/recovery_plan_clarification.json": "ad8e08f4c359b2d424016e21f1fd317696b563c48135bede73d81f8e1e3b6613"
+  }
+}

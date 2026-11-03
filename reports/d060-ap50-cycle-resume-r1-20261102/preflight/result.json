@@ -1,0 +1,88 @@
+{
+  "no_model_construction": false,
+  "no_training": true,
+  "native_filter_then_match_verified": true,
+  "supported_training_options": true,
+  "guarded_spawn_children": 2,
+  "initialization_and_optimizer": {
+    "R00": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    },
+    "R01": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    }
+  },
+  "no_dataset_inference": true,
+  "no_optimizer_steps": true,
+  "runtime": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.14.1+cu130",
+    "ultralytics": "8.4.165",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "checkpoint_inspection": {
+    "epoch": 4,
+    "next_epoch": 5,
+    "target_epochs": 28,
+    "optimizer_present": true,
+    "scaler_present": true,
+    "ema_updates": 676,
+    "best_fitness": 0.6739708330973857,
+    "checkpoint_sha256": "ccbf1b9045c0262eb41102771c9cbdd4794a1e845a5c0c580c98f57aba7b34ba",
+    "no_dataset_inference": true,
+    "no_optimizer_steps": true
+  },
+  "state": "completed",
+  "seconds": 21.676112799999828,
+  "at": "2026-11-02T13:24:59.002410+00:00",
+  "no_3lc_import": true
+}

@@ -1,0 +1,76 @@
+{
+  "no_model_construction": true,
+  "no_training": true,
+  "native_filter_then_match_verified": true,
+  "supported_training_options": true,
+  "guarded_spawn_children": 2,
+  "initialization_and_optimizer": {
+    "R00": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    },
+    "R01": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    }
+  },
+  "no_dataset_inference": true,
+  "no_optimizer_steps": true,
+  "runtime": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.14.1+cu130",
+    "ultralytics": "8.4.165",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "state": "completed",
+  "seconds": 31.590496199998597,
+  "at": "2026-11-02T11:06:05.235216+00:00",
+  "no_3lc_import": true
+}

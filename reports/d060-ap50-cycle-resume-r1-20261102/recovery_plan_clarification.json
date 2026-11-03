@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-02T13:28:38.680614+00:00",
+  "run": "R00",
+  "actual_resume": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r1-20261102\\checkpoint\\last.pt",
+  "actual_model": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r1-20261102\\checkpoint\\last.pt",
+  "start_epoch_zero_based": 4,
+  "target_epochs": 28,
+  "reason": "Existing plan training subsection retains scratch defaults; runtime overrides and explicit recovery authorization take precedence. Original plan preserved.",
+  "csv_time": "Segment-local after epoch4; not continuous cumulative elapsed time",
+  "review": "No execution blockers; metadata-only reporting corrections applied before seal"
+}

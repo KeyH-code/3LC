@@ -1,0 +1,20 @@
+{
+  "hashes": {
+    "tools/train_d060_ap50_cycle.py": "2f6d1f756ced23c59267b7dad5687439f1a75477b81df2135169fe831bf505e5",
+    "tools/resume_d060_ap50_cycle.py": "8c8c7c3eded51b84a58c5c855a7d862d474581884a5c16c771963b630dff2f7d",
+    "tests/test_resume_d060_ap50_r01.py": "e373e950c211e47f9464ef23ec3329206264541822b1bab9010eb83039139d79",
+    "reports/d060-ap50-cycle-resume-r2-20261103/prior_epochs.jsonl": "3b75c1af80b0bfe965ea4173e8875b06e2dea75797bbec3a302b28c18128c3c6",
+    "reports/d060-ap50-cycle-resume-r2-20261103/prior_results.csv": "c58d9026a967bfd4570957f62f9f0d94cc4cba5dbc5dcaa2883fc971cf1b1f12",
+    "reports/d060-ap50-cycle-resume-r2-20261103/original_initialization.json": "feecae66183c30602e7a9a6be517a7634ee08cd856a932e3e29bfebf0329e6c7",
+    "reports/d060-ap50-cycle-resume-r2-20261103/checkpoint/last.pt": "5d6379938bc2abe7d0ed80481ea2a506bd745bd146bfec0e123205aac2a3db42",
+    "reports/d060-ap50-cycle-resume-r2-20261103/checkpoint/best.pt": "1376458700aac321dc6ec05472a2f5bb9203ab28feb1e43c81cc15432480db79",
+    "reports/d060-ap50-cycle-resume-r2-20261103/recovery_prepared.json": "ac74e7e970c6373c096299a539f44d780911c098e68fe1ccdeeebbaa3e069bc8",
+    "reports/d060-ap50-cycle-resume-r2-20261103/prior_costs.json": "d485e7ad94b744182ce280b41a01c943eb8e5d47ffd136b1110ff356bb9d3d71",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/train/epochs.jsonl": "f71299099ce2f7e6b03b1a64dc5cbf57c3803244e2fe3bee70c4289fbb2616da",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/train/exit.json": "3ab6eb4d6b17007e844a93aa98b9503f4ae8850f5d20df204d11c87a524b3cf1",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/train/initialization.json": "43627ad24995c7aa025ba03c1495565912baa1d023c94c31b0a7279e00f525f8",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/train/result.json": "facc48b07d459cc958ca556a21a380778718ecf0e124f0306020ff582f5da7cb",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/yolov8n/weights/best.pt": "f46679bcb81d72fe2996eb429a020e1e63501d56fee91d1271ef7831c19ba882",
+    "reports/d060-ap50-cycle-resume-r2-20261103/R00/yolov8n/weights/last.pt": "d7f791f3badf40607dcf369e4880d72bab654151a29b479733dfd74f097a3a08"
+  }
+}

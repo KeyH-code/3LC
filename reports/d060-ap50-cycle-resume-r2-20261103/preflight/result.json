@@ -1,0 +1,90 @@
+{
+  "no_model_construction": false,
+  "no_training": true,
+  "native_filter_then_match_verified": true,
+  "supported_training_options": true,
+  "guarded_spawn_children": 2,
+  "initialization_and_optimizer": {
+    "R00": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    },
+    "R01": {
+      "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+      "optimizer": "AdamW",
+      "groups": [
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        },
+        {
+          "lr": 0.00125,
+          "betas": [
+            0.9,
+            0.999
+          ]
+        }
+      ]
+    }
+  },
+  "no_dataset_inference": true,
+  "no_optimizer_steps": true,
+  "runtime": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.14.1+cu130",
+    "ultralytics": "8.4.165",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "checkpoint_inspection": {
+    "completed_epochs": 63,
+    "next_epoch": 64,
+    "target_epochs": 80,
+    "best_epoch": 59,
+    "best_AP50": 0.8658022625260243,
+    "ema_updates": 7933,
+    "optimizer_present": true,
+    "scaler_present": true,
+    "last_sha256": "5d6379938bc2abe7d0ed80481ea2a506bd745bd146bfec0e123205aac2a3db42",
+    "best_sha256": "1376458700aac321dc6ec05472a2f5bb9203ab28feb1e43c81cc15432480db79",
+    "no_dataset_inference": true,
+    "no_optimizer_steps": true
+  },
+  "state": "completed",
+  "seconds": 34.93582530000003,
+  "at": "2026-11-03T02:14:23.076276+00:00",
+  "no_3lc_import": true
+}

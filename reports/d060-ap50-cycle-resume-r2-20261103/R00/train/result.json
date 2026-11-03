@@ -1,0 +1,60 @@
+{
+  "run": "R00",
+  "epochs": 28,
+  "prior_epochs": 4,
+  "resumed_epochs": 24,
+  "resume": true,
+  "best_epoch": 25,
+  "best_native_AP50": 0.8508784527530471,
+  "best": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R00\\yolov8n\\weights\\best.pt",
+  "last": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R00\\yolov8n\\weights\\last.pt",
+  "best_sha256": "f46679bcb81d72fe2996eb429a020e1e63501d56fee91d1271ef7831c19ba882",
+  "last_sha256": "d7f791f3badf40607dcf369e4880d72bab654151a29b479733dfd74f097a3a08",
+  "checkpoint_evidence": {
+    "last": {
+      "epoch": 28,
+      "fitness": 0.8437130973497444,
+      "metrics": {
+        "metrics/precision(B)": 0.88381,
+        "metrics/recall(B)": 0.78052,
+        "metrics/mAP50(B)": 0.8437130973497444,
+        "metrics/mAP50-95(B)": 0.67962,
+        "val/box_loss": 0.81214,
+        "val/cls_loss": 0.57749,
+        "val/dfl_loss": 0.99843,
+        "fitness": 0.8437130973497444
+      },
+      "model_state_sha256": "95c5b1159c50582948c8f67fd1a7cd1e0241d0b91856014b1ffe813c1d84f2e1",
+      "finite_weights": true,
+      "optimizer_stripped": true
+    },
+    "best": {
+      "epoch": 25,
+      "fitness": 0.8508784527530471,
+      "metrics": {
+        "metrics/precision(B)": 0.89945,
+        "metrics/recall(B)": 0.76936,
+        "metrics/mAP50(B)": 0.8508784527530471,
+        "metrics/mAP50-95(B)": 0.68187,
+        "val/box_loss": 0.81829,
+        "val/cls_loss": 0.5757,
+        "val/dfl_loss": 1.00218,
+        "fitness": 0.8508784527530471
+      },
+      "model_state_sha256": "7743945ff8e41b6ea9a5203e65f1adf521eb83eb4ebee7fa347ad9506a0be890",
+      "finite_weights": true,
+      "optimizer_stripped": true
+    }
+  },
+  "initial_state_sha256": "b29d1a75cc221bee6f6f2b3722dbc7c65a266fad8cdea8295e938c975d78f8c0",
+  "uninterrupted_equivalence": false,
+  "extra_native_final_validation": false,
+  "prior_failed_worker_seconds": 729.071655300002,
+  "state": "completed",
+  "seconds": 2114.8523491000014,
+  "at": "2026-11-02T14:06:15.281629+00:00",
+  "guarded_spawn_children": 8,
+  "no_3lc_import": true,
+  "reused_without_training": true,
+  "source_training_result": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r1-20261102\\R00\\train\\result.json"
+}

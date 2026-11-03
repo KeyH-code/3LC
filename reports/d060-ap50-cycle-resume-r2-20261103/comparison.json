@@ -1,0 +1,372 @@
+{
+  "baseline": {
+    "band": "D060",
+    "reference": "val966",
+    "images": 966,
+    "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\train-cleaning-expansion-resume-r1-20261102\\D060\\yolov8n\\weights\\best.pt",
+    "weight_sha256": "b36f72c507a13cc134092f3589d181c25b2014ae8f6845113b662ce654ed1eac",
+    "native": {
+      "metrics/precision(B)": 0.915630749906942,
+      "metrics/recall(B)": 0.7626795407641377,
+      "metrics/mAP50(B)": 0.8455019720425436,
+      "metrics/mAP50-95(B)": 0.6788933866908347,
+      "fitness": 0.6788933866908347
+    },
+    "classes": [
+      {
+        "cls": 0,
+        "name": "truck",
+        "precision_best_f1": 0.948535098267388,
+        "recall_best_f1": 0.697560975609756,
+        "AP50": 0.7940862474777178,
+        "AP50_95": 0.659783763240892
+      },
+      {
+        "cls": 1,
+        "name": "car",
+        "precision_best_f1": 0.9124801840433011,
+        "recall_best_f1": 0.8422514151447186,
+        "AP50": 0.9096763361040201,
+        "AP50_95": 0.6979388217603014
+      },
+      {
+        "cls": 2,
+        "name": "van",
+        "precision_best_f1": 0.8546364808384276,
+        "recall_best_f1": 0.7111111111111111,
+        "AP50": 0.7855266912621054,
+        "AP50_95": 0.6273730784430783
+      },
+      {
+        "cls": 3,
+        "name": "bus",
+        "precision_best_f1": 0.9468712364786513,
+        "recall_best_f1": 0.7997946611909651,
+        "AP50": 0.8927186133263316,
+        "AP50_95": 0.730477883319067
+      }
+    ],
+    "fixed": {
+      "confidence": 0.25,
+      "iou": 0.5,
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "TP": 143,
+          "FP": 15,
+          "FN": 62,
+          "precision": 0.9050632911392406,
+          "recall": 0.697560975609756
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "TP": 8081,
+          "FP": 1026,
+          "FN": 1282,
+          "precision": 0.8873394092456353,
+          "recall": 0.8630780732671153
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "TP": 693,
+          "FP": 163,
+          "FN": 252,
+          "precision": 0.8095794392523364,
+          "recall": 0.7333333333333333
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "TP": 798,
+          "FP": 59,
+          "FN": 176,
+          "precision": 0.9311551925320887,
+          "recall": 0.8193018480492813
+        }
+      ],
+      "precision_macro": 0.8832843330423252,
+      "recall_macro": 0.7783185575648714
+    },
+    "precision": "FP32 quantize=None",
+    "effective_options": {
+      "split": "val",
+      "imgsz": 640,
+      "batch": 32,
+      "device": 0,
+      "workers": 2,
+      "conf": 0.001,
+      "iou": 0.7,
+      "max_det": 300,
+      "quantize": null,
+      "rect": false,
+      "augment": false,
+      "plots": false,
+      "save_json": false,
+      "save_txt": false,
+      "verbose": false,
+      "exist_ok": false,
+      "agnostic_nms": false,
+      "classes": null,
+      "single_cls": false,
+      "compile": false
+    },
+    "evaluator": "Same Ultralytics native AP and filter-first/rematch fixed metrics as A/B recovery",
+    "guarded_spawn_children": 2,
+    "state": "completed",
+    "seconds": 24.702913400000398,
+    "at": "2026-11-02T07:38:09.685738+00:00",
+    "no_3lc_import": true
+  },
+  "results": {
+    "R00": {
+      "band": "R00",
+      "reference": "val966",
+      "images": 966,
+      "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R00\\yolov8n\\weights\\best.pt",
+      "weight_sha256": "f46679bcb81d72fe2996eb429a020e1e63501d56fee91d1271ef7831c19ba882",
+      "native": {
+        "metrics/precision(B)": 0.8978510618097977,
+        "metrics/recall(B)": 0.770562242498043,
+        "metrics/mAP50(B)": 0.8516002220143339,
+        "metrics/mAP50-95(B)": 0.6773866408757282,
+        "fitness": 0.6773866408757282
+      },
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "precision_best_f1": 0.9037059299287077,
+          "recall_best_f1": 0.697560975609756,
+          "AP50": 0.7852591095326484,
+          "AP50_95": 0.6469639141715303
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "precision_best_f1": 0.9050716005610938,
+          "recall_best_f1": 0.8543458573470134,
+          "AP50": 0.9192412901209492,
+          "AP50_95": 0.7010869747622832
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "precision_best_f1": 0.8515599851079252,
+          "recall_best_f1": 0.7121693121693121,
+          "AP50": 0.7920615656310205,
+          "AP50_95": 0.6295572515193919
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "precision_best_f1": 0.9310667316414641,
+          "recall_best_f1": 0.8181728248660901,
+          "AP50": 0.9098389227727177,
+          "AP50_95": 0.7319384230497076
+        }
+      ],
+      "fixed": {
+        "confidence": 0.25,
+        "iou": 0.5,
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "TP": 144,
+            "FP": 20,
+            "FN": 61,
+            "precision": 0.8780487804878049,
+            "recall": 0.7024390243902439
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "TP": 8161,
+            "FP": 1055,
+            "FN": 1202,
+            "precision": 0.8855251736111112,
+            "recall": 0.8716223432660473
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "TP": 689,
+            "FP": 146,
+            "FN": 256,
+            "precision": 0.8251497005988024,
+            "recall": 0.7291005291005291
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "TP": 811,
+            "FP": 75,
+            "FN": 163,
+            "precision": 0.9153498871331829,
+            "recall": 0.8326488706365504
+          }
+        ],
+        "precision_macro": 0.8760183854577254,
+        "recall_macro": 0.7839526918483426
+      },
+      "precision": "FP32 quantize=None",
+      "effective_options": {
+        "split": "val",
+        "imgsz": 640,
+        "batch": 32,
+        "device": 0,
+        "workers": 2,
+        "conf": 0.001,
+        "iou": 0.7,
+        "max_det": 300,
+        "quantize": null,
+        "rect": false,
+        "augment": false,
+        "plots": false,
+        "save_json": false,
+        "save_txt": false,
+        "verbose": false,
+        "exist_ok": false,
+        "agnostic_nms": false,
+        "classes": null,
+        "single_cls": false,
+        "compile": false
+      },
+      "evaluator": "Same Ultralytics native AP and filter-first/rematch fixed metrics as A/B recovery",
+      "state": "completed",
+      "seconds": 24.356957500000135,
+      "at": "2026-11-03T02:37:40.623804+00:00",
+      "guarded_spawn_children": 2,
+      "no_3lc_import": true
+    },
+    "R01": {
+      "band": "R01",
+      "reference": "val966",
+      "images": 966,
+      "weight": "E:\\kaggle\\3LC_Multi_Vehicle_detection_Challenge\\reports\\d060-ap50-cycle-resume-r2-20261103\\R01\\yolov8n\\weights\\best.pt",
+      "weight_sha256": "9c41aa85d9c44efc91907fa148577b6d084ba2645351f703d07c229d7f4c9c21",
+      "native": {
+        "metrics/precision(B)": 0.9253744298603157,
+        "metrics/recall(B)": 0.7766477689902934,
+        "metrics/mAP50(B)": 0.8641864760027527,
+        "metrics/mAP50-95(B)": 0.7031832424106955,
+        "fitness": 0.7031832424106955
+      },
+      "classes": [
+        {
+          "cls": 0,
+          "name": "truck",
+          "precision_best_f1": 0.9502480875025079,
+          "recall_best_f1": 0.7317073170731707,
+          "AP50": 0.824391658204788,
+          "AP50_95": 0.6950926588445955
+        },
+        {
+          "cls": 1,
+          "name": "car",
+          "precision_best_f1": 0.9150071835904189,
+          "recall_best_f1": 0.8395813307700524,
+          "AP50": 0.9102385943518301,
+          "AP50_95": 0.7067518208958896
+        },
+        {
+          "cls": 2,
+          "name": "van",
+          "precision_best_f1": 0.8826385006955828,
+          "recall_best_f1": 0.7242141324300656,
+          "AP50": 0.8219231208492719,
+          "AP50_95": 0.6590524182972083
+        },
+        {
+          "cls": 3,
+          "name": "bus",
+          "precision_best_f1": 0.9536039476527535,
+          "recall_best_f1": 0.811088295687885,
+          "AP50": 0.9001925306051208,
+          "AP50_95": 0.7518360716050887
+        }
+      ],
+      "fixed": {
+        "confidence": 0.25,
+        "iou": 0.5,
+        "classes": [
+          {
+            "cls": 0,
+            "name": "truck",
+            "TP": 153,
+            "FP": 15,
+            "FN": 52,
+            "precision": 0.9107142857142857,
+            "recall": 0.7463414634146341
+          },
+          {
+            "cls": 1,
+            "name": "car",
+            "TP": 8094,
+            "FP": 1010,
+            "FN": 1269,
+            "precision": 0.8890597539543058,
+            "recall": 0.8644665171419417
+          },
+          {
+            "cls": 2,
+            "name": "van",
+            "TP": 718,
+            "FP": 124,
+            "FN": 227,
+            "precision": 0.8527315914489311,
+            "recall": 0.7597883597883598
+          },
+          {
+            "cls": 3,
+            "name": "bus",
+            "TP": 804,
+            "FP": 58,
+            "FN": 170,
+            "precision": 0.9327146171693735,
+            "recall": 0.8254620123203286
+          }
+        ],
+        "precision_macro": 0.896305062071724,
+        "recall_macro": 0.799014588166316
+      },
+      "precision": "FP32 quantize=None",
+      "effective_options": {
+        "split": "val",
+        "imgsz": 640,
+        "batch": 32,
+        "device": 0,
+        "workers": 2,
+        "conf": 0.001,
+        "iou": 0.7,
+        "max_det": 300,
+        "quantize": null,
+        "rect": false,
+        "augment": false,
+        "plots": false,
+        "save_json": false,
+        "save_txt": false,
+        "verbose": false,
+        "exist_ok": false,
+        "agnostic_nms": false,
+        "classes": null,
+        "single_cls": false,
+        "compile": false
+      },
+      "evaluator": "Same Ultralytics native AP and filter-first/rematch fixed metrics as A/B recovery",
+      "state": "completed",
+      "seconds": 22.990107899999657,
+      "at": "2026-11-03T02:38:04.526570+00:00",
+      "guarded_spawn_children": 2,
+      "no_3lc_import": true
+    }
+  },
+  "AP50_deltas": {
+    "R01_minus_R00": 0.012586253988418727,
+    "R00_minus_old_SS04": 0.006098249971790315,
+    "R01_minus_old_SS04": 0.018684503960209042
+  }
+}
