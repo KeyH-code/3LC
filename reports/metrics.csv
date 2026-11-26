@@ -7,5 +7,6 @@ local,D060,val966,28,0.8455019720425436,0.6788933866908347,,
 local,R01,val966,80,0.8641864760027527,0.7031832424106955,,
 local,G01-LRhalf,val966,80,0.8580164433224678,0.6967571943128906,,
 local,G02-LRdouble,val966,80,0.8743827845816662,0.7084061813227706,,
+kaggle_after_deadline,D0,Kaggle hidden test,28,,,0.75963,0.74408
 kaggle_after_deadline,D060,Kaggle hidden test,28,,,0.77173,0.77408
 kaggle_after_deadline,G02-LRdouble,Kaggle hidden test,80,,,0.78850,0.80246

@@ -4,7 +4,12 @@
 
 ## Kaggle 赛后评分
 
-使用清洗标签训练的 G02 获得 **Private 0.78850**、**Public 0.80246**，评分口径为官方隐藏测试集的 mAP@0.5。项目原定隐藏测试目标为 mAP@0.5 ≥ 0.90。 [赛事与评分口径](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
+| 标签版本 | Private mAP@0.5 | Public mAP@0.5 |
+| --- | ---: | ---: |
+| 清洗前（D0） | 0.75963 | 0.74408 |
+| 清洗后（D060） | **0.77173** | **0.77408** |
+
+两次赛后提交均使用训练 28 轮的 YOLOv8n，在同一批 982 张测试图上按相同推理设置生成预测。清洗后 **Private 提升 1.21 个百分点，Public 提升 3.00 个百分点**。项目原定隐藏测试目标为 mAP@0.5 ≥ 0.90。 [赛事与评分口径](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
 
 ## 数据清洗效果
 
