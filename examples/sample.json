@@ -1,0 +1,62 @@
+{
+  "confidence_min": 0.85,
+  "predictions": [
+    {
+      "id": "wrong-class",
+      "cls": 2,
+      "class_name": "van",
+      "confidence": 0.94,
+      "xyxy": [
+        120,
+        120,
+        200,
+        200
+      ]
+    },
+    {
+      "id": "unlabeled",
+      "cls": 3,
+      "class_name": "bus",
+      "confidence": 0.93,
+      "xyxy": [
+        360,
+        360,
+        440,
+        440
+      ]
+    },
+    {
+      "id": "unconfirmed",
+      "cls": 0,
+      "class_name": "truck",
+      "confidence": 0.9,
+      "xyxy": [
+        500,
+        500,
+        560,
+        560
+      ]
+    }
+  ],
+  "review": {
+    "wrong-class": {
+      "decision": "change_class",
+      "proposed_class": 2
+    },
+    "unlabeled": {
+      "decision": "add_box",
+      "proposed_class": 3,
+      "geometry_ready": true,
+      "object_key": "missing-bus",
+      "final_xyxy": [
+        360,
+        360,
+        440,
+        440
+      ]
+    },
+    "unconfirmed": {
+      "decision": "keep"
+    }
+  }
+}
