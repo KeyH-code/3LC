@@ -55,3 +55,7 @@ python -m venv .venv
 [实验与复查说明](reports/results.md)记录数据版本、实际预算、统一终评口径、赛后反馈来源和适用范围。[指标表](reports/metrics.csv)支持重算对照差值，[逐类结果](reports/per-class.csv)和 [G02 配置](reports/g02.json)可核对类别变化和参数。重跑 G02 终评还需要冻结 val966、相应权重和实际评估入口，这些材料保留在实验工作区。
 
 val966 仍有同源视频重叠，并用于选模。已有 van 诊断同时看到低置信同类框和 car/van 混淆。后续可用视频互斥的验证划分检验两种现象是否持续。 [数据来源与获取](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/data)
+
+## 许可证
+
+仓库内的原创源码、测试、文档和合成示例采用 [MIT 许可证](LICENSE)。NumPy 依赖由上游许可约束，竞赛数据和官方 starter 适用赛事发布渠道的条款。 [NumPy 许可证](https://github.com/numpy/numpy/blob/main/LICENSE.txt) · [赛事规则](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/rules)
