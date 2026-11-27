@@ -4,12 +4,12 @@
 
 ## Kaggle 赛后评分
 
-| 标签版本 | Private mAP@0.5 | Public mAP@0.5 |
+| 提交版本 | Private mAP@0.5 | Public mAP@0.5 |
 | --- | ---: | ---: |
 | 清洗前（D0） | 0.75963 | 0.74408 |
-| 清洗后（D060） | **0.77173** | **0.77408** |
+| 清洗后最佳（G02） | **0.78850** | **0.80246** |
 
-两次赛后提交均使用训练 28 轮的 YOLOv8n，在同一批 982 张测试图上按相同推理设置生成预测。清洗后 **Private 提升 1.21 个百分点，Public 提升 3.00 个百分点**。项目原定隐藏测试目标为 mAP@0.5 ≥ 0.90。 [赛事与评分口径](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
+在三次使用清洗标签的赛后提交中，G02 的 Private 和 Public 均最高。与 D0 相比，**Private 提升 2.89 个百分点，Public 提升 5.84 个百分点**。G02 还调整了训练轮数和学习率，两项增幅反映整体方案的变化。仅比较标签变化的 28 轮对照见实验报告。项目原定隐藏测试目标为 mAP@0.5 ≥ 0.90。 [实验报告](reports/results.md#kaggle-赛后评分) · [赛事评分口径](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
 
 ## 数据清洗效果
 

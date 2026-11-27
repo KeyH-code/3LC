@@ -25,7 +25,7 @@
 | D060 较 D0（百分点） | +1.210 | +3.000 |
 | G02 使用 D060 标签继续优化训练，80 轮 | 0.78850 | 0.80246 |
 
-D0 和首次 D060 使用相同的 982 张测试图与推理设置。D0 分数由 Kaggle 官方 API 返回，D060 与 G02 分数来自原始评分截图转录。三次均为赛后提交。赛事在隐藏测试的两个子集计算 mAP@0.5。本地离线方案和官方 starter 的训练流程分别记录，主办方对该离线方案的竞赛资格未获确认。 [赛事评分说明](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview/evaluation)
+D0 和首次 D060 使用相同的 982 张测试图与推理设置。D0 分数由 Kaggle 官方 API 返回，D060 与 G02 分数来自原始评分截图转录。表中均为赛后提交。在三次使用清洗标签的提交中，G02 的 Private 和 Public 均最高。G02 相对 D0 还包含轮数及学习率调整。表中的 D060 与 D0 均训练 28 轮，用于观察标签修订的收益。赛事在隐藏测试的两个子集计算 mAP@0.5。本地离线方案和官方 starter 的训练流程分别记录，主办方对该离线方案的竞赛资格未获确认。 [赛事评分说明](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview/evaluation)
 
 ## 复查材料
 
