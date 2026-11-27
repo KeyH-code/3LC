@@ -1,26 +1,27 @@
 # 车辆检测与标签质量治理
 
-这个项目关注道路场景中四类车辆检测的训练标签质量，覆盖卡车、汽车、厢式车和公交车。基于 3LC Multi Vehicle Detection Challenge 数据，固定 YOLOv8n 并从随机初始化训练。排查跨集合重复图像后，按视频场景和精确图像哈希做五折分组，用折外预测筛查疑似漏框与错类。经审核确认的修订写入独立的标签版本，保留原始数据。
+这个项目关注道路场景中四类车辆检测的训练标签质量，覆盖卡车、汽车、厢式车和公交车。
+基于 3LC Multi Vehicle Detection Challenge 数据，固定 YOLOv8n 并从随机初始化训练。排查跨集合重复图像后，按视频场景和精确图像哈希做五折分组，用折外预测筛查疑似漏框与错类。经审核确认的修订写入独立的标签版本，保留原始数据。
 
 ## Kaggle 赛后评分
 
 | 提交版本 | Private mAP@0.5 | Public mAP@0.5 |
 | --- | ---: | ---: |
-| 清洗前（D0） | 0.75963 | 0.74408 |
-| 清洗后最佳（G02） | **0.78850** | **0.80246** |
+| 数据清洗前 | 0.75963 | 0.74408 |
+| 数据清洗后 | **0.78850** | **0.80246** |
 
-在三次使用清洗标签的赛后提交中，G02 的 Private 和 Public 均最高。与 D0 相比，**Private 提升 2.89 个百分点，Public 提升 5.84 个百分点**。G02 还调整了训练轮数和学习率，两项增幅反映整体方案的变化。仅比较标签变化的 28 轮对照见实验报告。项目原定隐藏测试目标为 mAP@0.5 ≥ 0.90。 [实验报告](reports/results.md#kaggle-赛后评分) · [赛事评分口径](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
+数据清洗后的历史榜单排名位置为 **Public 第 48、Private 第 53**（通过Late submission提交） [公榜](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/leaderboard?tab=public) · [私榜](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/leaderboard)
 
-最佳提交 G02 的历史榜单估算位置为 **Public 第 48、Private 第 53**，两榜各有 97 支队伍。 [公榜](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/leaderboard?tab=public) · [私榜](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/leaderboard)
+[赛事链接](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge/overview)
 
 ## 数据清洗效果
 
-在相同训练设置下，清洗前后的最佳 mAP@0.5 从 **80.95% 提升至 85.49%**，增加 **4.54 个百分点**。
+在相同训练设置下，本地开发集清洗前后的最佳 mAP@0.5 从 **80.95% 提升至 85.49%**，增加 **4.54 个百分点**。
 
 | 标签版本 | mAP@0.5 | mAP@0.5:0.95 |
 | --- | ---: | ---: |
-| 清洗前最佳（D0） | 80.95% | 65.60% |
-| 清洗后最佳（D070） | **85.49%** | **67.84%** |
+| 清洗前最佳 | 80.95% | 65.60% |
+| 清洗后最佳 | **85.49%** | **67.84%** |
 
 两组均使用相同的 7,852 张训练图、YOLOv8n、640 像素输入和 28 轮训练设置，在同一组 966 张开发验证图上统一终评。表中最佳版本按 mAP@0.5 选取。 [本地指标明细](reports/metrics.csv)
 
